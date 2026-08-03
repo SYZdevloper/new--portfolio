@@ -832,14 +832,7 @@ export default async function HomePage(props: { searchParams: Promise<{ [key: st
                   <input type="hidden" name="utm_term" />
                   <input type="hidden" name="utm_content" />
                   <input type="hidden" name="gclid" />
-                  <label className="consent">
-                    <input type="checkbox" required />
-                    <span>
-                      I agree to the
-                      <a href="/privacy-policy/">Privacy Policy</a>
-                      and consent to receive a call, email {isIndia ? "or WhatsApp " : ""}response regarding this enquiry.
-                    </span>
-                  </label>
+
                   <button className="btn primary full" type="submit">
                     Send My Enquiry
                     <span className="arrow">↗</span>
@@ -1026,14 +1019,7 @@ export default async function HomePage(props: { searchParams: Promise<{ [key: st
               <input type="hidden" name="utm_term" />
               <input type="hidden" name="utm_content" />
               <input type="hidden" name="gclid" />
-              <label className="consent">
-                <input type="checkbox" required />
-                <span>
-                  I agree to the
-                  <a href="/privacy-policy/">Privacy Policy</a>
-                  and consent to receive a call, email {isIndia ? "or WhatsApp " : ""}response regarding this enquiry.
-                </span>
-              </label>
+
               <button className="btn primary full" id="proposal-submit-button" type="submit">
                 Request My Proposal
                 <span className="arrow">↗</span>

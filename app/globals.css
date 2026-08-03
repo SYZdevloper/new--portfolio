@@ -289,23 +289,26 @@ img {
 }
 
 .brand-name {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   line-height: 1;
-  letter-spacing: -0.03em;
 }
 
 .brand-name strong {
-  font-size: 1.03rem;
+  font-size: 1.25rem;
   font-weight: 900;
-  color: #15172b;
+  letter-spacing: -0.04em;
+  background: linear-gradient(135deg, var(--ink) 0%, var(--purple-deep) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .brand-name small {
-  margin-top: 5px;
-  color: #6d53dc;
-  font-size: .62rem;
+  margin-top: 4px;
+  color: var(--purple-light);
+  font-size: 0.62rem;
   font-weight: 800;
-  letter-spacing: .22em;
+  letter-spacing: 0.28em;
   text-transform: uppercase;
 }
 
@@ -1124,44 +1127,67 @@ img {
 }
 
 .service-card-footer {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   margin-top: 26px;
+  padding: 10px 18px 10px 20px;
+  border-radius: 999px;
+  border: 1px solid rgba(123, 76, 226, 0.18);
+  background: rgba(123, 76, 226, 0.06);
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+  align-self: flex-start;
+  width: fit-content;
 }
 
-.service-card-footer span {
-  color: #8b8499;
+.service-card-footer span:not(.service-card-arrow) {
+  color: var(--purple-deep);
   font-size: .72rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: .09em;
+  white-space: nowrap;
 }
 
-.service-bento-main .service-card-footer span {
-  color: rgba(255, 255, 255, .58);
+.service-bento-main .service-card-footer {
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.service-bento-main .service-card-footer span:not(.service-card-arrow) {
+  color: rgba(255, 255, 255, .85);
 }
 
 .service-card-arrow {
   display: grid;
   place-items: center;
-  width: 38px;
-  height: 38px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
-  border: 1px solid rgba(17, 20, 43, .10);
-  background: white;
-  color: var(--purple-deep);
-  transition: transform .2s ease;
+  background: var(--purple-deep);
+  color: white;
+  font-size: 0.78rem;
+  transition: transform .2s ease, background .2s ease;
+}
+
+.service-bento-card:hover .service-card-footer {
+  background: rgba(123, 76, 226, 0.12);
+  border-color: rgba(123, 76, 226, 0.35);
+  transform: translateX(4px);
 }
 
 .service-bento-card:hover .service-card-arrow {
-  transform: translate(3px, -3px);
+  transform: translate(2px, -2px);
+}
+
+.service-bento-main:hover .service-card-footer {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.35);
+  transform: translateX(4px);
 }
 
 .service-bento-main .service-card-arrow {
-  border-color: rgba(255, 255, 255, .14);
-  background: rgba(255, 255, 255, .10);
+  background: rgba(255, 255, 255, 0.2);
   color: white;
 }
 
@@ -1204,7 +1230,7 @@ img {
   letter-spacing: -.07em;
 }
 
-.service-proof span {
+.service-proof > div > span {
   display: block;
   margin-top: 10px;
   color: rgba(255, 255, 255, .68);
@@ -3093,26 +3119,27 @@ footer {
   justify-content: space-between;
   gap: 30px;
   min-height: 184px;
-  padding: 22px;
+  padding: 24px;
   overflow: hidden;
-  border: 1px solid rgba(18, 19, 41, .085);
-  border-radius: 22px;
-  background: linear-gradient(145deg, rgba(255, 255, 255, .98), rgba(247, 244, 252, .96));
-  transition: transform .24s ease, border-color .24s ease, box-shadow .24s ease, color .24s ease;
+  border: 1px solid rgba(123, 76, 226, 0.15);
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 4px 20px rgba(17, 20, 43, 0.03);
+  transition: transform .28s cubic-bezier(0.4, 0, 0.2, 1), border-color .28s ease, box-shadow .28s ease;
 }
 
 .industry-link::before {
   content: '';
   position: absolute;
   z-index: -1;
-  width: 180px;
-  height: 180px;
-  right: -105px;
-  bottom: -115px;
+  width: 200px;
+  height: 200px;
+  right: -100px;
+  bottom: -100px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(123, 76, 226, .24), rgba(123, 76, 226, 0) 68%);
-  opacity: .48;
-  transition: transform .28s ease, opacity .28s ease;
+  background: radial-gradient(circle, rgba(123, 76, 226, 0.12), rgba(123, 76, 226, 0) 70%);
+  opacity: 0.8;
+  transition: transform .4s ease, opacity .4s ease;
 }
 
 .industry-card-top,
@@ -3126,21 +3153,21 @@ footer {
 .industry-icon {
   display: grid;
   place-items: center;
-  width: 42px;
-  height: 42px;
-  border: 1px solid rgba(123, 76, 226, .11);
-  border-radius: 13px;
-  background: rgba(123, 76, 226, .08);
-  color: var(--purple-deep);
-  font-size: .73rem;
-  font-weight: 900;
-  letter-spacing: -.02em;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--purple-deep);
+  color: white;
+  font-size: .8rem;
+  font-weight: 800;
+  letter-spacing: .02em;
+  box-shadow: 0 6px 14px rgba(37, 19, 77, 0.15);
 }
 
 .industry-number {
-  color: #aaa5b6;
-  font-size: .68rem;
-  font-weight: 850;
+  color: rgba(17, 20, 43, 0.3);
+  font-size: .75rem;
+  font-weight: 800;
   letter-spacing: .08em;
 }
 
@@ -3168,13 +3195,13 @@ footer {
   background: white;
   color: var(--purple);
   font-size: .88rem;
-  transition: transform .22s ease, background .22s ease, color .22s ease;
+  transition: transform .22s ease, background .22s ease, color .22s ease, box-shadow .22s ease;
 }
 
 .industry-link:hover {
-  transform: translateY(-7px);
-  border-color: rgba(123, 76, 226, .30);
-  box-shadow: 0 24px 54px rgba(37, 19, 77, .11);
+  transform: translateY(-6px);
+  border-color: rgba(123, 76, 226, 0.4);
+  box-shadow: 0 20px 40px rgba(37, 19, 77, 0.08);
 }
 
 .industry-link:hover::before {
@@ -3186,6 +3213,7 @@ footer {
   transform: translate(3px, -3px);
   background: var(--purple-deep);
   color: white;
+  box-shadow: 0 4px 12px rgba(37, 19, 77, 0.2);
 }
 
 .trust-grid {

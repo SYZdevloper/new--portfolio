@@ -143,6 +143,30 @@ export default function WorkCarousel() {
             </div>
           </a>
         </article>
+        <article className="work-card">
+          <a className="work-card-link" href="https://www.odettepatisserie.com/" target="_blank" rel="noopener noreferrer" aria-label="View Odette Patisserie website">
+            <div className="work-media">
+              <img src="/images/5003135f-5a38-40a3-ba34-64190c6d4c1e.webp" width="1200" height="900" loading="lazy" alt="Odette Patisserie ecommerce website" />
+              <div className="work-placeholder">
+                <span>Add project image</span>
+              </div>
+              <div className="work-media-top">
+                <span className="work-open">↗</span>
+              </div>
+            </div>
+            <div className="work-body">
+              <div>
+                <div className="work-tags">
+                  <span>Premium Patisserie</span>
+                  <span>E-commerce</span>
+                </div>
+                <h3>Odette Patisserie</h3>
+                <p>A premium patisserie with a custom e-commerce site. The elegant, modern interface showcases high-end pastries while delivering a seamless, conversion-optimized online ordering experience.</p>
+              </div>
+              <span className="work-index">06</span>
+            </div>
+          </a>
+        </article>
       </div>
       <div className="carousel-controls">
         <button type="button" className="carousel-btn" onClick={handleScrollLeft} aria-label="Previous project">

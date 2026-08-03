@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 
-const FORM_ENDPOINT = process.env.NEXT_PUBLIC_LEAD_FORM_ENDPOINT ?? "";
 const GOOGLE_ADS_CONVERSION_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_ID ?? "";
 const trackingKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "gclid"] as const;
 
@@ -251,17 +250,14 @@ export default function HomeInteractions() {
         button.textContent = "Sending…";
 
         try {
-          if (FORM_ENDPOINT) {
-            const response = await fetch(FORM_ENDPOINT, {
-              method: "POST",
-              body: formData,
-              headers: { Accept: "application/json" },
-            });
-            if (!response.ok) throw new Error("Submission failed");
-          } else {
-            await new Promise((resolve) => window.setTimeout(resolve, 700));
-            console.table(Object.fromEntries(formData.entries()));
-          }
+          const endpoint = form.action || "/api/leads";
+          const response = await fetch(endpoint, {
+            method: "POST",
+            body: formData,
+            headers: { Accept: "application/json" },
+          });
+          
+          if (!response.ok) throw new Error("Submission failed");
 
           const gtag = (window as GtagWindow).gtag;
           if (GOOGLE_ADS_CONVERSION_ID && gtag) {
@@ -269,9 +265,7 @@ export default function HomeInteractions() {
           }
 
           status.className = "form-status success";
-          status.textContent = FORM_ENDPOINT
-            ? "Thank you. Your enquiry has been received."
-            : "Mockup form completed. Connect NEXT_PUBLIC_LEAD_FORM_ENDPOINT before launch.";
+          status.textContent = "Thank you. Your enquiry has been received.";
           form.reset();
           trackingKeys.forEach((key) => {
             const input = form.querySelector<HTMLInputElement>(`input[name="${key}"]`);
