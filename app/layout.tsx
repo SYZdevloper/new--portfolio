@@ -6,9 +6,9 @@ const siteUrl = "https://hyperlinktechsolutions.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Web Design & Development Agency | Hyperlink Tech Solutions",
+  title: "Custom Web Design & Development Agency for Growing Businesses | Hyperlink",
   description:
-    "Hyperlink Tech Solutions designs and develops custom business websites, landing pages, SaaS interfaces, dashboards and web applications for growing companies.",
+    "Hyperlink designs and develops high-converting business websites, landing pages, SaaS interfaces and custom web applications. Request a free project proposal.",
   alternates: { canonical: "/" },
   robots: {
     index: true,
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    siteName: "Hyperlink Tech Solutions",
-    title: "Web Design & Development Agency | Hyperlink Tech Solutions",
+    siteName: "Hyperlink",
+    title: "Custom Web Design & Development Agency for Growing Businesses | Hyperlink",
     description:
-      "Custom websites, SaaS interfaces, dashboards and web applications for growing businesses.",
+      "Hyperlink designs and develops high-converting business websites, landing pages, SaaS interfaces and custom web applications. Request a free project proposal.",
     url: "/",
     images: [
       {
