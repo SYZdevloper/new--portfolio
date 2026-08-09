@@ -1,0 +1,63 @@
+"use client";
+import { useEffect } from "react";
+
+export default function IndustryClientScripts() {
+  useEffect(() => {
+    const solutionData: any = { "website": { "kicker": "Positioning & demand generation", "title": "A SaaS website that makes the product easy to understand and easy to buy.", "text": "Connect use cases, integrations, pricing, proof and conversion paths around the questions buyers ask before booking a demo or starting a trial.", "items": ["Homepage and use-case architecture", "Demo, trial and pricing journeys", "CMS, technical SEO and analytics"], "link": "/services/business-website-development/", "label": "SaaS Marketing Website" }, "product": { "kicker": "Product experience", "title": "A product interface users can navigate without unnecessary training.", "text": "Clarify navigation, tasks, system states and role-based workflows across the core application.", "items": ["User flows and information architecture", "Responsive interface design", "Reusable product components"], "link": "/services/saas-ui-ux-design/", "label": "Product UI/UX" }, "onboarding": { "kicker": "Activation", "title": "Help new users reach their first meaningful outcome faster.", "text": "Design account setup, workspace configuration, guidance and empty states around the product’s activation moments.", "items": ["Guided setup and checklists", "Role-specific onboarding", "Contextual help and empty states"], "link": "/services/saas-ui-ux-design/", "label": "SaaS Onboarding" }, "dashboard": { "kicker": "Clarity & control", "title": "Turn complex data and activity into clear decisions.", "text": "Organise metrics, actions, alerts, filters and reports into focused role-based dashboards.", "items": ["Role-based dashboard views", "Reporting and data visualisation", "Actions, filters and status tracking"], "link": "/services/dashboard-design/", "label": "SaaS Dashboard" }, "development": { "kicker": "Platform delivery", "title": "Build a maintainable SaaS application around the real workflow.", "text": "Develop secure web applications with authentication, permissions, integrations and reusable frontend architecture.", "items": ["Authentication and role permissions", "Core product workflows", "API and billing integrations"], "link": "/services/custom-web-app-development/", "label": "Custom SaaS Development" } };
+
+    const solutionTabs = document.querySelectorAll('.solution-tab');
+    if (solutionTabs.length > 0) {
+        solutionTabs.forEach((tab) => tab.addEventListener('click', () => {
+            solutionTabs.forEach(x => x.classList.remove('active')); 
+            tab.classList.add('active'); 
+            const key = tab.getAttribute('data-key');
+            if(key && solutionData[key]) {
+                const d = solutionData[key];
+                document.getElementById('solutionKicker')!.textContent = d.kicker; 
+                document.getElementById('solutionTitle')!.textContent = d.title; 
+                document.getElementById('solutionText')!.textContent = d.text; 
+                document.getElementById('solutionList')!.innerHTML = d.items.map((x: string) => `<span>${x}</span>`).join(''); 
+                (document.getElementById('solutionLink') as HTMLAnchorElement).href = d.link; 
+                document.getElementById('uiBadge')!.textContent = d.label;
+            }
+        }));
+    }
+
+    
+    const handleFaqClick = (e: MouseEvent) => {
+        const target = (e.target as HTMLElement).closest('.faq-question');
+        if (!target) return;
+        const item = target.closest('.faq-item');
+        if (!item) return;
+        
+        const wasOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(x => {
+            x.classList.remove('open');
+            const lastSpan = x.querySelector('.faq-question span:last-child');
+            if (lastSpan) lastSpan.textContent = '+';
+        });
+        
+        if (!wasOpen) {
+            item.classList.add('open');
+            const lastSpan = target.querySelector('span:last-child');
+            if (lastSpan) lastSpan.textContent = '\u2212';
+        }
+    };
+    
+    if (!(window as any)._faqListenerAdded) {
+        document.addEventListener('click', handleFaqClick);
+        (window as any)._faqListenerAdded = true;
+    }
+
+
+    const demoForms = document.querySelectorAll('.js-demo-form');
+    demoForms.forEach(form => form.addEventListener('submit', event => { 
+        event.preventDefault(); 
+        const msg = form.querySelector('.success-message');
+        if (msg) msg.classList.add('show');
+    }));
+
+  }, []);
+
+  return null;
+}

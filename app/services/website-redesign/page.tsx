@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import "../business-website-development/services.css";
 import ServiceInteractions from "@/components/services/ServiceInteractions";
-import ServiceHeader from "@/components/services/ServiceHeader";
-import ServiceFooter from "@/components/services/ServiceFooter";
+import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
   title: "Website Redesign Services | Hyperlink Tech Solutions",
@@ -32,7 +32,7 @@ export default function WebsiteRedesign() {
       
     <ServiceInteractions />
       <div className="service-page-wrapper">
-        <ServiceHeader />
+        <SiteHeader />
 
         <main id="top">
             <section className="hero service-hero" aria-labelledby="service-title">
@@ -385,7 +385,7 @@ export default function WebsiteRedesign() {
             </section>
         </main>
 
-        <ServiceFooter />
+        <SiteFooter />
     </div>
     <a className="floating-cta" href="#contact">Get Website Redesign Proposal ↗</a>
     </>

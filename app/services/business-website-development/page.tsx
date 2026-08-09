@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import "./services.css";
 import ServiceInteractions from "@/components/services/ServiceInteractions";
-import ServiceHeader from "@/components/services/ServiceHeader";
-import ServiceFooter from "@/components/services/ServiceFooter";
+import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 import ServiceHero from "@/components/services/ServiceHero";
 import ServiceLeadSection from "@/components/services/ServiceLeadSection";
 import ServiceFeatures from "@/components/services/ServiceFeatures";
@@ -124,7 +124,7 @@ export default function BusinessWebsiteDevelopment() {
       
     <ServiceInteractions />
       <div className="service-page-wrapper">
-        <ServiceHeader />
+        <SiteHeader />
 
         <main id="top">
             <ServiceHero />
@@ -481,7 +481,7 @@ export default function BusinessWebsiteDevelopment() {
             </section>
         </main>
 
-        <ServiceFooter />
+        <SiteFooter />
     </div>
     <a className="floating-cta" href="#contact">Get Website Proposal ↗</a>
     <div className="mobile-bottom" aria-label="Quick contact actions">

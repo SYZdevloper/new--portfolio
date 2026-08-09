@@ -58,7 +58,61 @@ export default function SiteHeader() {
             </div>
           </div>
           <a href="/work/">Work</a>
-          <a href="/industries/">Industries</a>
+          <div className="nav-dropdown-wrapper">
+            <a href="/industries/">Industries</a>
+            <div className="nav-dropdown industries-dropdown">
+                <div className="dropdown-col">
+                    <span className="dropdown-title">Tech & Media</span>
+                    <a href="/industries/software-saas-companies/">Software & SaaS Companies</a>
+                    <a href="/industries/ai-data-automation/">AI, Data & Automation</a>
+                    <a href="/industries/it-services-cloud-cybersecurity/">IT Services, Cloud & Cybersecurity</a>
+                    <a href="/industries/digital-platforms-marketplaces/">Digital Platforms & Marketplaces</a>
+                    <a href="/industries/telecommunications-connectivity/">Telecommunications & Connectivity</a>
+                    <a href="/industries/media-news-publishing/">Media, News & Publishing</a>
+                </div>
+                <div className="dropdown-col">
+                    <span className="dropdown-title">Manufacturing</span>
+                    <a href="/industries/machinery-industrial-equipment/">Machinery & Equipment</a>
+                    <a href="/industries/automotive-manufacturers/">Automotive Manufacturers</a>
+                    <a href="/industries/general-contract-manufacturing/">Contract Manufacturing</a>
+                    <a href="/industries/food-beverage-consumer-manufacturing/">Food & Beverage</a>
+                    <a href="/industries/metals-fabrication/">Metals & Fabrication</a>
+                </div>
+                <div className="dropdown-col">
+                    <span className="dropdown-title">Built World</span>
+                    <a href="/industries/construction-civil-engineering/">Construction & Civil</a>
+                    <a href="/industries/real-estate-development/">Real Estate Development</a>
+                    <a href="/industries/mining-minerals/">Mining & Minerals</a>
+                    <a href="/industries/renewable-energy/">Renewable Energy</a>
+                    <a href="/industries/logistics-warehousing/">Logistics & Warehousing</a>
+                </div>
+                <div className="dropdown-col">
+                    <span className="dropdown-title">Consumer</span>
+                    <a href="/industries/retail-omnichannel-commerce/">Retail & Commerce</a>
+                    <a href="/industries/ecommerce-d2c-brands/">Ecommerce & D2C Brands</a>
+                    <a href="/industries/hotels-resorts/">Hotels & Resorts</a>
+                    <a href="/industries/restaurants-cafes-food-service/">Restaurants & Cafes</a>
+                    <a href="/industries/recreation-leisure-attractions/">Recreation & Leisure</a>
+                </div>
+                <div className="dropdown-col">
+                    <span className="dropdown-title">Finance & Services</span>
+                    <a href="/industries/fintech-payments/">FinTech & Payments</a>
+                    <a href="/industries/banking-lending/">Banking & Lending</a>
+                    <a href="/industries/insurance-insurtech/">Insurance & InsurTech</a>
+                    <a href="/industries/legal-accounting-tax-services/">Legal & Accounting</a>
+                    <a href="/industries/consulting-advisory/">Consulting & Advisory</a>
+                </div>
+                <div className="dropdown-col">
+                    <span className="dropdown-title">Health & Public</span>
+                    <a href="/industries/healthtech-telemedicine/">HealthTech & Telemedicine</a>
+                    <a href="/industries/hospitals-clinics-healthcare-providers/">Healthcare Providers</a>
+                    <a href="/industries/colleges-universities/">Colleges & Universities</a>
+                    <a href="/industries/government-public-sector/">Government & Public</a>
+                    <a href="/industries/nonprofits-ngos/">Nonprofits & NGOs</a>
+                    <a href="/industries/" style={{ color: "var(--purple)", fontWeight: 850 }}>View all 70 →</a>
+                </div>
+            </div>
+          </div>
           <a href="/pricing/">Pricing</a>
           <a href="/about/">About</a>
           <a href="/contact/">Contact</a>

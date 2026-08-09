@@ -1,4 +1,4 @@
-export default function SiteFooter({ budgetOptions }: { budgetOptions: string[] }) {
+export default function SiteFooter({ budgetOptions = ["Under $500", "$500 - $1,000", "$1,000 - $2,500", "$2,500 - $5,000", "$5,000+"] }: { budgetOptions?: string[] }) {
   return (
     <>
       <footer>
