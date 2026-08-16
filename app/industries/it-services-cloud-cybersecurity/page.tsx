@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import ItServicesCloudCybersecurityClientScripts from "./ItServicesCloudCybersecurityClientScripts";
 
 export const metadata: Metadata = {
-  title: "ItServicesCloudCybersecurity Services | Hyperlink Tech Solutions",
-  description: "ItServicesCloudCybersecurity services built around your operations.",
+  alternates: { canonical: "/industries/it-services-cloud-cybersecurity/" },
+  title: "IT Services Cloud Cybersecurity Website Design & Development | Hyperlink",
+  description: "High-converting websites and managed service portals for IT, cloud, and cybersecurity firms. Generate qualified B2B leads and demonstrate technical authority.",
 };
 
 export default function ItServicesCloudCybersecurityPage() {

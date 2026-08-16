@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import HospitalsClinicsHealthcareProvidersClientScripts from "./HospitalsClinicsHealthcareProvidersClientScripts";
 
 export const metadata: Metadata = {
-  title: "HospitalsClinicsHealthcareProviders Services | Hyperlink Tech Solutions",
-  description: "HospitalsClinicsHealthcareProviders services built around your operations.",
+  alternates: { canonical: "/industries/hospitals-clinics-healthcare-providers/" },
+  title: "Hospitals Clinics Healthcare Providers Website Design & Development | Hyperlink",
+  description: "Patient scheduling platforms and accessible websites for hospitals and local healthcare clinics. Improve patient journeys and digital appointments.",
 };
 
 export default function HospitalsClinicsHealthcareProvidersPage() {

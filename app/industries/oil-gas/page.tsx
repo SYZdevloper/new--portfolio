@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import OilGasClientScripts from "./OilGasClientScripts";
 
 export const metadata: Metadata = {
-  title: "OilGas Services | Hyperlink Tech Solutions",
-  description: "OilGas services built around your operations.",
+  alternates: { canonical: "/industries/oil-gas/" },
+  title: "Oil Gas Website Design & Development | Hyperlink",
+  description: "Corporate websites and operational portals for the oil, gas, and energy sectors. Communicate industrial scale, safety records, and transition strategies.",
 };
 
 export default function OilGasPage() {

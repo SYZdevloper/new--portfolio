@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import RealEstateDevelopmentClientScripts from "./RealEstateDevelopmentClientScripts";
 
 export const metadata: Metadata = {
-  title: "RealEstateDevelopment Services | Hyperlink Tech Solutions",
-  description: "RealEstateDevelopment services built around your operations.",
+  alternates: { canonical: "/industries/real-estate-development/" },
+  title: "Real Estate Development Website Design & Development | Hyperlink",
+  description: "Immersive websites, property portals, and lead-generation systems for real estate developers. Drive off-plan sales and project awareness.",
 };
 
 export default function RealEstateDevelopmentPage() {

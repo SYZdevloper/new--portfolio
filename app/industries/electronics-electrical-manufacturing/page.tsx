@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import ElectronicsElectricalManufacturingClientScripts from "./ElectronicsElectricalManufacturingClientScripts";
 
 export const metadata: Metadata = {
-  title: "ElectronicsElectricalManufacturing Services | Hyperlink Tech Solutions",
-  description: "ElectronicsElectricalManufacturing services built around your operations.",
+  alternates: { canonical: "/industries/electronics-electrical-manufacturing/" },
+  title: "Electronics Electrical Manufacturing Website Design & Development | Hyperlink",
+  description: "B2B catalogs, distributor portals, and corporate websites for electronics and electrical manufacturers. Streamline complex product discovery.",
 };
 
 export default function ElectronicsElectricalManufacturingPage() {

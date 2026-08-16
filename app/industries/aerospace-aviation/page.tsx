@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import AerospaceAviationClientScripts from "./AerospaceAviationClientScripts";
 
 export const metadata: Metadata = {
-  title: "AerospaceAviation Services | Hyperlink Tech Solutions",
-  description: "AerospaceAviation services built around your operations.",
+  alternates: { canonical: "/industries/aerospace-aviation/" },
+  title: "Aerospace Aviation Website Design & Development | Hyperlink",
+  description: "Custom web applications, secure portals, and enterprise website design for aerospace and aviation manufacturers. Built for rigorous compliance and global scale.",
 };
 
 export default function AerospaceAviationPage() {

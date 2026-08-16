@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import ElectricVehiclesChargingClientScripts from "./ElectricVehiclesChargingClientScripts";
 
 export const metadata: Metadata = {
-  title: "ElectricVehiclesCharging Services | Hyperlink Tech Solutions",
-  description: "ElectricVehiclesCharging services built around your operations.",
+  alternates: { canonical: "/industries/electric-vehicles-charging/" },
+  title: "Electric Vehicles Charging Website Design & Development | Hyperlink",
+  description: "Digital platforms, station-mapping interfaces, and corporate websites for EV manufacturers and charging networks. Power the transition to clean mobility.",
 };
 
 export default function ElectricVehiclesChargingPage() {

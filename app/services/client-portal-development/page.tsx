@@ -202,36 +202,36 @@ export default function ClientPortalDevelopment() {
                 <div className="container">
                     <div className="section-heading">
                         <div>
-                            <p className="eyebrow">Featured client portal example</p>
-                            <h2>Show how one secure portal replaced scattered customer communication.</h2>
+                            <p className="eyebrow">Featured client portal project</p>
+                            <h2>Every project detail, brought into one secure workspace.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine client-portal project. Explain the original client experience, the portal modules, user access and what improved after launch.</p>
+                        <p>See how Northline simplified renovation communication by giving clients direct access to progress, approvals, documents, messages and billing information.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Client Portal visual">
                             <div className="case-visual-top">
-                                <span>Client Portal</span>
-                                <span>Custom Web App</span>
+                                <span>Northline Client Workspace</span>
+                                <span>Secure Portal + Project Tracking + Responsive Access</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/783140f6-e050-4228-b409-1e3571188702.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/northline-client-portal-project.webp" alt="Residential Renovation Platform" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A central client workspace for projects, files, requests and billing.</h2>
-                                <p>Use this area to explain how customers previously received updates and information, what friction existed and how the portal changed the process.</p>
+                                <p className="eyebrow">Residential Renovation Platform</p>
+                                <h2>From scattered conversations to one organised project experience.</h2>
+                                <p>Northline needed a simpler way for homeowners and project teams to stay informed throughout long-running renovation projects.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>Project updates, documents, invoices and customer requests were managed through email, shared folders and manual follow-up.</strong></div>
-                                <div className="case-fact"><small>Users</small><strong>Clients, client team members, account managers and administrators required different access and actions.</strong></div>
-                                <div className="case-fact"><small>Build</small><strong>A responsive portal with secure login, project status, document access, request submission, messages, invoices and account settings.</strong></div>
-                                <div className="case-fact"><small>Integrations</small><strong>Replace this with the real CRM, billing, storage, email, project-management or other systems connected to the portal.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified improvement such as fewer support requests, faster document access, clearer approvals or improved customer satisfaction.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>Progress updates, material approvals, project files and invoices were distributed across emails, shared folders and individual conversations. Clients often had to contact the team to find current information.</strong></div>
+                                <div className="case-fact"><small>Users</small><strong>Homeowners required a simple project view, while designers, project managers and finance administrators needed permission-based tools for updating progress, uploading files and managing billing records.</strong></div>
+                                <div className="case-fact"><small>Portal Build</small><strong>We created a responsive portal with secure login, project milestones, approval requests, document access, team messages, invoice history and account settings. Each user only sees the projects and actions relevant to their role.</strong></div>
+                                <div className="case-fact"><small>Connected Services</small><strong>Secure authentication, role-based database access, cloud document storage, billing records and automated email notifications were brought into one connected workflow.</strong></div>
+                                <div className="case-fact"><small>Outcome</small><strong>Clients gained a reliable place to review progress and complete pending actions, while the Northline team could share updates consistently and reduce repetitive follow-up communication.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Client Portal Projects <span className="arrow">↗</span></a>
                         </article>

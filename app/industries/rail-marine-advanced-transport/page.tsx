@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import RailMarineAdvancedTransportClientScripts from "./RailMarineAdvancedTransportClientScripts";
 
 export const metadata: Metadata = {
-  title: "RailMarineAdvancedTransport Services | Hyperlink Tech Solutions",
-  description: "RailMarineAdvancedTransport services built around your operations.",
+  alternates: { canonical: "/industries/rail-marine-advanced-transport/" },
+  title: "Rail Marine Advanced Transport Website Design & Development | Hyperlink",
+  description: "Corporate websites and B2B portals for rail, marine, and advanced transport engineering. Showcase infrastructural scale and technical logistics.",
 };
 
 export default function RailMarineAdvancedTransportPage() {

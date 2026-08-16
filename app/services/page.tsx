@@ -5,6 +5,7 @@ import { headers } from 'next/headers';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/" },
   title: "Web Design and Development Services | Hyperlink",
   description: "Explore our website design, development, UI/UX and custom software services built for startups, growing businesses and established companies.",
 };

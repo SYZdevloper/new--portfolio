@@ -2,14 +2,14 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import TawkToChat from "@/components/TawkToChat";
 
-const siteUrl = "https://hyperlinktechsolutions.com";
+const siteUrl = "https://www.hyperlinktechsolutions.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Custom Web Design & Development Agency for Growing Businesses | Hyperlink",
   description:
     "Hyperlink designs and develops high-converting business websites, landing pages, SaaS interfaces and custom web applications. Request a free project proposal.",
-  alternates: { canonical: "/" },
+  // alternates: { canonical: "/" }, removed to avoid global override
   robots: {
     index: true,
     follow: true,

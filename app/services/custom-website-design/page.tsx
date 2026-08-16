@@ -6,6 +6,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/custom-website-design/" },
   title: "Custom Website Design Services | Hyperlink Tech Solutions",
   description: "Custom website design services for businesses, SaaS companies and growing brands. Get strategy, wireframes, responsive UI design, design systems and developer-ready handoff.",
 };

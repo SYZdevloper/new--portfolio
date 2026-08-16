@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import EcommerceD2cBrandsClientScripts from "./EcommerceD2cBrandsClientScripts";
 
 export const metadata: Metadata = {
-  title: "EcommerceD2cBrands Services | Hyperlink Tech Solutions",
-  description: "EcommerceD2cBrands services built around your operations.",
+  alternates: { canonical: "/industries/ecommerce-d2c-brands/" },
+  title: "eCommerce D2C Brands Website Design & Development | Hyperlink",
+  description: "High-conversion eCommerce platforms and headless storefronts for aggressive D2C brands. Engineered for sub-second load times and mobile sales.",
 };
 
 export default function EcommerceD2cBrandsPage() {

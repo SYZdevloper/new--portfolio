@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import MedicalDevicesDiagnosticsClientScripts from "./MedicalDevicesDiagnosticsClientScripts";
 
 export const metadata: Metadata = {
-  title: "MedicalDevicesDiagnostics Services | Hyperlink Tech Solutions",
-  description: "MedicalDevicesDiagnostics services built around your operations.",
+  alternates: { canonical: "/industries/medical-devices-diagnostics/" },
+  title: "Medical Devices Diagnostics Website Design & Development | Hyperlink",
+  description: "Corporate websites and professional portals for medical device manufacturers and diagnostics labs. Communicate regulatory compliance and innovation.",
 };
 
 export default function MedicalDevicesDiagnosticsPage() {

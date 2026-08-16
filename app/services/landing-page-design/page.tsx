@@ -191,33 +191,33 @@ export default function LandingPageDesign() {
                     <div className="section-heading">
                         <div>
                             <p className="eyebrow">Featured landing page example</p>
-                            <h2>Show how one focused page moved visitors from campaign interest to enquiry.</h2>
+                            <h2>Landing pages built to turn traffic into bookings.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine landing-page project. Explain the traffic source, campaign offer, page structure, conversion action and observable result.</p>
+                        <p>See how our landing page design services helped PresRide present its luxury transportation services, build customer trust, and generate qualified booking inquiries.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Business website project visual">
                             <div className="case-visual-top">
-                                <span>Campaign Landing Page</span>
-                                <span>Responsive + Lead Flow</span>
+                                <span>Lead-Generation Landing Page</span>
+                                <span>Mobile-First Design + Booking Flow + Conversion Strategy</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/b9149920-0a45-4672-b659-5d8eedf2dd6b.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/preshride-responsive-mockup.webp" alt="PresRide Landing Page" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A clearer journey from advertisement click to qualified lead.</h2>
-                                <p>Use this area to explain why the original campaign page was ineffective, how the message and structure were improved and what changed after launch. Use genuine campaign data whenever it is available.</p>
+                                <p className="eyebrow">PresRide</p>
+                                <h2>A conversion-focused landing page for luxury transportation.</h2>
+                                <p>We created a high-converting landing experience that clearly communicates PresRide’s premium chauffeur services and guides visitors toward taking action—checking prices, calling the team, or booking a ride online.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>Paid traffic was being sent to a general service page that contained several competing actions.</strong></div>
-                                <div className="case-fact"><small>Approach</small><strong>A dedicated landing page was created with campaign-specific messaging and a shorter enquiry form.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified conversion improvement or measurable campaign outcome.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>Visitors needed to quickly understand the available services, vehicle options, coverage areas, and reasons to trust PresRide before submitting an inquiry or booking a ride.</strong></div>
+                                <div className="case-fact"><small>Build</small><strong>A mobile-first landing page featuring a strong value proposition, prominent booking calls to action, premium fleet options, service benefits, a three-step booking journey, customer testimonials, frequently asked questions, location-focused content, and strategically repeated lead-capture points.</strong></div>
+                                <div className="case-fact"><small>Impact</small><strong>Created a clearer path from website visit to conversion, increased opportunities for calls and pricing requests, and helped attract higher-intent leads searching for airport transfers, corporate transportation, private rides, and luxury chauffeur services in New York.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Landing Page Projects <span className="arrow">↗</span></a>
                         </article>

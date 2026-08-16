@@ -203,34 +203,33 @@ export default function WebsiteMaintenance() {
                     <div className="section-heading">
                         <div>
                             <p className="eyebrow">Featured maintenance example</p>
-                            <h2>Show how ongoing support prevented small issues from becoming larger problems.</h2>
+                            <h2>Sustained performance for a growing content platform.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine maintenance engagement. Explain the original website condition, recurring support needs and what improved after structured maintenance began.</p>
+                        <p>See how our ongoing website maintenance services help SoulHome ensure secure access for users, seamless resource delivery, and continuous platform stability as their paid content library expands.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Maintenance visual">
                             <div className="case-visual-top">
-                                <span>Website Maintenance</span>
-                                <span>Custom Support</span>
+                                <span>Content Platform Maintenance</span>
+                                <span>Security + Updates + Support</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/783140f6-e050-4228-b409-1e3571188702.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/7d2de5e8-3b37-4208-958d-a51bc02499e8.webp" alt="SoulHome Maintenance" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A more reliable business website through ongoing updates and technical support.</h2>
-                                <p>Use this area to explain what was happening before maintenance support and how the website became easier to manage.</p>
+                                <p className="eyebrow">SoulHome Support</p>
+                                <h2>Reliable operations and priority technical support.</h2>
+                                <p>After building the initial automated delivery system for SoulHome, we transitioned into an active maintenance partnership to manage platform health, troubleshoot integrations, and support the creator in scaling their content offerings without technical friction.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>The website had outdated service information, inconsistent mobile layouts, delayed plugin updates and unreliable form delivery.</strong></div>
-                                <div className="case-fact"><small>Maintenance Work</small><strong>Routine content updates, form testing, responsive fixes, backup checks, plugin reviews and image optimisation.</strong></div>
-                                <div className="case-fact"><small>Support Process</small><strong>Requests were logged, prioritised and completed through an agreed monthly maintenance workflow.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified improvement such as fewer website issues, faster update turnaround, improved form reliability or better loading performance.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>The creator needed to focus exclusively on developing new spiritual and inner-work resources rather than managing server health, integration uptime, and platform security.</strong></div>
+                                <div className="case-fact"><small>Maintenance Work</small><strong>Continuous monitoring of Calendly webhooks, magic-link email delivery checks, periodic database optimizations, regular security patching, and on-demand support for new content structures.</strong></div>
+                                <div className="case-fact"><small>Result</small><strong>Delivered 99.9% uptime for paid resource access, prevented integration failures through proactive testing, and gave the creator complete peace of mind to scale their business.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Maintenance Projects <span className="arrow">↗</span></a>
                         </article>

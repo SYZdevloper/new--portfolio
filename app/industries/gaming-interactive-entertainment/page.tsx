@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import GamingInteractiveEntertainmentClientScripts from "./GamingInteractiveEntertainmentClientScripts";
 
 export const metadata: Metadata = {
-  title: "GamingInteractiveEntertainment Services | Hyperlink Tech Solutions",
-  description: "GamingInteractiveEntertainment services built around your operations.",
+  alternates: { canonical: "/industries/gaming-interactive-entertainment/" },
+  title: "Gaming Interactive Entertainment Website Design & Development | Hyperlink",
+  description: "High-performance marketing websites, community forums, and digital platforms for gaming studios and interactive entertainment brands.",
 };
 
 export default function GamingInteractiveEntertainmentPage() {

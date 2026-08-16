@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import GeneralContractManufacturingClientScripts from "./GeneralContractManufacturingClientScripts";
 
 export const metadata: Metadata = {
-  title: "GeneralContractManufacturing Services | Hyperlink Tech Solutions",
-  description: "GeneralContractManufacturing services built around your operations.",
+  alternates: { canonical: "/industries/general-contract-manufacturing/" },
+  title: "General Contract Manufacturing Website Design & Development | Hyperlink",
+  description: "Lead-generation websites and B2B portals for contract manufacturers. Clearly communicate production capabilities, certifications, and scale.",
 };
 
 export default function GeneralContractManufacturingPage() {

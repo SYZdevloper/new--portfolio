@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import FisheriesAquacultureClientScripts from "./FisheriesAquacultureClientScripts";
 
 export const metadata: Metadata = {
-  title: "FisheriesAquaculture Services | Hyperlink Tech Solutions",
-  description: "FisheriesAquaculture services built around your operations.",
+  alternates: { canonical: "/industries/fisheries-aquaculture/" },
+  title: "Fisheries Aquaculture Website Design & Development | Hyperlink",
+  description: "Corporate websites and B2B portals for sustainable fisheries and aquaculture businesses. Communicate environmental stewardship and global supply.",
 };
 
 export default function FisheriesAquaculturePage() {

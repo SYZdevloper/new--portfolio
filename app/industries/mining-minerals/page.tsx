@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import MiningMineralsClientScripts from "./MiningMineralsClientScripts";
 
 export const metadata: Metadata = {
-  title: "MiningMinerals Services | Hyperlink Tech Solutions",
-  description: "MiningMinerals services built around your operations.",
+  alternates: { canonical: "/industries/mining-minerals/" },
+  title: "Mining Minerals Website Design & Development | Hyperlink",
+  description: "Corporate websites and investor portals for global mining and mineral exploration companies. Highlight resource assets, safety, and ESG initiatives.",
 };
 
 export default function MiningMineralsPage() {

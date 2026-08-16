@@ -1,0 +1,1369 @@
+{
+    "industry": {
+        "title": "Automotive Industry Insights",
+        "slug": "automotive",
+        "description": "Automotive Industry Insights provides market intelligence, trends, forecasts, competitive analysis, and strategic insights across vehicle manufacturing, electric mobility, automotive components, software, mobility services, aftermarket technologies, and the wider automotive ecosystem.",
+        "meta_title": "Automotive Industry Insights | Market Research & Trends",
+        "meta_description": "Explore automotive market research, industry trends, forecasts, technologies, competitive intelligence, and growth opportunities across the global automotive ecosystem."
+    },
+    "verticals": [
+        {
+            "title": "Vehicle Manufacturing",
+            "slug": "vehicle-manufacturing",
+            "icon": "Car",
+            "description": "Market intelligence covering the design, production, assembly, and commercialization of passenger, commercial, specialty, and performance vehicles worldwide.",
+            "meta_title": "Vehicle Manufacturing Market Research & Insights",
+            "meta_description": "Explore vehicle manufacturing market trends, forecasts, technologies, competitive developments, and opportunities across passenger and commercial vehicle segments.",
+            "sub_verticals": [
+                {
+                    "title": "Passenger Cars",
+                    "slug": "passenger-cars",
+                    "description": "Research and market intelligence covering passenger vehicle production, demand, technologies, consumer preferences, and competitive developments.",
+                    "meta_title": "Passenger Cars Market Research & Trends",
+                    "meta_description": "Explore passenger car market size, trends, forecasts, technologies, competitive landscape, and global growth opportunities."
+                },
+                {
+                    "title": "Commercial Vehicles",
+                    "slug": "commercial-vehicles",
+                    "description": "Market analysis of vehicles designed for commercial transportation, logistics, construction, and industrial applications.",
+                    "meta_title": "Commercial Vehicles Market Research & Trends",
+                    "meta_description": "Explore commercial vehicle market trends, forecasts, technologies, manufacturers, and growth opportunities worldwide."
+                },
+                {
+                    "title": "Light Commercial Vehicles",
+                    "slug": "light-commercial-vehicles",
+                    "description": "Insights into vans, pickups, and light-duty commercial vehicles used for urban transportation, logistics, and business operations.",
+                    "meta_title": "Light Commercial Vehicles Market Insights",
+                    "meta_description": "Analyze light commercial vehicle market size, trends, forecasts, technologies, and competitive developments."
+                },
+                {
+                    "title": "Heavy Commercial Vehicles",
+                    "slug": "heavy-commercial-vehicles",
+                    "description": "Market intelligence covering heavy trucks, freight vehicles, long-haul transportation, and industrial vehicle applications.",
+                    "meta_title": "Heavy Commercial Vehicles Market Research",
+                    "meta_description": "Explore heavy commercial vehicle trends, forecasts, manufacturers, technology adoption, and global market opportunities."
+                },
+                {
+                    "title": "Two-Wheelers",
+                    "slug": "two-wheelers",
+                    "description": "Research covering motorcycles, scooters, mopeds, and evolving two-wheeler mobility technologies.",
+                    "meta_title": "Two-Wheeler Market Research & Industry Trends",
+                    "meta_description": "Explore motorcycle and scooter market trends, forecasts, technologies, manufacturers, and regional growth opportunities."
+                },
+                {
+                    "title": "Three-Wheelers",
+                    "slug": "three-wheelers",
+                    "description": "Insights into passenger and cargo three-wheelers used for urban mobility and last-mile transportation.",
+                    "meta_title": "Three-Wheeler Market Research & Trends",
+                    "meta_description": "Analyze three-wheeler market growth, technologies, electrification trends, manufacturers, and global opportunities."
+                },
+                {
+                    "title": "Buses & Coaches",
+                    "slug": "buses-coaches",
+                    "description": "Market intelligence covering urban buses, intercity coaches, school buses, and advanced passenger transportation vehicles.",
+                    "meta_title": "Bus & Coach Market Research & Trends",
+                    "meta_description": "Explore bus and coach market forecasts, electrification trends, technologies, manufacturers, and growth opportunities."
+                },
+                {
+                    "title": "Specialty Vehicles",
+                    "slug": "specialty-vehicles",
+                    "description": "Research covering specialized vehicles developed for emergency, defense, construction, utility, municipal, and industrial applications.",
+                    "meta_title": "Specialty Vehicles Market Research",
+                    "meta_description": "Explore specialty vehicle markets, technologies, applications, manufacturers, forecasts, and emerging opportunities."
+                }
+            ]
+        },
+        {
+            "title": "Electric Vehicles",
+            "slug": "electric-vehicles",
+            "icon": "Zap",
+            "description": "Market intelligence covering electric passenger and commercial vehicles, electrified powertrains, emerging EV technologies, adoption trends, and global mobility transition.",
+            "meta_title": "Electric Vehicle Market Research & EV Industry Insights",
+            "meta_description": "Explore EV market trends, forecasts, technologies, manufacturers, adoption drivers, and opportunities across the global electric mobility ecosystem.",
+            "sub_verticals": [
+                {
+                    "title": "Battery Electric Vehicles",
+                    "slug": "battery-electric-vehicles",
+                    "description": "Market intelligence covering fully battery-powered vehicles, adoption, vehicle platforms, technology developments, and competitive dynamics.",
+                    "meta_title": "Battery Electric Vehicle Market Research",
+                    "meta_description": "Explore BEV market size, growth forecasts, technologies, manufacturers, adoption trends, and global opportunities."
+                },
+                {
+                    "title": "Hybrid Electric Vehicles",
+                    "slug": "hybrid-electric-vehicles",
+                    "description": "Research covering vehicles combining internal combustion engines with electric propulsion systems.",
+                    "meta_title": "Hybrid Electric Vehicle Market Insights",
+                    "meta_description": "Analyze hybrid vehicle market trends, forecasts, powertrain technologies, manufacturers, and global growth opportunities."
+                },
+                {
+                    "title": "Plug-in Hybrid Vehicles",
+                    "slug": "plug-in-hybrid-vehicles",
+                    "description": "Market analysis of plug-in hybrid vehicles combining externally rechargeable batteries with combustion powertrains.",
+                    "meta_title": "Plug-in Hybrid Vehicle Market Research",
+                    "meta_description": "Explore PHEV market trends, forecasts, technologies, adoption patterns, manufacturers, and growth opportunities."
+                },
+                {
+                    "title": "Electric Commercial Vehicles",
+                    "slug": "electric-commercial-vehicles",
+                    "description": "Research covering battery-powered vans, trucks, delivery vehicles, and other commercial transport platforms.",
+                    "meta_title": "Electric Commercial Vehicle Market Research",
+                    "meta_description": "Explore electric commercial vehicle market trends, fleet adoption, technologies, forecasts, and manufacturers."
+                },
+                {
+                    "title": "Electric Two-Wheelers",
+                    "slug": "electric-two-wheelers",
+                    "description": "Market intelligence covering electric motorcycles, scooters, mopeds, and associated mobility technologies.",
+                    "meta_title": "Electric Two-Wheeler Market Research",
+                    "meta_description": "Explore electric motorcycle and scooter market trends, technologies, manufacturers, forecasts, and opportunities."
+                },
+                {
+                    "title": "Electric Buses",
+                    "slug": "electric-buses",
+                    "description": "Insights into battery-electric and electrified buses for public, school, shuttle, and intercity transportation.",
+                    "meta_title": "Electric Bus Market Research & Trends",
+                    "meta_description": "Analyze electric bus market growth, technologies, fleet adoption, manufacturers, and regional opportunities."
+                },
+                {
+                    "title": "Electric Trucks",
+                    "slug": "electric-trucks",
+                    "description": "Market intelligence covering battery-powered light-, medium-, and heavy-duty trucks.",
+                    "meta_title": "Electric Truck Market Research & Trends",
+                    "meta_description": "Explore electric truck market forecasts, battery technologies, fleet adoption, manufacturers, and growth opportunities."
+                }
+            ]
+        },
+        {
+            "title": "EV Batteries & Energy Storage",
+            "slug": "ev-batteries-energy-storage",
+            "icon": "BatteryCharging",
+            "description": "Insights into battery cells, packs, chemistries, management technologies, thermal systems, recycling, and energy storage solutions powering electric vehicles.",
+            "meta_title": "EV Battery & Automotive Energy Storage Market Research",
+            "meta_description": "Explore EV battery technologies, market trends, forecasts, chemistries, battery management, recycling, and energy storage opportunities.",
+            "sub_verticals": [
+                {
+                    "title": "Lithium-Ion EV Batteries",
+                    "slug": "lithium-ion-ev-batteries",
+                    "description": "Market intelligence covering lithium-ion battery technologies used across electric and hybrid vehicle platforms.",
+                    "meta_title": "Lithium-Ion EV Battery Market Research",
+                    "meta_description": "Explore lithium-ion EV battery market growth, chemistries, manufacturers, technologies, forecasts, and opportunities."
+                },
+                {
+                    "title": "Solid-State Batteries",
+                    "slug": "solid-state-batteries",
+                    "description": "Research covering solid-state battery technologies designed to improve EV safety, energy density, and charging performance.",
+                    "meta_title": "Solid-State EV Battery Market Research",
+                    "meta_description": "Analyze solid-state battery technologies, commercialization, market forecasts, companies, and automotive applications."
+                },
+                {
+                    "title": "LFP Batteries",
+                    "slug": "lfp-batteries",
+                    "description": "Market analysis of lithium iron phosphate batteries increasingly adopted across electric vehicle platforms.",
+                    "meta_title": "LFP Battery Market Research & EV Trends",
+                    "meta_description": "Explore LFP battery demand, technology trends, EV applications, manufacturers, forecasts, and global growth opportunities."
+                },
+                {
+                    "title": "Battery Packs",
+                    "slug": "battery-packs",
+                    "description": "Insights into EV battery pack design, integration, manufacturing, safety, performance, and vehicle applications.",
+                    "meta_title": "EV Battery Pack Market Research",
+                    "meta_description": "Explore EV battery pack market trends, technologies, manufacturing, thermal systems, forecasts, and key companies."
+                },
+                {
+                    "title": "Battery Management Systems",
+                    "slug": "battery-management-systems",
+                    "description": "Market intelligence covering electronic systems responsible for monitoring, controlling, balancing, and protecting automotive batteries.",
+                    "meta_title": "EV Battery Management System Market Research",
+                    "meta_description": "Explore automotive BMS market trends, technologies, companies, EV applications, forecasts, and growth opportunities."
+                },
+                {
+                    "title": "Battery Thermal Management",
+                    "slug": "battery-thermal-management",
+                    "description": "Research into technologies maintaining optimal temperatures across electric vehicle battery systems.",
+                    "meta_title": "EV Battery Thermal Management Market",
+                    "meta_description": "Analyze battery thermal management technologies, market trends, EV applications, companies, and forecasts."
+                },
+                {
+                    "title": "EV Battery Recycling",
+                    "slug": "ev-battery-recycling",
+                    "description": "Research covering collection, processing, material recovery, reuse, and recycling of electric vehicle batteries.",
+                    "meta_title": "EV Battery Recycling Market Research",
+                    "meta_description": "Explore EV battery recycling trends, technologies, regulations, companies, forecasts, and circular economy opportunities."
+                }
+            ]
+        },
+        {
+            "title": "EV Charging Infrastructure",
+            "slug": "ev-charging-infrastructure",
+            "icon": "PlugZap",
+            "description": "Research covering residential, commercial, public, fleet, fast-charging, wireless charging, and intelligent EV charging infrastructure.",
+            "meta_title": "EV Charging Infrastructure Market Research",
+            "meta_description": "Explore EV charging market trends, fast charging, home charging, fleet infrastructure, technologies, companies, and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "AC EV Charging",
+                    "slug": "ac-ev-charging",
+                    "description": "Market research covering alternating-current charging equipment used primarily for residential and destination EV charging.",
+                    "meta_title": "AC EV Charging Market Research",
+                    "meta_description": "Explore AC EV charger market trends, infrastructure deployment, technologies, companies, and growth forecasts."
+                },
+                {
+                    "title": "DC Fast Charging",
+                    "slug": "dc-fast-charging",
+                    "description": "Market intelligence covering high-power direct-current charging infrastructure for rapid electric vehicle charging.",
+                    "meta_title": "DC Fast Charging Market Research",
+                    "meta_description": "Analyze DC fast charger market trends, deployment, technologies, charging networks, manufacturers, and forecasts."
+                },
+                {
+                    "title": "Wireless EV Charging",
+                    "slug": "wireless-ev-charging",
+                    "description": "Research covering inductive and dynamic wireless charging technologies for electric vehicles.",
+                    "meta_title": "Wireless EV Charging Market Research",
+                    "meta_description": "Explore wireless EV charging technologies, market trends, companies, applications, and commercialization forecasts."
+                },
+                {
+                    "title": "Home EV Charging",
+                    "slug": "home-ev-charging",
+                    "description": "Market intelligence covering residential charging stations, wall boxes, smart charging, and home energy integration.",
+                    "meta_title": "Home EV Charging Market Research",
+                    "meta_description": "Explore residential EV charger trends, smart charging technologies, manufacturers, adoption, and market forecasts."
+                },
+                {
+                    "title": "Commercial EV Charging",
+                    "slug": "commercial-ev-charging",
+                    "description": "Insights into charging infrastructure installed across workplaces, retail centers, offices, parking facilities, and hospitality locations.",
+                    "meta_title": "Commercial EV Charging Market Research",
+                    "meta_description": "Explore commercial EV charger deployment, technologies, operators, business models, and market forecasts."
+                },
+                {
+                    "title": "Fleet Charging",
+                    "slug": "fleet-charging",
+                    "description": "Research covering charging infrastructure and software optimized for commercial and public electric vehicle fleets.",
+                    "meta_title": "EV Fleet Charging Market Research",
+                    "meta_description": "Analyze EV fleet charging infrastructure, energy management, technologies, operators, and market opportunities."
+                },
+                {
+                    "title": "Vehicle-to-Grid",
+                    "slug": "vehicle-to-grid",
+                    "description": "Market intelligence covering bidirectional charging systems enabling electric vehicles to exchange electricity with power grids.",
+                    "meta_title": "Vehicle-to-Grid Market Research & V2G Trends",
+                    "meta_description": "Explore V2G technologies, market trends, grid applications, bidirectional charging, companies, and forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Autonomous Driving & ADAS",
+            "slug": "autonomous-driving-adas",
+            "icon": "ScanEye",
+            "description": "Market research covering automated driving technologies, advanced driver assistance systems, perception, control systems, and autonomous mobility platforms.",
+            "meta_title": "Autonomous Driving & ADAS Market Research",
+            "meta_description": "Explore autonomous vehicle and ADAS technologies, market trends, sensors, software, companies, regulations, and growth forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Advanced Driver Assistance Systems",
+                    "slug": "advanced-driver-assistance-systems",
+                    "description": "Research covering safety and driver-assistance technologies supporting partially automated vehicle operation.",
+                    "meta_title": "ADAS Market Research & Industry Trends",
+                    "meta_description": "Explore ADAS market trends, technologies, sensors, manufacturers, vehicle applications, and forecasts."
+                },
+                {
+                    "title": "Autonomous Vehicles",
+                    "slug": "autonomous-vehicles",
+                    "description": "Market intelligence covering vehicles capable of performing driving functions with varying levels of automation.",
+                    "meta_title": "Autonomous Vehicle Market Research",
+                    "meta_description": "Explore autonomous vehicle technology, market forecasts, companies, regulations, sensors, and commercialization trends."
+                },
+                {
+                    "title": "Adaptive Cruise Control",
+                    "slug": "adaptive-cruise-control",
+                    "description": "Research covering systems automatically controlling vehicle speed and following distance based on surrounding traffic.",
+                    "meta_title": "Adaptive Cruise Control Market Research",
+                    "meta_description": "Analyze adaptive cruise control technologies, adoption, vehicle applications, suppliers, and global market forecasts."
+                },
+                {
+                    "title": "Automatic Emergency Braking",
+                    "slug": "automatic-emergency-braking",
+                    "description": "Market intelligence covering collision detection and automated braking technologies designed to prevent or mitigate crashes.",
+                    "meta_title": "Automatic Emergency Braking Market",
+                    "meta_description": "Explore AEB system trends, technologies, regulations, suppliers, vehicle adoption, and market growth."
+                },
+                {
+                    "title": "Driver Monitoring Systems",
+                    "slug": "driver-monitoring-systems",
+                    "description": "Research covering camera and sensor systems used to monitor driver attention, fatigue, distraction, and behavior.",
+                    "meta_title": "Driver Monitoring System Market Research",
+                    "meta_description": "Explore driver monitoring market trends, technologies, safety regulations, suppliers, and automotive applications."
+                },
+                {
+                    "title": "Automated Parking",
+                    "slug": "automated-parking",
+                    "description": "Research into automatic and remote vehicle parking technologies supported by cameras, sensors, and intelligent control systems.",
+                    "meta_title": "Automated Parking Market Research",
+                    "meta_description": "Explore automated parking technologies, market trends, vehicle adoption, suppliers, and growth forecasts."
+                },
+                {
+                    "title": "Robotaxis",
+                    "slug": "robotaxis",
+                    "description": "Market analysis of autonomous ride-hailing vehicles and driverless passenger mobility platforms.",
+                    "meta_title": "Robotaxi Market Research & Industry Trends",
+                    "meta_description": "Explore robotaxi market forecasts, autonomous driving technologies, operators, regulations, and commercialization."
+                }
+            ]
+        },
+        {
+            "title": "Connected Vehicles",
+            "slug": "connected-vehicles",
+            "icon": "Wifi",
+            "description": "Insights into vehicle connectivity, telematics, V2X communication, remote diagnostics, data services, and network-enabled automotive technologies.",
+            "meta_title": "Connected Vehicle Market Research & Trends",
+            "meta_description": "Explore connected car technologies, telematics, V2X, 5G automotive connectivity, data platforms, companies, and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Connected Cars",
+                    "slug": "connected-cars",
+                    "description": "Market intelligence covering internet-enabled vehicles offering communication, data, safety, entertainment, and remote services.",
+                    "meta_title": "Connected Car Market Research & Trends",
+                    "meta_description": "Explore connected car market growth, technologies, services, automakers, connectivity platforms, and forecasts."
+                },
+                {
+                    "title": "Automotive Telematics",
+                    "slug": "automotive-telematics",
+                    "description": "Research covering vehicle communication systems used for diagnostics, tracking, fleet management, safety, and connected services.",
+                    "meta_title": "Automotive Telematics Market Research",
+                    "meta_description": "Explore automotive telematics technologies, applications, companies, connected vehicle trends, and forecasts."
+                },
+                {
+                    "title": "Vehicle-to-Everything",
+                    "slug": "vehicle-to-everything",
+                    "description": "Market intelligence covering vehicle communication with other vehicles, infrastructure, pedestrians, devices, and networks.",
+                    "meta_title": "Vehicle-to-Everything V2X Market Research",
+                    "meta_description": "Analyze V2X market trends, technologies, C-V2X adoption, infrastructure, companies, and automotive applications."
+                },
+                {
+                    "title": "Automotive 5G",
+                    "slug": "automotive-5g",
+                    "description": "Research covering fifth-generation cellular connectivity supporting connected and automated vehicle applications.",
+                    "meta_title": "Automotive 5G Market Research & Trends",
+                    "meta_description": "Explore 5G automotive connectivity, V2X applications, technologies, companies, adoption trends, and forecasts."
+                },
+                {
+                    "title": "Remote Vehicle Diagnostics",
+                    "slug": "remote-vehicle-diagnostics",
+                    "description": "Market analysis of connected technologies enabling remote monitoring, fault detection, maintenance, and vehicle health assessment.",
+                    "meta_title": "Remote Vehicle Diagnostics Market",
+                    "meta_description": "Explore remote automotive diagnostics market trends, connected technologies, telematics, companies, and forecasts."
+                },
+                {
+                    "title": "Over-the-Air Updates",
+                    "slug": "over-the-air-updates",
+                    "description": "Research covering wireless deployment of vehicle software, firmware, infotainment, and feature updates.",
+                    "meta_title": "Automotive OTA Updates Market Research",
+                    "meta_description": "Analyze automotive OTA software update trends, platforms, cybersecurity, automakers, and market growth."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Software & Digital Platforms",
+            "slug": "automotive-software-digital-platforms",
+            "icon": "Code2",
+            "description": "Market intelligence covering software-defined vehicles, operating systems, middleware, cloud platforms, digital twins, and vehicle software ecosystems.",
+            "meta_title": "Automotive Software Market Research & Trends",
+            "meta_description": "Explore automotive software, SDVs, vehicle operating systems, cloud platforms, digital twins, companies, and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Software-Defined Vehicles",
+                    "slug": "software-defined-vehicles",
+                    "description": "Research covering vehicles whose functionality, features, and user experience are increasingly controlled and upgraded through software.",
+                    "meta_title": "Software-Defined Vehicle Market Research",
+                    "meta_description": "Explore SDV technologies, market trends, vehicle architectures, software platforms, companies, and forecasts."
+                },
+                {
+                    "title": "Automotive Operating Systems",
+                    "slug": "automotive-operating-systems",
+                    "description": "Market analysis of operating systems managing infotainment, vehicle controls, connected features, and digital cockpit applications.",
+                    "meta_title": "Automotive Operating System Market Research",
+                    "meta_description": "Explore automotive OS platforms, market trends, software architectures, vendors, applications, and growth forecasts."
+                },
+                {
+                    "title": "Automotive Middleware",
+                    "slug": "automotive-middleware",
+                    "description": "Research covering software layers enabling communication between vehicle hardware, operating systems, applications, and services.",
+                    "meta_title": "Automotive Middleware Market Research",
+                    "meta_description": "Analyze automotive middleware trends, software architectures, vendors, SDV applications, and market forecasts."
+                },
+                {
+                    "title": "Automotive Cloud Platforms",
+                    "slug": "automotive-cloud-platforms",
+                    "description": "Insights into cloud infrastructure supporting vehicle data, applications, connected services, analytics, and fleet operations.",
+                    "meta_title": "Automotive Cloud Platform Market Research",
+                    "meta_description": "Explore automotive cloud technologies, connected vehicle applications, vendors, market growth, and forecasts."
+                },
+                {
+                    "title": "Automotive Digital Twins",
+                    "slug": "automotive-digital-twins",
+                    "description": "Research covering digital replicas used for vehicle development, manufacturing, simulation, predictive maintenance, and lifecycle management.",
+                    "meta_title": "Automotive Digital Twin Market Research",
+                    "meta_description": "Explore automotive digital twin technologies, use cases, vendors, market trends, and growth forecasts."
+                },
+                {
+                    "title": "Automotive Data Platforms",
+                    "slug": "automotive-data-platforms",
+                    "description": "Market intelligence covering platforms used to collect, manage, analyze, and monetize connected vehicle data.",
+                    "meta_title": "Automotive Data Platform Market Research",
+                    "meta_description": "Explore vehicle data platforms, analytics, connected services, vendors, monetization models, and forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Electronics & Semiconductors",
+            "slug": "automotive-electronics-semiconductors",
+            "icon": "Cpu",
+            "description": "Market research covering automotive chips, processors, control units, power electronics, memory, circuit boards, and electronic vehicle architectures.",
+            "meta_title": "Automotive Semiconductor & Electronics Market Research",
+            "meta_description": "Explore automotive semiconductor, ECU, processor, power electronics, and vehicle electronics market trends and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Semiconductors",
+                    "slug": "automotive-semiconductors",
+                    "description": "Research covering semiconductor devices used across propulsion, safety, connectivity, infotainment, and body electronics.",
+                    "meta_title": "Automotive Semiconductor Market Research",
+                    "meta_description": "Explore automotive chip demand, technologies, manufacturers, vehicle applications, supply trends, and forecasts."
+                },
+                {
+                    "title": "Automotive Microcontrollers",
+                    "slug": "automotive-microcontrollers",
+                    "description": "Market intelligence covering microcontrollers used to manage electronic vehicle functions and embedded control systems.",
+                    "meta_title": "Automotive Microcontroller Market Research",
+                    "meta_description": "Analyze automotive MCU technologies, market trends, suppliers, applications, and growth forecasts."
+                },
+                {
+                    "title": "Automotive ECUs",
+                    "slug": "automotive-ecus",
+                    "description": "Research covering electronic control units responsible for managing vehicle subsystems and electronic functions.",
+                    "meta_title": "Automotive ECU Market Research & Trends",
+                    "meta_description": "Explore automotive ECU market trends, technologies, suppliers, vehicle architectures, and forecasts."
+                },
+                {
+                    "title": "Automotive Power Electronics",
+                    "slug": "automotive-power-electronics",
+                    "description": "Market analysis of inverters, converters, power modules, and semiconductor systems managing electrical energy in vehicles.",
+                    "meta_title": "Automotive Power Electronics Market",
+                    "meta_description": "Explore automotive power electronics technologies, EV applications, manufacturers, trends, and forecasts."
+                },
+                {
+                    "title": "Automotive Domain Controllers",
+                    "slug": "automotive-domain-controllers",
+                    "description": "Research covering high-performance controllers consolidating multiple vehicle functions within centralized electronic architectures.",
+                    "meta_title": "Automotive Domain Controller Market",
+                    "meta_description": "Explore automotive domain controller trends, SDV architectures, suppliers, applications, and market forecasts."
+                },
+                {
+                    "title": "Automotive Printed Circuit Boards",
+                    "slug": "automotive-printed-circuit-boards",
+                    "description": "Market intelligence covering printed circuit boards used across automotive electronic systems and control modules.",
+                    "meta_title": "Automotive PCB Market Research & Trends",
+                    "meta_description": "Explore automotive PCB market size, technologies, vehicle applications, manufacturers, and growth forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Sensors & Perception",
+            "slug": "automotive-sensors-perception",
+            "icon": "Radar",
+            "description": "Research covering cameras, radar, LiDAR, ultrasonic, environmental, position, pressure, and motion sensors enabling intelligent vehicle functions.",
+            "meta_title": "Automotive Sensors & Perception Market Research",
+            "meta_description": "Explore automotive sensor, radar, LiDAR, camera, ultrasonic, and perception technology markets and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Cameras",
+                    "slug": "automotive-cameras",
+                    "description": "Research covering camera systems supporting ADAS, autonomous driving, parking, monitoring, and digital vision applications.",
+                    "meta_title": "Automotive Camera Market Research",
+                    "meta_description": "Explore automotive camera technologies, ADAS applications, suppliers, market trends, and forecasts."
+                },
+                {
+                    "title": "Automotive Radar",
+                    "slug": "automotive-radar",
+                    "description": "Market intelligence covering radar sensors used for object detection, distance measurement, safety, and automated driving.",
+                    "meta_title": "Automotive Radar Market Research",
+                    "meta_description": "Analyze automotive radar technologies, ADAS applications, suppliers, frequencies, and market forecasts."
+                },
+                {
+                    "title": "Automotive LiDAR",
+                    "slug": "automotive-lidar",
+                    "description": "Research into light detection and ranging technologies enabling three-dimensional vehicle perception.",
+                    "meta_title": "Automotive LiDAR Market Research & Trends",
+                    "meta_description": "Explore automotive LiDAR market growth, technologies, companies, autonomous vehicle applications, and forecasts."
+                },
+                {
+                    "title": "Automotive Ultrasonic Sensors",
+                    "slug": "automotive-ultrasonic-sensors",
+                    "description": "Market intelligence covering ultrasonic sensing technologies used for parking assistance and short-range object detection.",
+                    "meta_title": "Automotive Ultrasonic Sensor Market",
+                    "meta_description": "Explore automotive ultrasonic sensor trends, parking applications, manufacturers, technologies, and forecasts."
+                },
+                {
+                    "title": "Automotive Position Sensors",
+                    "slug": "automotive-position-sensors",
+                    "description": "Research covering sensors used to determine position, displacement, angle, and movement across vehicle systems.",
+                    "meta_title": "Automotive Position Sensor Market",
+                    "meta_description": "Explore automotive position sensor technologies, applications, manufacturers, market trends, and forecasts."
+                },
+                {
+                    "title": "Sensor Fusion",
+                    "slug": "sensor-fusion",
+                    "description": "Research covering hardware and software combining multiple sensor inputs to improve vehicle environmental perception.",
+                    "meta_title": "Automotive Sensor Fusion Market Research",
+                    "meta_description": "Explore sensor fusion technologies, autonomous driving applications, suppliers, market trends, and forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Powertrain & Propulsion",
+            "slug": "powertrain-propulsion",
+            "icon": "Gauge",
+            "description": "Research covering internal-combustion, hybrid, electric, hydrogen, transmission, drivetrain, and next-generation propulsion technologies.",
+            "meta_title": "Automotive Powertrain & Propulsion Market Research",
+            "meta_description": "Explore automotive engines, transmissions, electric drivetrains, hydrogen propulsion, technologies, trends, and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Internal Combustion Engines",
+                    "slug": "internal-combustion-engines",
+                    "description": "Market intelligence covering gasoline, diesel, and alternative-fuel combustion engines used across vehicle platforms.",
+                    "meta_title": "Automotive Internal Combustion Engine Market",
+                    "meta_description": "Explore ICE market trends, engine technologies, emissions developments, manufacturers, and global forecasts."
+                },
+                {
+                    "title": "Automotive Transmissions",
+                    "slug": "automotive-transmissions",
+                    "description": "Research covering manual, automatic, continuously variable, dual-clutch, and electrified transmission technologies.",
+                    "meta_title": "Automotive Transmission Market Research",
+                    "meta_description": "Explore automotive transmission market trends, technologies, suppliers, vehicle applications, and forecasts."
+                },
+                {
+                    "title": "Electric Drivetrains",
+                    "slug": "electric-drivetrains",
+                    "description": "Market intelligence covering integrated motors, inverters, transmissions, and drivetrain systems for electrified vehicles.",
+                    "meta_title": "Electric Vehicle Drivetrain Market Research",
+                    "meta_description": "Analyze EV drivetrain technologies, motors, inverters, suppliers, vehicle platforms, and market forecasts."
+                },
+                {
+                    "title": "Automotive E-Axles",
+                    "slug": "automotive-e-axles",
+                    "description": "Research covering integrated electric axle systems combining propulsion motor, transmission, and power electronics.",
+                    "meta_title": "Automotive E-Axle Market Research",
+                    "meta_description": "Explore automotive e-axle technologies, EV applications, suppliers, market trends, and growth forecasts."
+                },
+                {
+                    "title": "Hydrogen Fuel Cell Vehicles",
+                    "slug": "hydrogen-fuel-cell-vehicles",
+                    "description": "Research covering vehicles powered by hydrogen fuel cells and their supporting propulsion systems.",
+                    "meta_title": "Hydrogen Fuel Cell Vehicle Market",
+                    "meta_description": "Explore fuel cell vehicle market trends, hydrogen technologies, manufacturers, infrastructure, and forecasts."
+                },
+                {
+                    "title": "Automotive Turbochargers",
+                    "slug": "automotive-turbochargers",
+                    "description": "Market intelligence covering turbocharger technologies used to improve engine efficiency, power, and emissions performance.",
+                    "meta_title": "Automotive Turbocharger Market Research",
+                    "meta_description": "Explore automotive turbocharger market trends, technologies, suppliers, applications, and global forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Components & Systems",
+            "slug": "automotive-components-systems",
+            "icon": "Settings",
+            "description": "Market intelligence covering essential mechanical, electrical, structural, and functional components used across modern vehicle platforms.",
+            "meta_title": "Automotive Components & Systems Market Research",
+            "meta_description": "Explore automotive component markets, technologies, suppliers, vehicle applications, industry trends, and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Steering Systems",
+                    "slug": "automotive-steering-systems",
+                    "description": "Research covering hydraulic, electric, electro-hydraulic, and steer-by-wire vehicle steering technologies.",
+                    "meta_title": "Automotive Steering System Market",
+                    "meta_description": "Explore automotive steering technologies, EPS, steer-by-wire, suppliers, trends, and market forecasts."
+                },
+                {
+                    "title": "Automotive Braking Systems",
+                    "slug": "automotive-braking-systems",
+                    "description": "Market intelligence covering conventional, electronic, regenerative, and brake-by-wire technologies.",
+                    "meta_title": "Automotive Braking System Market Research",
+                    "meta_description": "Explore automotive brake technologies, suppliers, safety developments, EV applications, and forecasts."
+                },
+                {
+                    "title": "Automotive Suspension Systems",
+                    "slug": "automotive-suspension-systems",
+                    "description": "Research covering passive, semi-active, active, and electronically controlled vehicle suspension technologies.",
+                    "meta_title": "Automotive Suspension Market Research",
+                    "meta_description": "Explore automotive suspension technologies, suppliers, vehicle applications, market trends, and forecasts."
+                },
+                {
+                    "title": "Automotive Bearings",
+                    "slug": "automotive-bearings",
+                    "description": "Market intelligence covering bearings used in wheels, engines, transmissions, electric motors, and other vehicle systems.",
+                    "meta_title": "Automotive Bearings Market Research",
+                    "meta_description": "Explore automotive bearing market trends, technologies, suppliers, EV applications, and global forecasts."
+                },
+                {
+                    "title": "Automotive Pumps",
+                    "slug": "automotive-pumps",
+                    "description": "Research covering fuel, oil, coolant, water, vacuum, and electric pumps used across vehicle systems.",
+                    "meta_title": "Automotive Pumps Market Research",
+                    "meta_description": "Analyze automotive pump technologies, market trends, electrification impact, suppliers, and forecasts."
+                },
+                {
+                    "title": "Automotive Filters",
+                    "slug": "automotive-filters",
+                    "description": "Research covering air, oil, fuel, cabin, and specialized filtration technologies used across automotive applications.",
+                    "meta_title": "Automotive Filters Market Research",
+                    "meta_description": "Explore automotive filter market trends, technologies, suppliers, aftermarket demand, and global forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Interior & Cockpit",
+            "slug": "automotive-interior-cockpit",
+            "icon": "Armchair",
+            "description": "Research covering seating, cockpit systems, displays, interior electronics, materials, comfort technologies, and human-machine interfaces.",
+            "meta_title": "Automotive Interior & Cockpit Market Research",
+            "meta_description": "Explore automotive interiors, seating, digital cockpits, displays, HMI, materials, technologies, and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Seats",
+                    "slug": "automotive-seats",
+                    "description": "Market intelligence covering vehicle seating systems, materials, comfort technologies, safety, and smart seating.",
+                    "meta_title": "Automotive Seat Market Research & Trends",
+                    "meta_description": "Explore automotive seat market trends, materials, technologies, manufacturers, smart seating, and forecasts."
+                },
+                {
+                    "title": "Digital Cockpits",
+                    "slug": "digital-cockpits",
+                    "description": "Research covering integrated digital instrument clusters, infotainment, displays, connectivity, and cockpit computing platforms.",
+                    "meta_title": "Automotive Digital Cockpit Market Research",
+                    "meta_description": "Explore digital cockpit technologies, displays, HMI, suppliers, connected vehicle trends, and forecasts."
+                },
+                {
+                    "title": "Automotive Displays",
+                    "slug": "automotive-displays",
+                    "description": "Market intelligence covering instrument, infotainment, head-up, rear-seat, and smart automotive displays.",
+                    "meta_title": "Automotive Display Market Research",
+                    "meta_description": "Explore automotive display technologies, OLED, LCD, HUD applications, suppliers, and market forecasts."
+                },
+                {
+                    "title": "Head-Up Displays",
+                    "slug": "head-up-displays",
+                    "description": "Research covering windshield and augmented-reality display systems presenting information within a driver's field of view.",
+                    "meta_title": "Automotive Head-Up Display Market",
+                    "meta_description": "Explore automotive HUD market trends, AR technologies, suppliers, applications, and forecasts."
+                },
+                {
+                    "title": "Automotive HMI",
+                    "slug": "automotive-hmi",
+                    "description": "Research covering interfaces enabling drivers and passengers to interact with vehicle systems, software, and digital services.",
+                    "meta_title": "Automotive HMI Market Research & Trends",
+                    "meta_description": "Explore automotive HMI technologies, voice, touch, gesture interfaces, suppliers, and market forecasts."
+                },
+                {
+                    "title": "Automotive Interior Materials",
+                    "slug": "automotive-interior-materials",
+                    "description": "Market intelligence covering polymers, textiles, leather, composites, sustainable materials, and decorative interior surfaces.",
+                    "meta_title": "Automotive Interior Materials Market",
+                    "meta_description": "Explore automotive interior material trends, sustainable materials, suppliers, applications, and forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Infotainment & In-Vehicle Experience",
+            "slug": "infotainment-in-vehicle-experience",
+            "icon": "MonitorPlay",
+            "description": "Insights into infotainment, audio, navigation, voice assistants, entertainment, personalization, and digital services shaping vehicle user experiences.",
+            "meta_title": "Automotive Infotainment & In-Vehicle Experience Research",
+            "meta_description": "Explore automotive infotainment, navigation, audio, voice assistant, entertainment, and connected experience markets.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Infotainment Systems",
+                    "slug": "automotive-infotainment-systems",
+                    "description": "Market research covering integrated entertainment, connectivity, navigation, and information systems in vehicles.",
+                    "meta_title": "Automotive Infotainment Market Research",
+                    "meta_description": "Explore automotive infotainment technologies, suppliers, connected services, vehicle adoption, and forecasts."
+                },
+                {
+                    "title": "Automotive Audio Systems",
+                    "slug": "automotive-audio-systems",
+                    "description": "Research covering speakers, amplifiers, processors, immersive audio, and premium vehicle sound systems.",
+                    "meta_title": "Automotive Audio System Market Research",
+                    "meta_description": "Explore automotive audio technologies, premium sound systems, suppliers, vehicle trends, and forecasts."
+                },
+                {
+                    "title": "Automotive Navigation Systems",
+                    "slug": "automotive-navigation-systems",
+                    "description": "Market intelligence covering onboard navigation, location services, mapping platforms, and connected route guidance.",
+                    "meta_title": "Automotive Navigation System Market",
+                    "meta_description": "Explore automotive navigation technologies, mapping, connected services, suppliers, and market forecasts."
+                },
+                {
+                    "title": "In-Car Voice Assistants",
+                    "slug": "in-car-voice-assistants",
+                    "description": "Research covering voice-controlled artificial intelligence systems supporting vehicle functions, infotainment, and digital services.",
+                    "meta_title": "In-Car Voice Assistant Market Research",
+                    "meta_description": "Explore automotive voice assistant technologies, AI platforms, suppliers, applications, and growth forecasts."
+                },
+                {
+                    "title": "Rear-Seat Entertainment",
+                    "slug": "rear-seat-entertainment",
+                    "description": "Research covering displays, streaming platforms, connectivity, audio, and entertainment technologies for vehicle passengers.",
+                    "meta_title": "Rear-Seat Entertainment Market Research",
+                    "meta_description": "Explore rear-seat entertainment technologies, connected services, suppliers, market trends, and forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Safety & Security",
+            "slug": "automotive-safety-security",
+            "icon": "ShieldCheck",
+            "description": "Market intelligence covering active and passive safety, occupant protection, vehicle security, theft prevention, and emerging intelligent safety technologies.",
+            "meta_title": "Automotive Safety & Security Market Research",
+            "meta_description": "Explore automotive safety systems, airbags, restraints, vehicle security, intelligent safety technologies, and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Airbags",
+                    "slug": "automotive-airbags",
+                    "description": "Market intelligence covering frontal, side, curtain, knee, center, and advanced airbag technologies.",
+                    "meta_title": "Automotive Airbag Market Research",
+                    "meta_description": "Explore automotive airbag technologies, manufacturers, safety regulations, adoption trends, and market forecasts."
+                },
+                {
+                    "title": "Seat Belt Systems",
+                    "slug": "seat-belt-systems",
+                    "description": "Research covering conventional and intelligent restraint systems designed to improve occupant protection.",
+                    "meta_title": "Automotive Seat Belt Market Research",
+                    "meta_description": "Explore automotive seat belt technologies, smart restraints, suppliers, regulations, and market forecasts."
+                },
+                {
+                    "title": "Tire Pressure Monitoring Systems",
+                    "slug": "tire-pressure-monitoring-systems",
+                    "description": "Market intelligence covering direct and indirect technologies for monitoring vehicle tire pressure.",
+                    "meta_title": "Automotive TPMS Market Research",
+                    "meta_description": "Explore tire pressure monitoring system technologies, regulations, suppliers, market trends, and forecasts."
+                },
+                {
+                    "title": "Automotive Anti-Theft Systems",
+                    "slug": "automotive-anti-theft-systems",
+                    "description": "Research covering immobilizers, alarms, tracking systems, biometric access, and digital vehicle security technologies.",
+                    "meta_title": "Automotive Anti-Theft System Market",
+                    "meta_description": "Explore automotive anti-theft technologies, connected security, suppliers, market trends, and forecasts."
+                },
+                {
+                    "title": "Occupant Detection Systems",
+                    "slug": "occupant-detection-systems",
+                    "description": "Research covering sensors and software used to identify passenger presence, positioning, and characteristics for enhanced safety.",
+                    "meta_title": "Automotive Occupant Detection Market",
+                    "meta_description": "Explore occupant detection technologies, safety applications, suppliers, regulations, and market forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Cybersecurity",
+            "slug": "automotive-cybersecurity",
+            "icon": "Shield",
+            "description": "Research covering cybersecurity technologies protecting connected, autonomous, electric, and software-defined vehicles from digital threats.",
+            "meta_title": "Automotive Cybersecurity Market Research",
+            "meta_description": "Explore vehicle cybersecurity, connected car security, ECU protection, software security, regulations, companies, and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "In-Vehicle Network Security",
+                    "slug": "in-vehicle-network-security",
+                    "description": "Research covering cybersecurity solutions protecting CAN, Ethernet, and other vehicle communication networks.",
+                    "meta_title": "In-Vehicle Network Security Market",
+                    "meta_description": "Explore automotive network cybersecurity, CAN and Ethernet security, technologies, suppliers, and forecasts."
+                },
+                {
+                    "title": "Automotive Endpoint Security",
+                    "slug": "automotive-endpoint-security",
+                    "description": "Market intelligence covering protection of electronic control units, gateways, telematics modules, and connected vehicle endpoints.",
+                    "meta_title": "Automotive Endpoint Security Market",
+                    "meta_description": "Explore automotive endpoint security technologies, ECU protection, vendors, connected vehicle applications, and forecasts."
+                },
+                {
+                    "title": "Automotive Intrusion Detection",
+                    "slug": "automotive-intrusion-detection",
+                    "description": "Research covering systems designed to detect malicious activity and abnormal behavior across vehicle networks.",
+                    "meta_title": "Automotive Intrusion Detection Market",
+                    "meta_description": "Explore automotive IDS technologies, cybersecurity vendors, connected vehicle applications, and market forecasts."
+                },
+                {
+                    "title": "Secure OTA Updates",
+                    "slug": "secure-ota-updates",
+                    "description": "Research covering cybersecurity technologies protecting wireless software and firmware updates delivered to vehicles.",
+                    "meta_title": "Secure Automotive OTA Market Research",
+                    "meta_description": "Explore secure automotive OTA technologies, cybersecurity, software updates, vendors, and market trends."
+                },
+                {
+                    "title": "EV Cybersecurity",
+                    "slug": "ev-cybersecurity",
+                    "description": "Market intelligence covering cybersecurity solutions for electric vehicles, batteries, chargers, and charging networks.",
+                    "meta_title": "Electric Vehicle Cybersecurity Market",
+                    "meta_description": "Explore EV cybersecurity, charger security, vehicle protection, vendors, technologies, and growth forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Lighting",
+            "slug": "automotive-lighting",
+            "icon": "Lightbulb",
+            "description": "Market research covering exterior, interior, adaptive, intelligent, LED, laser, and digital lighting technologies for vehicles.",
+            "meta_title": "Automotive Lighting Market Research & Trends",
+            "meta_description": "Explore automotive LED, adaptive, digital, interior, exterior, and intelligent lighting technologies and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive LED Lighting",
+                    "slug": "automotive-led-lighting",
+                    "description": "Research covering LED technologies used across vehicle headlamps, tail lamps, interiors, and signaling systems.",
+                    "meta_title": "Automotive LED Lighting Market",
+                    "meta_description": "Explore automotive LED lighting market trends, applications, technologies, suppliers, and forecasts."
+                },
+                {
+                    "title": "Adaptive Headlights",
+                    "slug": "adaptive-headlights",
+                    "description": "Market intelligence covering lighting systems that automatically adjust beam patterns based on driving conditions.",
+                    "meta_title": "Adaptive Headlight Market Research",
+                    "meta_description": "Explore adaptive automotive lighting technologies, suppliers, safety applications, and market forecasts."
+                },
+                {
+                    "title": "Digital Automotive Lighting",
+                    "slug": "digital-automotive-lighting",
+                    "description": "Research covering high-resolution digital lighting capable of intelligent beam shaping, projection, and communication.",
+                    "meta_title": "Digital Automotive Lighting Market",
+                    "meta_description": "Explore digital automotive lighting technologies, intelligent headlamps, suppliers, trends, and forecasts."
+                },
+                {
+                    "title": "Automotive Interior Lighting",
+                    "slug": "automotive-interior-lighting",
+                    "description": "Research covering ambient, functional, smart, and decorative lighting systems used inside vehicles.",
+                    "meta_title": "Automotive Interior Lighting Market",
+                    "meta_description": "Explore automotive ambient and interior lighting technologies, suppliers, vehicle trends, and forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Tires & Wheels",
+            "slug": "tires-wheels",
+            "icon": "CircleDot",
+            "description": "Research covering vehicle tires, smart tires, specialty tires, wheels, rims, tire technologies, and related aftermarket ecosystems.",
+            "meta_title": "Automotive Tire & Wheel Market Research",
+            "meta_description": "Explore automotive tire, smart tire, wheel, rim, EV tire, technology, supplier, and aftermarket market trends.",
+            "sub_verticals": [
+                {
+                    "title": "Passenger Vehicle Tires",
+                    "slug": "passenger-vehicle-tires",
+                    "description": "Market intelligence covering replacement and original-equipment tires for passenger cars and utility vehicles.",
+                    "meta_title": "Passenger Vehicle Tire Market Research",
+                    "meta_description": "Explore passenger car tire trends, manufacturers, technologies, replacement demand, and market forecasts."
+                },
+                {
+                    "title": "Commercial Vehicle Tires",
+                    "slug": "commercial-vehicle-tires",
+                    "description": "Research covering tires designed for trucks, buses, vans, and other commercial vehicle applications.",
+                    "meta_title": "Commercial Vehicle Tire Market",
+                    "meta_description": "Explore commercial vehicle tire trends, manufacturers, fleet demand, technologies, and forecasts."
+                },
+                {
+                    "title": "EV Tires",
+                    "slug": "ev-tires",
+                    "description": "Market analysis of tires engineered for electric vehicle weight, torque, noise, efficiency, and range requirements.",
+                    "meta_title": "Electric Vehicle Tire Market Research",
+                    "meta_description": "Explore EV tire technologies, manufacturers, demand trends, rolling resistance, and market forecasts."
+                },
+                {
+                    "title": "Smart Tires",
+                    "slug": "smart-tires",
+                    "description": "Research covering sensor-enabled and connected tires capable of monitoring pressure, temperature, wear, and road conditions.",
+                    "meta_title": "Smart Tire Market Research & Trends",
+                    "meta_description": "Explore connected tire technologies, sensors, manufacturers, applications, and smart tire market forecasts."
+                },
+                {
+                    "title": "Automotive Wheels",
+                    "slug": "automotive-wheels",
+                    "description": "Market intelligence covering steel, alloy, forged, carbon-fiber, and lightweight wheel technologies.",
+                    "meta_title": "Automotive Wheel Market Research",
+                    "meta_description": "Explore automotive wheel materials, technologies, manufacturers, OEM demand, aftermarket trends, and forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Thermal Management",
+            "slug": "automotive-thermal-management",
+            "icon": "Thermometer",
+            "description": "Research covering thermal systems for engines, cabins, batteries, motors, electronics, and electric vehicle energy efficiency.",
+            "meta_title": "Automotive Thermal Management Market Research",
+            "meta_description": "Explore automotive thermal management, EV cooling, HVAC, battery cooling, heat pumps, technologies, and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive HVAC",
+                    "slug": "automotive-hvac",
+                    "description": "Market intelligence covering vehicle heating, ventilation, air-conditioning, climate control, and cabin thermal comfort systems.",
+                    "meta_title": "Automotive HVAC Market Research",
+                    "meta_description": "Explore automotive HVAC technologies, suppliers, EV applications, climate systems, and market forecasts."
+                },
+                {
+                    "title": "EV Thermal Management",
+                    "slug": "ev-thermal-management",
+                    "description": "Research covering integrated thermal systems managing batteries, motors, electronics, and cabins in electric vehicles.",
+                    "meta_title": "EV Thermal Management Market Research",
+                    "meta_description": "Explore EV thermal management systems, battery cooling, heat pumps, suppliers, and growth forecasts."
+                },
+                {
+                    "title": "Automotive Heat Pumps",
+                    "slug": "automotive-heat-pumps",
+                    "description": "Market intelligence covering energy-efficient heat pump systems increasingly deployed in electric vehicles.",
+                    "meta_title": "Automotive Heat Pump Market Research",
+                    "meta_description": "Explore automotive heat pump market trends, EV applications, technologies, suppliers, and forecasts."
+                },
+                {
+                    "title": "Automotive Radiators",
+                    "slug": "automotive-radiators",
+                    "description": "Research covering radiators and heat exchangers used for vehicle engine and powertrain cooling.",
+                    "meta_title": "Automotive Radiator Market Research",
+                    "meta_description": "Explore automotive radiator technologies, suppliers, vehicle applications, market trends, and forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Materials",
+            "slug": "automotive-materials",
+            "icon": "Layers3",
+            "description": "Market research covering metals, plastics, composites, lightweight materials, glass, rubber, coatings, and sustainable materials used in vehicle production.",
+            "meta_title": "Automotive Materials Market Research & Trends",
+            "meta_description": "Explore automotive steel, aluminum, composites, plastics, glass, coatings, lightweight materials, and market forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Steel",
+                    "slug": "automotive-steel",
+                    "description": "Research covering conventional and advanced high-strength steel used in vehicle bodies, chassis, and structural systems.",
+                    "meta_title": "Automotive Steel Market Research",
+                    "meta_description": "Explore automotive steel market trends, AHSS technologies, suppliers, lightweighting, and forecasts."
+                },
+                {
+                    "title": "Automotive Aluminum",
+                    "slug": "automotive-aluminum",
+                    "description": "Market intelligence covering lightweight aluminum alloys used across vehicle structures, bodies, wheels, and powertrain systems.",
+                    "meta_title": "Automotive Aluminum Market Research",
+                    "meta_description": "Explore automotive aluminum demand, lightweighting trends, applications, suppliers, and market forecasts."
+                },
+                {
+                    "title": "Automotive Plastics",
+                    "slug": "automotive-plastics",
+                    "description": "Research covering polymers used across vehicle interiors, exteriors, electronics, under-the-hood systems, and lightweight structures.",
+                    "meta_title": "Automotive Plastics Market Research",
+                    "meta_description": "Explore automotive plastic materials, applications, lightweighting, suppliers, sustainability trends, and forecasts."
+                },
+                {
+                    "title": "Automotive Composites",
+                    "slug": "automotive-composites",
+                    "description": "Market research covering carbon fiber, glass fiber, and advanced composite materials for lightweight vehicle applications.",
+                    "meta_title": "Automotive Composites Market Research",
+                    "meta_description": "Explore automotive composite technologies, lightweighting, manufacturers, applications, and market forecasts."
+                },
+                {
+                    "title": "Automotive Glass",
+                    "slug": "automotive-glass",
+                    "description": "Research covering windshields, side glass, panoramic roofs, smart glazing, and advanced vehicle glass technologies.",
+                    "meta_title": "Automotive Glass Market Research & Trends",
+                    "meta_description": "Explore automotive glass, smart glazing, manufacturers, technologies, vehicle applications, and forecasts."
+                },
+                {
+                    "title": "Automotive Coatings",
+                    "slug": "automotive-coatings",
+                    "description": "Market intelligence covering protective, decorative, functional, and advanced coatings used in vehicle manufacturing and refinishing.",
+                    "meta_title": "Automotive Coatings Market Research",
+                    "meta_description": "Explore automotive coating technologies, OEM and refinish demand, suppliers, trends, and market forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Manufacturing Technologies",
+            "slug": "automotive-manufacturing-technologies",
+            "icon": "Factory",
+            "description": "Research covering robotics, automation, additive manufacturing, digital factories, quality systems, and advanced technologies transforming automotive production.",
+            "meta_title": "Automotive Manufacturing Technology Market Research",
+            "meta_description": "Explore automotive factory automation, robotics, 3D printing, smart manufacturing, digital factories, and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Robotics",
+                    "slug": "automotive-robotics",
+                    "description": "Market intelligence covering industrial robots used for welding, painting, assembly, material handling, and vehicle manufacturing.",
+                    "meta_title": "Automotive Robotics Market Research",
+                    "meta_description": "Explore automotive robotics technologies, manufacturers, factory automation, applications, and market forecasts."
+                },
+                {
+                    "title": "Automotive Factory Automation",
+                    "slug": "automotive-factory-automation",
+                    "description": "Research covering automated production lines, control systems, machinery, and manufacturing software used by automotive producers.",
+                    "meta_title": "Automotive Factory Automation Market",
+                    "meta_description": "Explore automotive factory automation, smart manufacturing technologies, suppliers, and market forecasts."
+                },
+                {
+                    "title": "Automotive 3D Printing",
+                    "slug": "automotive-3d-printing",
+                    "description": "Research covering additive manufacturing for automotive prototyping, tooling, components, customization, and production.",
+                    "meta_title": "Automotive 3D Printing Market Research",
+                    "meta_description": "Explore automotive additive manufacturing technologies, materials, applications, companies, and market forecasts."
+                },
+                {
+                    "title": "Automotive Smart Factories",
+                    "slug": "automotive-smart-factories",
+                    "description": "Market intelligence covering connected, data-driven, automated, and digitally integrated automotive manufacturing facilities.",
+                    "meta_title": "Automotive Smart Factory Market Research",
+                    "meta_description": "Explore automotive smart factory technologies, Industry 4.0, automation, digital twins, and forecasts."
+                },
+                {
+                    "title": "Automotive Machine Vision",
+                    "slug": "automotive-machine-vision",
+                    "description": "Research covering machine vision technologies used for inspection, quality control, assembly guidance, and manufacturing automation.",
+                    "meta_title": "Automotive Machine Vision Market",
+                    "meta_description": "Explore automotive machine vision technologies, quality inspection, automation, suppliers, and market forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Testing & Validation",
+            "slug": "automotive-testing-validation",
+            "icon": "ClipboardCheck",
+            "description": "Research covering vehicle testing, simulation, validation, crash testing, emissions testing, electronics testing, and certification technologies.",
+            "meta_title": "Automotive Testing & Validation Market Research",
+            "meta_description": "Explore vehicle testing, simulation, validation, crash testing, emissions testing, equipment, and market trends.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Testing Equipment",
+                    "slug": "automotive-testing-equipment",
+                    "description": "Market intelligence covering equipment used to evaluate vehicle components, electronics, powertrains, safety, and performance.",
+                    "meta_title": "Automotive Testing Equipment Market",
+                    "meta_description": "Explore automotive testing equipment, technologies, suppliers, applications, and market forecasts."
+                },
+                {
+                    "title": "Automotive Simulation",
+                    "slug": "automotive-simulation",
+                    "description": "Research covering software and virtual environments used to develop, validate, and optimize automotive systems.",
+                    "meta_title": "Automotive Simulation Market Research",
+                    "meta_description": "Explore automotive simulation software, digital validation, autonomous driving applications, and market forecasts."
+                },
+                {
+                    "title": "Automotive Crash Testing",
+                    "slug": "automotive-crash-testing",
+                    "description": "Research covering physical and virtual vehicle crash testing for occupant protection and regulatory compliance.",
+                    "meta_title": "Automotive Crash Testing Market",
+                    "meta_description": "Explore automotive crash testing technologies, safety regulations, laboratories, equipment, and market trends."
+                },
+                {
+                    "title": "Automotive Emissions Testing",
+                    "slug": "automotive-emissions-testing",
+                    "description": "Market intelligence covering technologies and services used to measure and certify vehicle exhaust emissions.",
+                    "meta_title": "Automotive Emissions Testing Market",
+                    "meta_description": "Explore vehicle emissions testing technologies, regulations, equipment, laboratories, and market forecasts."
+                },
+                {
+                    "title": "EV Testing",
+                    "slug": "ev-testing",
+                    "description": "Research covering testing and validation of batteries, electric powertrains, charging systems, electronics, and complete electric vehicles.",
+                    "meta_title": "Electric Vehicle Testing Market Research",
+                    "meta_description": "Explore EV testing technologies, battery validation, charging tests, equipment, services, and market forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Aftermarket",
+            "slug": "automotive-aftermarket",
+            "icon": "Wrench",
+            "description": "Market intelligence covering replacement parts, maintenance, repair, accessories, customization, diagnostics, and aftermarket distribution.",
+            "meta_title": "Automotive Aftermarket Market Research & Trends",
+            "meta_description": "Explore automotive aftermarket parts, repair, maintenance, accessories, distribution, e-commerce, and global forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Replacement Parts",
+                    "slug": "automotive-replacement-parts",
+                    "description": "Research covering replacement components sold for vehicle maintenance, repair, and lifecycle extension.",
+                    "meta_title": "Automotive Replacement Parts Market",
+                    "meta_description": "Explore automotive replacement part demand, suppliers, distribution, e-commerce, and market forecasts."
+                },
+                {
+                    "title": "Automotive Repair & Maintenance",
+                    "slug": "automotive-repair-maintenance",
+                    "description": "Market intelligence covering vehicle maintenance, mechanical repair, diagnostics, servicing, and workshop operations.",
+                    "meta_title": "Automotive Repair & Maintenance Market",
+                    "meta_description": "Explore vehicle repair and maintenance trends, service networks, diagnostics, technology, and forecasts."
+                },
+                {
+                    "title": "Automotive Accessories",
+                    "slug": "automotive-accessories",
+                    "description": "Research covering interior, exterior, electronic, safety, comfort, and performance accessories for vehicles.",
+                    "meta_title": "Automotive Accessories Market Research",
+                    "meta_description": "Explore automotive accessory trends, products, distribution, customization, e-commerce, and forecasts."
+                },
+                {
+                    "title": "Automotive Diagnostics",
+                    "slug": "automotive-diagnostics",
+                    "description": "Market intelligence covering diagnostic tools, scanners, software, remote diagnostics, and vehicle health monitoring.",
+                    "meta_title": "Automotive Diagnostics Market Research",
+                    "meta_description": "Explore automotive diagnostic tools, software, connected diagnostics, suppliers, and market forecasts."
+                },
+                {
+                    "title": "Automotive Aftermarket E-Commerce",
+                    "slug": "automotive-aftermarket-ecommerce",
+                    "description": "Research covering digital marketplaces and online distribution of automotive replacement parts and accessories.",
+                    "meta_title": "Automotive Aftermarket E-Commerce Market",
+                    "meta_description": "Explore online automotive parts sales, digital marketplaces, distributors, consumer trends, and forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Mobility Services",
+            "slug": "mobility-services",
+            "icon": "Route",
+            "description": "Research covering ride-hailing, car sharing, subscription models, micro-mobility, mobility-as-a-service, and evolving transportation platforms.",
+            "meta_title": "Mobility Services Market Research & Trends",
+            "meta_description": "Explore ride-hailing, car sharing, vehicle subscriptions, MaaS, micromobility, platforms, and global market forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Ride-Hailing",
+                    "slug": "ride-hailing",
+                    "description": "Market intelligence covering app-based passenger transportation platforms connecting users with drivers or autonomous vehicles.",
+                    "meta_title": "Ride-Hailing Market Research & Trends",
+                    "meta_description": "Explore ride-hailing market size, platforms, mobility trends, technologies, competition, and forecasts."
+                },
+                {
+                    "title": "Car Sharing",
+                    "slug": "car-sharing",
+                    "description": "Research covering station-based, free-floating, peer-to-peer, and corporate vehicle-sharing services.",
+                    "meta_title": "Car Sharing Market Research & Trends",
+                    "meta_description": "Explore car sharing business models, platforms, technology, consumer adoption, and market forecasts."
+                },
+                {
+                    "title": "Vehicle Subscription Services",
+                    "slug": "vehicle-subscription-services",
+                    "description": "Market intelligence covering flexible vehicle-access models combining vehicle usage, insurance, maintenance, and other services.",
+                    "meta_title": "Vehicle Subscription Market Research",
+                    "meta_description": "Explore vehicle subscription trends, business models, automakers, platforms, adoption, and market forecasts."
+                },
+                {
+                    "title": "Mobility-as-a-Service",
+                    "slug": "mobility-as-a-service",
+                    "description": "Research covering integrated digital platforms combining multiple public and private transportation modes.",
+                    "meta_title": "Mobility-as-a-Service Market Research",
+                    "meta_description": "Explore MaaS platforms, mobility integration, technologies, operators, market trends, and forecasts."
+                },
+                {
+                    "title": "Micromobility",
+                    "slug": "micromobility",
+                    "description": "Research covering shared and privately owned e-scooters, bicycles, e-bikes, and lightweight urban mobility solutions.",
+                    "meta_title": "Micromobility Market Research & Trends",
+                    "meta_description": "Explore e-scooter, e-bike, shared mobility platforms, urban transportation trends, and market forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Fleet & Commercial Mobility",
+            "slug": "fleet-commercial-mobility",
+            "icon": "Truck",
+            "description": "Research covering fleet management, connected fleets, commercial transportation, logistics vehicles, leasing, and intelligent fleet technologies.",
+            "meta_title": "Fleet & Commercial Mobility Market Research",
+            "meta_description": "Explore fleet management, telematics, commercial mobility, leasing, logistics technologies, and market forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Fleet Management Systems",
+                    "slug": "fleet-management-systems",
+                    "description": "Market intelligence covering platforms used to monitor, optimize, maintain, and manage commercial vehicle fleets.",
+                    "meta_title": "Fleet Management System Market Research",
+                    "meta_description": "Explore fleet management software, telematics, tracking, operators, technologies, and market forecasts."
+                },
+                {
+                    "title": "Commercial Vehicle Telematics",
+                    "slug": "commercial-vehicle-telematics",
+                    "description": "Research covering telematics systems designed for fleet tracking, driver management, diagnostics, compliance, and efficiency.",
+                    "meta_title": "Commercial Vehicle Telematics Market",
+                    "meta_description": "Explore fleet telematics technologies, tracking, suppliers, commercial applications, and market forecasts."
+                },
+                {
+                    "title": "Fleet Leasing",
+                    "slug": "fleet-leasing",
+                    "description": "Market analysis covering vehicle leasing and lifecycle management services for corporate and commercial fleets.",
+                    "meta_title": "Fleet Leasing Market Research & Trends",
+                    "meta_description": "Explore fleet leasing trends, commercial vehicle demand, service providers, electrification, and forecasts."
+                },
+                {
+                    "title": "Last-Mile Delivery Vehicles",
+                    "slug": "last-mile-delivery-vehicles",
+                    "description": "Research covering vans, electric vehicles, autonomous platforms, and specialized vehicles used for final-stage deliveries.",
+                    "meta_title": "Last-Mile Delivery Vehicle Market",
+                    "meta_description": "Explore last-mile delivery vehicle trends, electrification, fleets, technologies, and market forecasts."
+                },
+                {
+                    "title": "Autonomous Trucks",
+                    "slug": "autonomous-trucks",
+                    "description": "Market intelligence covering automated and driverless trucking technologies for freight and logistics applications.",
+                    "meta_title": "Autonomous Truck Market Research",
+                    "meta_description": "Explore autonomous trucking technologies, companies, regulations, deployment models, and market forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Retail & Digital Commerce",
+            "slug": "automotive-retail-digital-commerce",
+            "icon": "ShoppingCart",
+            "description": "Research covering dealerships, online vehicle marketplaces, digital retail, used vehicles, automotive finance platforms, and evolving vehicle purchasing experiences.",
+            "meta_title": "Automotive Retail & Digital Commerce Market Research",
+            "meta_description": "Explore digital automotive retail, dealerships, online car sales, used vehicles, marketplaces, and market forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Dealerships",
+                    "slug": "automotive-dealerships",
+                    "description": "Market intelligence covering franchised and independent vehicle dealers, sales operations, service revenue, and digital transformation.",
+                    "meta_title": "Automotive Dealership Market Research",
+                    "meta_description": "Explore automotive dealership trends, digital retail, vehicle sales, service models, and market forecasts."
+                },
+                {
+                    "title": "Online Vehicle Retail",
+                    "slug": "online-vehicle-retail",
+                    "description": "Research covering digital platforms enabling consumers to discover, configure, finance, purchase, and arrange delivery of vehicles.",
+                    "meta_title": "Online Vehicle Retail Market Research",
+                    "meta_description": "Explore online car sales, digital dealerships, platforms, consumer behavior, and market forecasts."
+                },
+                {
+                    "title": "Used Vehicle Marketplaces",
+                    "slug": "used-vehicle-marketplaces",
+                    "description": "Research covering online and offline marketplaces facilitating the sale and purchase of pre-owned vehicles.",
+                    "meta_title": "Used Vehicle Marketplace Market",
+                    "meta_description": "Explore used car marketplace trends, digital platforms, pricing, consumer demand, and market forecasts."
+                },
+                {
+                    "title": "Automotive Digital Retail Platforms",
+                    "slug": "automotive-digital-retail-platforms",
+                    "description": "Market intelligence covering software supporting vehicle merchandising, configuration, financing, trade-ins, and digital transactions.",
+                    "meta_title": "Automotive Digital Retail Platform Market",
+                    "meta_description": "Explore automotive retail software, dealership platforms, digital commerce, vendors, and market forecasts."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Finance & Insurance",
+            "slug": "automotive-finance-insurance",
+            "icon": "Landmark",
+            "description": "Research covering vehicle loans, leasing, insurance, embedded finance, usage-based insurance, and digital financial services supporting vehicle ownership.",
+            "meta_title": "Automotive Finance & Insurance Market Research",
+            "meta_description": "Explore automotive lending, leasing, insurance, embedded finance, UBI, digital platforms, and market forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Finance",
+                    "slug": "automotive-finance",
+                    "description": "Market intelligence covering vehicle loans, dealership financing, captive finance, and digital automotive lending.",
+                    "meta_title": "Automotive Finance Market Research",
+                    "meta_description": "Explore vehicle financing trends, lenders, digital platforms, consumer lending, and market forecasts."
+                },
+                {
+                    "title": "Vehicle Leasing",
+                    "slug": "vehicle-leasing",
+                    "description": "Research covering consumer and commercial vehicle leasing models, providers, residual values, and mobility trends.",
+                    "meta_title": "Vehicle Leasing Market Research & Trends",
+                    "meta_description": "Explore vehicle leasing demand, providers, EV leasing, consumer trends, and global market forecasts."
+                },
+                {
+                    "title": "Automotive Insurance",
+                    "slug": "automotive-insurance",
+                    "description": "Market intelligence covering traditional, digital, connected, and technology-enabled motor insurance products.",
+                    "meta_title": "Automotive Insurance Market Research",
+                    "meta_description": "Explore motor insurance trends, digital insurers, telematics, regulations, technology, and market forecasts."
+                },
+                {
+                    "title": "Usage-Based Insurance",
+                    "slug": "usage-based-insurance",
+                    "description": "Research covering telematics-enabled insurance models that price policies based on driving behavior or vehicle usage.",
+                    "meta_title": "Usage-Based Auto Insurance Market",
+                    "meta_description": "Explore usage-based insurance, telematics, connected car data, insurers, adoption trends, and forecasts."
+                },
+                {
+                    "title": "Embedded Automotive Finance",
+                    "slug": "embedded-automotive-finance",
+                    "description": "Research covering financial products integrated directly into digital vehicle purchase and ownership experiences.",
+                    "meta_title": "Embedded Automotive Finance Market",
+                    "meta_description": "Explore embedded vehicle finance, digital lending, automotive commerce, platforms, and market trends."
+                }
+            ]
+        },
+        {
+            "title": "Sustainable & Circular Automotive",
+            "slug": "sustainable-circular-automotive",
+            "icon": "Recycle",
+            "description": "Research covering vehicle recycling, remanufacturing, sustainable materials, lifecycle emissions, circular manufacturing, and automotive decarbonization.",
+            "meta_title": "Sustainable & Circular Automotive Market Research",
+            "meta_description": "Explore automotive recycling, remanufacturing, sustainable materials, decarbonization, circular economy, and forecasts.",
+            "sub_verticals": [
+                {
+                    "title": "Vehicle Recycling",
+                    "slug": "vehicle-recycling",
+                    "description": "Market intelligence covering end-of-life vehicle dismantling, material recovery, reuse, and recycling processes.",
+                    "meta_title": "Vehicle Recycling Market Research",
+                    "meta_description": "Explore vehicle recycling technologies, regulations, material recovery, companies, and market forecasts."
+                },
+                {
+                    "title": "Automotive Remanufacturing",
+                    "slug": "automotive-remanufacturing",
+                    "description": "Research covering restoration of engines, transmissions, electronics, and other components for reuse.",
+                    "meta_title": "Automotive Remanufacturing Market",
+                    "meta_description": "Explore automotive remanufacturing trends, components, companies, circular economy, and market forecasts."
+                },
+                {
+                    "title": "Sustainable Automotive Materials",
+                    "slug": "sustainable-automotive-materials",
+                    "description": "Research covering recycled, renewable, bio-based, and low-carbon materials used in vehicle production.",
+                    "meta_title": "Sustainable Automotive Materials Market",
+                    "meta_description": "Explore recycled and bio-based automotive materials, suppliers, sustainability trends, and forecasts."
+                },
+                {
+                    "title": "Automotive Decarbonization",
+                    "slug": "automotive-decarbonization",
+                    "description": "Market intelligence covering technologies and strategies reducing emissions across vehicle production, operation, and supply chains.",
+                    "meta_title": "Automotive Decarbonization Market Research",
+                    "meta_description": "Explore automotive decarbonization technologies, net-zero strategies, supply chains, companies, and market trends."
+                }
+            ]
+        },
+        {
+            "title": "Automotive Supply Chain & Logistics",
+            "slug": "automotive-supply-chain-logistics",
+            "icon": "Boxes",
+            "description": "Market research covering automotive procurement, component logistics, inbound and outbound transportation, inventory, supply chain software, and resilience.",
+            "meta_title": "Automotive Supply Chain & Logistics Market Research",
+            "meta_description": "Explore automotive logistics, procurement, supply chain technology, inventory, resilience, and market trends.",
+            "sub_verticals": [
+                {
+                    "title": "Automotive Logistics",
+                    "slug": "automotive-logistics",
+                    "description": "Market intelligence covering movement of components, assemblies, finished vehicles, and aftermarket products.",
+                    "meta_title": "Automotive Logistics Market Research",
+                    "meta_description": "Explore automotive logistics trends, providers, finished vehicle logistics, supply chains, and forecasts."
+                },
+                {
+                    "title": "Finished Vehicle Logistics",
+                    "slug": "finished-vehicle-logistics",
+                    "description": "Research covering transportation, storage, yard management, and delivery of completed vehicles.",
+                    "meta_title": "Finished Vehicle Logistics Market",
+                    "meta_description": "Explore vehicle logistics, transportation, warehousing, providers, technologies, and market forecasts."
+                },
+                {
+                    "title": "Automotive Supply Chain Software",
+                    "slug": "automotive-supply-chain-software",
+                    "description": "Research covering digital platforms used for procurement, planning, supplier management, logistics, and inventory optimization.",
+                    "meta_title": "Automotive Supply Chain Software Market",
+                    "meta_description": "Explore automotive supply chain platforms, planning software, vendors, digitalization, and market forecasts."
+                },
+                {
+                    "title": "Automotive Parts Logistics",
+                    "slug": "automotive-parts-logistics",
+                    "description": "Market intelligence covering transport, storage, fulfillment, and distribution of OEM and aftermarket vehicle components.",
+                    "meta_title": "Automotive Parts Logistics Market",
+                    "meta_description": "Explore automotive parts logistics, distribution, warehousing, service providers, and market forecasts."
+                }
+            ]
+        }
+    ]
+}

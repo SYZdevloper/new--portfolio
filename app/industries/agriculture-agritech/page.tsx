@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import AgricultureAgritechClientScripts from "./AgricultureAgritechClientScripts";
 
 export const metadata: Metadata = {
-  title: "AgricultureAgritech Services | Hyperlink Tech Solutions",
-  description: "AgricultureAgritech services built around your operations.",
+  alternates: { canonical: "/industries/agriculture-agritech/" },
+  title: "Agriculture Agritech Website Design & Development | Hyperlink",
+  description: "Lead-generation websites, digital farming dashboards, and custom software platforms for agriculture and agritech innovators. Request a technical review.",
 };
 
 export default function AgricultureAgritechPage() {

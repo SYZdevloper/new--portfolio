@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import CollegesUniversitiesClientScripts from "./CollegesUniversitiesClientScripts";
 
 export const metadata: Metadata = {
-  title: "CollegesUniversities Services | Hyperlink Tech Solutions",
-  description: "CollegesUniversities services built around your operations.",
+  alternates: { canonical: "/industries/colleges-universities/" },
+  title: "Colleges Universities Website Design & Development | Hyperlink",
+  description: "Accessible, high-traffic websites and student portals for colleges and universities. Improve enrollment journeys and campus digital experiences.",
 };
 
 export default function CollegesUniversitiesPage() {

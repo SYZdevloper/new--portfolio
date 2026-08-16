@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import EventsVenuesBookingPlatformsClientScripts from "./EventsVenuesBookingPlatformsClientScripts";
 
 export const metadata: Metadata = {
-  title: "EventsVenuesBookingPlatforms Services | Hyperlink Tech Solutions",
-  description: "EventsVenuesBookingPlatforms services built around your operations.",
+  alternates: { canonical: "/industries/events-venues-booking-platforms/" },
+  title: "Events Venues Booking Platforms Website Design & Development | Hyperlink",
+  description: "High-traffic ticketing systems, venue websites, and event booking platforms. Handle sudden traffic spikes and deliver flawless checkout experiences.",
 };
 
 export default function EventsVenuesBookingPlatformsPage() {

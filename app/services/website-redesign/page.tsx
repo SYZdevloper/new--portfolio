@@ -203,35 +203,33 @@ export default function WebsiteRedesign() {
                     <div className="section-heading">
                         <div>
                             <p className="eyebrow">Featured redesign example</p>
-                            <h2>Show the difference between a cosmetic refresh and a strategic redesign.</h2>
+                            <h2>From a slow WordPress website to a modern Next.js experience.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine website-redesign project. Explain what was not working, what was retained, what changed and what improved after relaunch.</p>
+                        <p>See how our website redesign services helped ZAAB improve performance, modernize its digital presence, and create a clearer enquiry journey for fashion brands seeking bulk apparel manufacturing.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Website Redesign visual">
                             <div className="case-visual-top">
-                                <span>Website Redesign</span>
-                                <span>UX Design</span>
+                                <span>B2B Manufacturing Website Redesign</span>
+                                <span>WordPress to Next.js + Performance + Lead Generation</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/783140f6-e050-4228-b409-1e3571188702.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/zaab-responsive-mockup.webp" alt="ZAAB Fashion Redesign" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A clearer service journey built on the strongest parts of the existing website.</h2>
-                                <p>Use this area to explain how the previous website had evolved, which content remained valuable and how the new structure improved the experience.</p>
+                                <p className="eyebrow">ZAAB Fashion</p>
+                                <h2>A faster digital platform built to attract fashion brands.</h2>
+                                <p>ZAAB’s previous WordPress website faced performance limitations and no longer represented the quality or scale of its apparel-manufacturing capabilities. We redesigned and rebuilt the website in Next.js, creating a faster, more modern experience for fashion brands, retailers and bulk buyers.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>The website contained useful content but had inconsistent page layouts, unclear service navigation and weak mobile usability.</strong></div>
-                                <div className="case-fact"><small>Retained</small><strong>Important service information, established URLs, brand assets and high-performing content were preserved where appropriate.</strong></div>
-                                <div className="case-fact"><small>Redesign</small><strong>The sitemap, navigation, service templates, typography, spacing, forms and responsive behaviour were redesigned as one connected system.</strong></div>
-                                <div className="case-fact"><small>Migration</small><strong>Redirects, metadata, internal links and content transfer were planned before launch.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified improvement such as clearer service discovery, better mobile engagement, stronger enquiry quality or reduced bounce on important pages.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>Slow page performance, an outdated presentation and an unclear enquiry journey made it difficult for potential buyers to explore ZAAB’s manufacturing capabilities and request samples.</strong></div>
+                                <div className="case-fact"><small>Build</small><strong>A high-performance Next.js website featuring modern fashion-led visuals, responsive navigation, manufacturing capabilities, product showcases, quality-control information and strategically placed “Get Sample” and “Get in Touch” calls to action.</strong></div>
+                                <div className="case-fact"><small>Impact</small><strong>Improved website speed and mobile usability, strengthened ZAAB’s professional positioning, and created a clearer conversion journey for sample requests, bulk-order enquiries, white-label projects and custom apparel manufacturing leads.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Website Redesign Projects <span className="arrow">↗</span></a>
                         </article>

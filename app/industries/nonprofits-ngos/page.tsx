@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import NonprofitsNgosClientScripts from "./NonprofitsNgosClientScripts";
 
 export const metadata: Metadata = {
-  title: "NonprofitsNgos Services | Hyperlink Tech Solutions",
-  description: "NonprofitsNgos services built around your operations.",
+  alternates: { canonical: "/industries/nonprofits-ngos/" },
+  title: "Nonprofits NGOs Website Design & Development | Hyperlink",
+  description: "Donation platforms, volunteer portals, and impactful websites for nonprofits and global NGOs. Drive digital fundraising and amplify your mission.",
 };
 
 export default function NonprofitsNgosPage() {

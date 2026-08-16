@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import TelecommunicationsConnectivityClientScripts from "./TelecommunicationsConnectivityClientScripts";
 
 export const metadata: Metadata = {
-  title: "TelecommunicationsConnectivity Services | Hyperlink Tech Solutions",
-  description: "TelecommunicationsConnectivity services built around your operations.",
+  alternates: { canonical: "/industries/telecommunications-connectivity/" },
+  title: "Telecommunications Connectivity Website Design & Development | Hyperlink",
+  description: "Customer portals, coverage maps, and corporate websites for telecommunications and connectivity providers. Streamline subscriber management.",
 };
 
 export default function TelecommunicationsConnectivityPage() {

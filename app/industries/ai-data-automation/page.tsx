@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import AiDataAutomationClientScripts from "./AiDataAutomationClientScripts";
 
 export const metadata: Metadata = {
-  title: "AiDataAutomation Services | Hyperlink Tech Solutions",
-  description: "AiDataAutomation services built around your operations.",
+  alternates: { canonical: "/industries/ai-data-automation/" },
+  title: "Ai Data Automation Website Design & Development | Hyperlink",
+  description: "High-converting marketing websites and complex UI/UX design for AI, data, and automation platforms. Turn technical capabilities into clear user value.",
 };
 
 export default function AiDataAutomationPage() {

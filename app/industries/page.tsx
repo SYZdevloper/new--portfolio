@@ -8,6 +8,7 @@ import IndustryInteractions from "@/components/industries/IndustryInteractions";
 import ProposalModal from "@/components/industries/ProposalModal";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industries/" },
   title: "Industries We Serve | Website & Software Development",
   description: "Explore industry-focused website design, ecommerce, portal and custom software solutions for technology, manufacturing, healthcare, finance, retail, real estate and more.",
 };

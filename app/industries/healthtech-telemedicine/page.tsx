@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import HealthtechTelemedicineClientScripts from "./HealthtechTelemedicineClientScripts";
 
 export const metadata: Metadata = {
-  title: "HealthtechTelemedicine Services | Hyperlink Tech Solutions",
-  description: "HealthtechTelemedicine services built around your operations.",
+  alternates: { canonical: "/industries/healthtech-telemedicine/" },
+  title: "Healthtech Telemedicine Website Design & Development | Hyperlink",
+  description: "HIPAA-compliant web applications, patient portals, and marketing websites for HealthTech and telemedicine platforms. Digitize healthcare delivery.",
 };
 
 export default function HealthtechTelemedicinePage() {

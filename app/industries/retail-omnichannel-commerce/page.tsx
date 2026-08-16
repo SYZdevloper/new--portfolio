@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import RetailOmnichannelCommerceClientScripts from "./RetailOmnichannelCommerceClientScripts";
 
 export const metadata: Metadata = {
-  title: "RetailOmnichannelCommerce Services | Hyperlink Tech Solutions",
-  description: "RetailOmnichannelCommerce services built around your operations.",
+  alternates: { canonical: "/industries/retail-omnichannel-commerce/" },
+  title: "Retail Omnichannel Commerce Website Design & Development | Hyperlink",
+  description: "Headless eCommerce platforms and unified shopping experiences for omnichannel retail brands. Connect in-store and online customer journeys.",
 };
 
 export default function RetailOmnichannelCommercePage() {

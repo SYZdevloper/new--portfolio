@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import BankingLendingClientScripts from "./BankingLendingClientScripts";
 
 export const metadata: Metadata = {
-  title: "BankingLending Services | Hyperlink Tech Solutions",
-  description: "BankingLending services built around your operations.",
+  alternates: { canonical: "/industries/banking-lending/" },
+  title: "Banking Lending Website Design & Development | Hyperlink",
+  description: "Secure, compliant web applications and customer portals for banking, lending, and credit institutions. Enhance digital trust and streamline applications.",
 };
 
 export default function BankingLendingPage() {

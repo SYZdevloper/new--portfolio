@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import AutomotiveManufacturersClientScripts from "./AutomotiveManufacturersClientScripts";
 
 export const metadata: Metadata = {
-  title: "AutomotiveManufacturers Services | Hyperlink Tech Solutions",
-  description: "AutomotiveManufacturers services built around your operations.",
+  alternates: { canonical: "/industries/automotive-manufacturers/" },
+  title: "Automotive Manufacturers Website Design & Development | Hyperlink",
+  description: "High-performance enterprise websites and custom digital experiences for automotive OEMs and manufacturers. Built for speed, accessibility, and global reach.",
 };
 
 export default function AutomotiveManufacturersPage() {

@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import AutomotiveRetailMobilityServicesClientScripts from "./AutomotiveRetailMobilityServicesClientScripts";
 
 export const metadata: Metadata = {
-  title: "AutomotiveRetailMobilityServices Services | Hyperlink Tech Solutions",
-  description: "AutomotiveRetailMobilityServices services built around your operations.",
+  alternates: { canonical: "/industries/automotive-retail-mobility-services/" },
+  title: "Automotive Retail Mobility Services Website Design & Development | Hyperlink",
+  description: "E-commerce platforms, booking systems, and dealership websites for automotive retail and modern mobility services. Accelerate customer acquisition.",
 };
 
 export default function AutomotiveRetailMobilityServicesPage() {

@@ -610,7 +610,7 @@
             display: grid;
             grid-template-columns: 1.02fr .98fr;
             overflow: hidden;
-            border: 1px solid var(--line);
+            border: 1px solid rgba(139, 98, 239, 0.4);
             border-radius: 30px;
             background: #fff;
             box-shadow: 0 25px 65px rgba(37, 19, 77, .09)
@@ -1162,3 +1162,59 @@
     
 .process-grid .process-step { display: block !important; border-radius: 0 !important; background: #fff !important; box-shadow: none !important; }
 .process-grid .process-step:hover { transform: none !important; border-color: var(--line) !important; box-shadow: none !important; background: #fff !important; }
+
+/* UI Wireframe Variations */
+.ui-side, .ui-main, .ui-stats, .ui-chart, .ui-stats span, .ui-body, .ui-title {
+    transition: all 0.3s ease;
+}
+
+/* 01 SaaS Marketing Website */
+.ui-window[data-view="website"] .ui-side { display: none; }
+.ui-window[data-view="website"] .ui-body { display: block; }
+.ui-window[data-view="website"] .ui-stats { grid-template-columns: 1fr; margin-top: 0; }
+.ui-window[data-view="website"] .ui-stats span { min-height: 120px; }
+.ui-window[data-view="website"] .ui-chart { height: auto; border: none; background: transparent; display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; padding: 0; }
+.ui-window[data-view="website"] .ui-chart::before, .ui-window[data-view="website"] .ui-chart::after { content: ""; display: block; height: 60px; border-radius: 13px; border: 1px solid #e5e1ea; background: #fff; }
+.ui-window[data-view="website"] .ui-title { width: 100%; margin-bottom: 12px; }
+
+/* 02 Product UI/UX */
+.ui-window[data-view="product"] .ui-stats { grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 1fr); gap: 6px; }
+.ui-window[data-view="product"] .ui-stats span { min-height: 40px; border-radius: 8px; }
+.ui-window[data-view="product"] .ui-chart { height: 60px; }
+
+/* 03 SaaS Onboarding */
+.ui-window[data-view="onboarding"] .ui-side { display: none; }
+.ui-window[data-view="onboarding"] .ui-body { display: flex; align-items: center; justify-content: center; }
+.ui-window[data-view="onboarding"] .ui-main { display: none; }
+.ui-window[data-view="onboarding"] .ui-body::after { content: ""; display: block; width: 65%; height: 160px; border-radius: 14px; background: #fff; border: 1px solid #e5e1ea; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+
+/* 05 Custom SaaS Development */
+.ui-window[data-view="development"] .ui-body { background: #1a1a2e; display: block; padding-bottom: 20px; }
+.ui-window[data-view="development"] .ui-side { display: none; }
+.ui-window[data-view="development"] .ui-title { background: #30304a; width: 30%; }
+.ui-window[data-view="development"] .ui-stats { grid-template-columns: 1fr; gap: 6px; }
+.ui-window[data-view="development"] .ui-stats span { min-height: 18px; background: #30304a; border: none; border-radius: 4px; }
+.ui-window[data-view="development"] .ui-chart { display: none; }
+.ui-window[data-view="development"] .ui-main { padding-bottom: 0; }
+.ui-window[data-view="development"] .ui-body::after { content: ""; display: block; height: 18px; background: #30304a; border-radius: 4px; margin: 6px 19px 0; width: 70%; }
+
+/* Smooth fade transition for UI window switching */
+.ui-window {
+    transition: opacity 0.15s ease, transform 0.15s ease, filter 0.15s ease;
+}
+
+.ui-window.ui-switching {
+    opacity: 0;
+    transform: rotate(1.2deg) scale(0.96) !important;
+    filter: blur(4px);
+}
+
+/* Text transition */
+.solution-copy {
+    transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.solution-copy.ui-switching-text {
+    opacity: 0;
+    transform: translateX(-10px);
+}

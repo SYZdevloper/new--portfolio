@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import InsuranceInsurtechClientScripts from "./InsuranceInsurtechClientScripts";
 
 export const metadata: Metadata = {
-  title: "InsuranceInsurtech Services | Hyperlink Tech Solutions",
-  description: "InsuranceInsurtech services built around your operations.",
+  alternates: { canonical: "/industries/insurance-insurtech/" },
+  title: "Insurance Insurtech Website Design & Development | Hyperlink",
+  description: "Quote-generation systems, policyholder portals, and corporate websites for insurance and InsurTech companies. Simplify complex coverage products.",
 };
 
 export default function InsuranceInsurtechPage() {

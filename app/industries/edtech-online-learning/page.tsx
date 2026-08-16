@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import EdtechOnlineLearningClientScripts from "./EdtechOnlineLearningClientScripts";
 
 export const metadata: Metadata = {
-  title: "EdtechOnlineLearning Services | Hyperlink Tech Solutions",
-  description: "EdtechOnlineLearning services built around your operations.",
+  alternates: { canonical: "/industries/edtech-online-learning/" },
+  title: "Edtech Online Learning Website Design & Development | Hyperlink",
+  description: "Learning management systems, course platforms, and marketing websites for EdTech companies. Deliver seamless online education experiences.",
 };
 
 export default function EdtechOnlineLearningPage() {

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/ecommerce-development/" },
   title: "Shopify Ecommerce Development Services | Hyperlink Tech Solutions",
   description: "Shopify ecommerce development with a custom Next.js frontend for fast, flexible and conversion-focused online stores. Get product architecture, checkout integration, customer accounts, analytics and scalable storefront development.",
 };
@@ -214,36 +215,36 @@ export default function EcommerceDevelopment() {
                 <div className="container">
                     <div className="section-heading">
                         <div>
-                            <p className="eyebrow">Featured ecommerce example</p>
-                            <h2>Show the complete buying journey—not only a polished homepage.</h2>
+                            <p className="eyebrow">Featured ecommerce project</p>
+                            <h2>A refined digital storefront for handcrafted French desserts.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine ecommerce project. Explain the catalogue, storefront challenge, Shopify setup, frontend work and measurable result.</p>
+                        <p>See how Odette Pâtisserie created a more visual and convenient buying experience for discovering cakes, selecting an ordering option and purchasing across desktop and mobile.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Ecommerce Development visual">
                             <div className="case-visual-top">
-                                <span>Ecommerce</span>
-                                <span>Shopify API</span>
+                                <span>Odette Pâtisserie Ecommerce</span>
+                                <span>Next.js Storefront + Shopify API</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/a64rh6mbvofuhdruunnf.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/odette-patisserie-ecommerce.webp" alt="Odette Pâtisserie Storefront" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A faster, clearer journey from product discovery to checkout.</h2>
-                                <p>Use this area to explain how customers previously explored and purchased products, what friction existed and how the new storefront improved the experience.</p>
+                                <p className="eyebrow">Odette Pâtisserie & Chocolatier</p>
+                                <h2>From product discovery to delivery, designed around every occasion.</h2>
+                                <p>Odette offers luxury eggless French pastries, macarons, entremets, bonbons, celebration cakes and gifting collections in Pune. The ecommerce experience needed to communicate this craftsmanship while helping customers order confidently.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>The existing Shopify theme restricted campaign layouts, product storytelling and mobile performance, while customers struggled to navigate a growing catalogue.</strong></div>
-                                <div className="case-fact"><small>Architecture</small><strong>Products and collections were reorganised around customer intent, with clearer navigation, filters and related-product paths.</strong></div>
-                                <div className="case-fact"><small>Build</small><strong>A custom Next.js storefront was developed using Shopify as the backend for products, inventory, discounts, orders and checkout.</strong></div>
-                                <div className="case-fact"><small>Integrations</small><strong>Replace this with the real review, email, search, analytics, payment, fulfilment or customer-service tools used.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified improvement such as faster loading, stronger mobile engagement, improved conversion rate, higher average order value or reduced bounce on product pages.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>A diverse catalogue, different preparation times and occasion-based purchases made it difficult to present every product through a conventional ecommerce layout. Customers also needed to distinguish between pre-order cakes, quicker same-day options and custom requests.</strong></div>
+                                <div className="case-fact"><small>Architecture</small><strong>Products were organised around buying intent—including celebration cakes, individual desserts, chocolates, gifting and custom orders. Product pages prioritised flavour details, sizes, preparation requirements and delivery availability.</strong></div>
+                                <div className="case-fact"><small>Build</small><strong>A responsive Next.js storefront was developed with Shopify managing products, collections, inventory, discounts, customer information, orders and secure checkout. The frontend introduced flexible campaign layouts, detailed product storytelling and a mobile-first shopping journey.</strong></div>
+                                <div className="case-fact"><small>Integrations</small><strong>The ordering experience connected direct website purchases with WhatsApp for custom enquiries and external ordering options such as Swiggy and Zomato for selected individual desserts.</strong></div>
+                                <div className="case-fact"><small>Result</small><strong>Odette gained a more cohesive ecommerce experience that presents its products with the same attention to detail as its physical pâtisserie, while making product discovery, ordering choices and mobile purchasing easier for customers.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Ecommerce Projects <span className="arrow">↗</span></a>
                         </article>

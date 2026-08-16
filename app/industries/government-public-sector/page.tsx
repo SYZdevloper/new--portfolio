@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import GovernmentPublicSectorClientScripts from "./GovernmentPublicSectorClientScripts";
 
 export const metadata: Metadata = {
-  title: "GovernmentPublicSector Services | Hyperlink Tech Solutions",
-  description: "GovernmentPublicSector services built around your operations.",
+  alternates: { canonical: "/industries/government-public-sector/" },
+  title: "Government Public Sector Website Design & Development | Hyperlink",
+  description: "Highly accessible, WCAG-compliant websites and public service portals for government agencies. Deliver clear information and secure citizen services.",
 };
 
 export default function GovernmentPublicSectorPage() {

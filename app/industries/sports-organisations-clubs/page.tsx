@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import SportsOrganisationsClubsClientScripts from "./SportsOrganisationsClubsClientScripts";
 
 export const metadata: Metadata = {
-  title: "SportsOrganisationsClubs Services | Hyperlink Tech Solutions",
-  description: "SportsOrganisationsClubs services built around your operations.",
+  alternates: { canonical: "/industries/sports-organisations-clubs/" },
+  title: "Sports Organisations Clubs Website Design & Development | Hyperlink",
+  description: "Fan engagement platforms, ticketing systems, and dynamic websites for sports clubs and governing bodies. Grow your global digital fanbase.",
 };
 
 export default function SportsOrganisationsClubsPage() {

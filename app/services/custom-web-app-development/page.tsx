@@ -6,6 +6,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/custom-web-app-development/" },
   title: "Custom Web Application Development Services | Hyperlink Tech Solutions",
   description: "Custom web application development for customer portals, internal tools, workflow systems, dashboards and business platforms. Get responsive interfaces, integrations, permissions and scalable architecture.",
 };
@@ -203,33 +204,33 @@ export default function CustomWebApp() {
                     <div className="section-heading">
                         <div>
                             <p className="eyebrow">Featured application example</p>
-                            <h2>Show the working workflow—not only a collection of interface screenshots.</h2>
+                            <h2>A smarter martial arts platform, built for operational efficiency.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine application project. Explain the original operational problem, the user roles, the key workflow, the technical implementation and the resulting improvement.</p>
+                        <p>See how we replaced disconnected administrative tools with a unified custom web application for XMF Martial Arts.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Web Application project visual">
                             <div className="case-visual-top">
-                                <span>Web Application</span>
-                                <span>Responsive + Internal Workflow</span>
+                                <span>Custom Web Application</span>
+                                <span>Role-Based Dashboards & Analytics</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/b9149920-0a45-4672-b659-5d8eedf2dd6b.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/ChatGPT%20Image%20Aug%204,%202026,%2008_27_34%20PM.webp" alt="XMF Martial Arts Platform" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A clearer path from customer request to internal completion.</h2>
-                                <p>Use this area to explain how information previously moved between users, teams and tools, what was changed and what became easier after the application was introduced.</p>
+                                <p className="eyebrow">XMF Martial Arts</p>
+                                <h2>Connecting instructors and students through one digital workflow.</h2>
+                                <p>We developed a purpose-built web application with role-based access. Instructors can securely log in to manage attendance, update belt levels, and monitor academy performance, while students gain real-time access to their personalized training statistics and progression history.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>Requests were being received through several channels and manually transferred into spreadsheets.</strong></div>
-                                <div className="case-fact"><small>Build</small><strong>A responsive web application with account access, status tracking, document handling and role-based administration.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified operational improvement or measurable time saving.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>Paper sign-ins and disconnected spreadsheets created administrative overhead and made it difficult for students to track their own progress.</strong></div>
+                                <div className="case-fact"><small>Build</small><strong>A responsive web application featuring an instructor administration panel for academy management, and individualized student dashboards with QR-code entry.</strong></div>
+                                <div className="case-fact"><small>Result</small><strong>Eliminated manual data entry for instructors and provided students with instant visibility into their training journey, improving overall engagement.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Web Application Projects <span className="arrow">↗</span></a>
                         </article>

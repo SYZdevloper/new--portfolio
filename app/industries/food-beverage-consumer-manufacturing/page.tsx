@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import FoodBeverageConsumerManufacturingClientScripts from "./FoodBeverageConsumerManufacturingClientScripts";
 
 export const metadata: Metadata = {
-  title: "FoodBeverageConsumerManufacturing Services | Hyperlink Tech Solutions",
-  description: "FoodBeverageConsumerManufacturing services built around your operations.",
+  alternates: { canonical: "/industries/food-beverage-consumer-manufacturing/" },
+  title: "Food Beverage Consumer Manufacturing Website Design & Development | Hyperlink",
+  description: "Brand websites and B2B distributor portals for food and beverage manufacturers. Enhance your supply chain visibility and consumer brand appeal.",
 };
 
 export default function FoodBeverageConsumerManufacturingPage() {

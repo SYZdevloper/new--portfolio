@@ -202,36 +202,36 @@ export default function DesignSystemDevelopment() {
                 <div className="container">
                     <div className="section-heading">
                         <div>
-                            <p className="eyebrow">Featured design system example</p>
-                            <h2>Show how one shared system replaced repeated design decisions.</h2>
+                            <p className="eyebrow">Featured design system project</p>
+                            <h2>Consistency designed into every product interaction.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine design-system project. Explain the original inconsistency, the component audit, the system structure and how the product team used it after delivery.</p>
+                        <p>See how MiraCare gained a unified interface foundation for managing appointments, clinic capacity and staff schedules across desktop, tablet and mobile.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Design System visual">
                             <div className="case-visual-top">
-                                <span>Design System</span>
-                                <span>Reusable Components</span>
+                                <span>MiraCare Interface System</span>
+                                <span>Design Foundations + Component Library + Responsive Patterns</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/783140f6-e050-4228-b409-1e3571188702.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/miracare-design-system-project.webp" alt="MiraCare Design System" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A shared component system for faster and more consistent product delivery.</h2>
-                                <p>Use this area to explain what the interface looked like before the system, where duplication existed and what changed after shared foundations and components were introduced.</p>
+                                <p className="eyebrow">MiraCare Healthcare Operations</p>
+                                <h2>One adaptable system connecting every clinical workflow.</h2>
+                                <p>MiraCare needed its scheduling and operations tools to feel like parts of one product, regardless of the screen, user role or workflow being used.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>The product had grown through multiple design and development cycles, resulting in duplicated components, inconsistent spacing and unclear responsive behaviour.</strong></div>
-                                <div className="case-fact"><small>Audit</small><strong>Existing screens were reviewed to identify recurring components, visual differences, missing states and implementation gaps.</strong></div>
-                                <div className="case-fact"><small>System</small><strong>A structured Figma library was created with design tokens, reusable components, responsive variants, interaction states and documented usage guidance.</strong></div>
-                                <div className="case-fact"><small>Implementation Support</small><strong>Components were mapped to frontend patterns so designers and developers could work from a clearer shared structure.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified improvement such as reduced design time, faster implementation, fewer inconsistencies or easier product expansion.</strong></div>
+                                <div className="case-fact"><small>Product Challenge</small><strong>As new features were introduced, similar elements began behaving differently. Forms, status labels, data cards and scheduling controls lacked a dependable shared structure.</strong></div>
+                                <div className="case-fact"><small>Foundation Work</small><strong>We established accessible colour roles, typography scales, spacing rules, grid behaviour and responsive breakpoints to give every interface a consistent visual foundation.</strong></div>
+                                <div className="case-fact"><small>Component Architecture</small><strong>Reusable patterns were created for buttons, fields, alerts, tables, appointment cards, capacity indicators, charts, modals and navigation—with the required states and variations documented.</strong></div>
+                                <div className="case-fact"><small>Product Application</small><strong>The system was applied across the clinic dashboard, appointment management and mobile staff scheduling experiences, demonstrating how components adapt without losing familiarity.</strong></div>
+                                <div className="case-fact"><small>Outcome</small><strong>MiraCare gained a clearer product language that supports consistent design, smoother frontend implementation and faster expansion into new healthcare workflows.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Design System Projects <span className="arrow">↗</span></a>
                         </article>

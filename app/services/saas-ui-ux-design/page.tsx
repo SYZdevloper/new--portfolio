@@ -190,17 +190,17 @@ export default function SaaSDesign() {
                 <div className="container">
                     <div className="section-heading">
                         <div>
-                            <p className="eyebrow">Featured SaaS product example</p>
-                            <h2>Show how a complex workflow became easier to understand and complete.</h2>
+                            <p className="eyebrow">Featured SaaS project</p>
+                            <h2>Financial management, made easier to understand and act on.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine SaaS project. Explain the user problem, original workflow, design decisions, screens created and observable product improvement.</p>
+                        <p>See how our SaaS UI/UX design services helped RichPath bring balances, transactions, multi-currency wallets and financial performance into one focused product experience.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="SaaS project visual">
                             <div className="case-visual-top">
-                                <span>SaaS Platform</span>
-                                <span>Responsive + UX Workflow</span>
+                                <span>Finance Management SaaS</span>
+                                <span>Responsive Dashboard + UX Workflow</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
                                 <img src="/images/783140f6-e050-4228-b409-1e3571188702.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
@@ -209,15 +209,15 @@ export default function SaaSDesign() {
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A clearer journey from first login to meaningful product value.</h2>
-                                <p>Use this area to explain the original product challenge, the user research or assumptions available, the workflow changes and how the final interface supported adoption or task completion.</p>
+                                <p className="eyebrow">RichPath</p>
+                                <h2>A clearer journey from financial overview to everyday action.</h2>
+                                <p>RichPath was designed to help users understand their financial position, manage multiple wallets and complete common actions without navigating through a complicated finance platform.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>New users entered a feature-rich platform without clear setup guidance.</strong></div>
-                                <div className="case-fact"><small>Approach</small><strong>The onboarding flow was reorganised into progressive steps with role-based guidance.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified improvement such as reduced support requests.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>Users needed to review balances, manage multiple currencies, transfer or request funds and understand income, spending and profitability across disconnected screens.</strong></div>
+                                <div className="case-fact"><small>Approach</small><strong>We reorganised the experience around a unified overview dashboard. Total balance and primary actions were prioritised first, followed by multi-currency wallets, earnings, spending, income, revenue and profit-and-loss reporting. Supporting screens were structured for activity, account management and detailed reports.</strong></div>
+                                <div className="case-fact"><small>Result</small><strong>Users can now move from login to meaningful financial information, complete key actions and review performance from one consistent interface—creating a more understandable and efficient product journey.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All SaaS Projects <span className="arrow">↗</span></a>
                         </article>

@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import InvestmentWealthManagementClientScripts from "./InvestmentWealthManagementClientScripts";
 
 export const metadata: Metadata = {
-  title: "InvestmentWealthManagement Services | Hyperlink Tech Solutions",
-  description: "InvestmentWealthManagement services built around your operations.",
+  alternates: { canonical: "/industries/investment-wealth-management/" },
+  title: "Investment Wealth Management Website Design & Development | Hyperlink",
+  description: "Secure client portals and lead-generation websites for private wealth management, VC, and investment firms. Project authority and digital security.",
 };
 
 export default function InvestmentWealthManagementPage() {

@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import TravelTourismClientScripts from "./TravelTourismClientScripts";
 
 export const metadata: Metadata = {
-  title: "TravelTourism Services | Hyperlink Tech Solutions",
-  description: "TravelTourism services built around your operations.",
+  alternates: { canonical: "/industries/travel-tourism/" },
+  title: "Travel Tourism Website Design & Development | Hyperlink",
+  description: "Booking engines, destination guides, and immersive websites for travel agencies and tourism boards. Inspire global travelers and drive direct bookings.",
 };
 
 export default function TravelTourismPage() {

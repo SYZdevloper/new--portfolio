@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import LivestockDairyAnimalAgricultureClientScripts from "./LivestockDairyAnimalAgricultureClientScripts";
 
 export const metadata: Metadata = {
-  title: "LivestockDairyAnimalAgriculture Services | Hyperlink Tech Solutions",
-  description: "LivestockDairyAnimalAgriculture services built around your operations.",
+  alternates: { canonical: "/industries/livestock-dairy-animal-agriculture/" },
+  title: "Livestock Dairy Animal Agriculture Website Design & Development | Hyperlink",
+  description: "Corporate websites and B2B portals for livestock, dairy, and animal agriculture operations. Modernize your agricultural supply chain presence.",
 };
 
 export default function LivestockDairyAnimalAgriculturePage() {

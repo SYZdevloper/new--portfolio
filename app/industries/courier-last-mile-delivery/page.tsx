@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import CourierLastMileDeliveryClientScripts from "./CourierLastMileDeliveryClientScripts";
 
 export const metadata: Metadata = {
-  title: "CourierLastMileDelivery Services | Hyperlink Tech Solutions",
-  description: "CourierLastMileDelivery services built around your operations.",
+  alternates: { canonical: "/industries/courier-last-mile-delivery/" },
+  title: "Courier Last Mile Delivery Website Design & Development | Hyperlink",
+  description: "Tracking portals, logistics dashboards, and corporate websites for courier and last-mile delivery services. Optimize customer transparency and booking.",
 };
 
 export default function CourierLastMileDeliveryPage() {

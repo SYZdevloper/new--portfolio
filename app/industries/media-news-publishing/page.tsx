@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import MediaNewsPublishingClientScripts from "./MediaNewsPublishingClientScripts";
 
 export const metadata: Metadata = {
-  title: "MediaNewsPublishing Services | Hyperlink Tech Solutions",
-  description: "MediaNewsPublishing services built around your operations.",
+  alternates: { canonical: "/industries/media-news-publishing/" },
+  title: "Media News Publishing Website Design & Development | Hyperlink",
+  description: "High-traffic content architectures and paywall platforms for media, news, and publishing organizations. Engineered for readability and speed.",
 };
 
 export default function MediaNewsPublishingPage() {

@@ -203,16 +203,16 @@ export default function DashboardDesign() {
                     <div className="section-heading">
                         <div>
                             <p className="eyebrow">Featured dashboard example</p>
-                            <h2>Show how clearer structure improved visibility, speed and usability.</h2>
+                            <h2>Recruitment performance, made easier to monitor and act on.</h2>
                         </div>
-                        <p>Replace this demonstration with one real dashboard project. Explain who the users were, what they needed to understand, how the data was organised and what improved after redesign.</p>
+                        <p>See how our dashboard design services transformed complex recruitment data into a focused interface for tracking applications, team activity and operational priorities.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Dashboard visual">
                             <div className="case-visual-top">
-                                <span>Dashboard</span>
-                                <span>Data Visualisation</span>
+                                <span>Recruitment Operations Dashboard</span>
+                                <span>Responsive Dashboard + Data Visualisation</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
                                 <img src="/images/a64rh6mbvofuhdruunnf.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
@@ -221,17 +221,17 @@ export default function DashboardDesign() {
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A clearer dashboard for monitoring, prioritisation and faster daily action.</h2>
-                                <p>Use this area to explain what the original interface looked like, why users found it difficult to interpret and how the revised dashboard improved visibility and workflow.</p>
+                                <p className="eyebrow">Talent Operations Platform</p>
+                                <h2>A clearer dashboard for monitoring applications, tasks and team performance.</h2>
+                                <p>We designed a central operations dashboard that gives recruitment teams an immediate view of application volume, active requisitions, completed tasks, open actions and specialist performance.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>The existing dashboard displayed too many metrics equally, making it difficult for users to identify urgent issues, monitor trends or take the next action.</strong></div>
-                                <div className="case-fact"><small>Users</small><strong>Operations staff, managers and administrators required different summaries, detailed views and workflow controls.</strong></div>
-                                <div className="case-fact"><small>Design Approach</small><strong>The interface was reorganised into a clearer hierarchy with primary KPIs, supporting visualisation blocks, quick actions, filters and role-specific views.</strong></div>
-                                <div className="case-fact"><small>Deliverables</small><strong>Wireframes, responsive UI design, chart patterns, table states, filter behaviour and developer handoff.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified usability improvement, reduced task time, clearer reporting outcome or other genuine product benefit.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>Recruitment data was spread across multiple reports, making it difficult to recognise application trends, identify outstanding tasks and compare team activity.</strong></div>
+                                <div className="case-fact"><small>Users</small><strong>Recruitment specialists needed detailed activity data, while managers required high-level summaries of application progress, workloads and operational performance.</strong></div>
+                                <div className="case-fact"><small>Design Approach</small><strong>The dashboard was reorganised around primary KPIs, weekly and annual application trends, task summaries and a specialist activity table. Consistent chart patterns, clear status indicators and role-specific views made important information easier to scan and interpret.</strong></div>
+                                <div className="case-fact"><small>Deliverables</small><strong>Dashboard wireframes, responsive UI design, KPI cards, chart patterns, activity tables, navigation states, filtering behaviour and developer handoff.</strong></div>
+                                <div className="case-fact"><small>Result</small><strong>The redesigned interface brought essential recruitment metrics and daily actions into one structured view, helping teams identify priorities, monitor trends and review individual performance more efficiently.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Dashboard Projects <span className="arrow">↗</span></a>
                         </article>

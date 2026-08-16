@@ -202,36 +202,36 @@ export default function AdminPanelDevelopment() {
                 <div className="container">
                     <div className="section-heading">
                         <div>
-                            <p className="eyebrow">Featured admin panel example</p>
-                            <h2>Show how the internal team gained clearer control over the platform.</h2>
+                            <p className="eyebrow">Featured admin panel project</p>
+                            <h2>Complete operational control for a B2B hardware marketplace.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine admin-panel project. Explain the original administrative problem, the user roles, the modules created and what improved after launch.</p>
+                        <p>See how the TradeKomp team manages KYC approvals, platform users, live hardware deals and trade disputes through a secure custom admin panel.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Admin Panel visual">
                             <div className="case-visual-top">
-                                <span>Admin Panel</span>
-                                <span>Web Application</span>
+                                <span>TradeKomp Admin Panel</span>
+                                <span>B2B Marketplace Management</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/783140f6-e050-4228-b409-1e3571188702.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/ChatGPT%20Image%20Aug%204,%202026,%2008_39_49%20PM.webp" alt="TradeKomp B2B Admin Panel" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A central control panel for users, plans, requests and platform activity.</h2>
-                                <p>Use this area to explain how the team managed the platform before the admin panel and how the new system improved visibility and routine operations.</p>
+                                <p className="eyebrow">TradeKomp B2B Platform</p>
+                                <h2>A central control panel to maintain a trusted trading ecosystem.</h2>
+                                <p>TradeKomp connects IT hardware traders, distributors and ITAD companies across India. We built their admin panel to provide the internal team with the tools necessary to verify businesses, monitor live transactions and manage platform activity securely.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>User accounts, subscriptions and support requests were managed across spreadsheets, email and direct database updates.</strong></div>
-                                <div className="case-fact"><small>Users</small><strong>Administrators, support staff and managers required different access levels and operational views.</strong></div>
-                                <div className="case-fact"><small>Build</small><strong>A responsive admin panel with user management, status controls, plan management, requests, filters, activity history and role-based permissions.</strong></div>
-                                <div className="case-fact"><small>Integrations</small><strong>Replace this with the real payment, email, storage, analytics or internal systems connected to the platform.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified improvement such as reduced manual work, faster support handling, fewer errors or clearer operational reporting.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>Ensuring trade security required manual KYC checks and disjointed tracking of inventory, deals and user interactions across a growing network.</strong></div>
+                                <div className="case-fact"><small>Users</small><strong>Administrators and verification officers required specific tools to review business documents, approve accounts and monitor marketplace activity.</strong></div>
+                                <div className="case-fact"><small>Build</small><strong>A secure admin portal featuring KYC verification workflows, user management, live deal monitoring, category controls and platform analytics.</strong></div>
+                                <div className="case-fact"><small>Integrations</small><strong>Connected with identity verification services, cloud storage for business documents and automated notification systems.</strong></div>
+                                <div className="case-fact"><small>Result</small><strong>Streamlined the business onboarding process and provided the internal team with real-time visibility into all marketplace transactions, ensuring a trusted environment.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Admin Panel Projects <span className="arrow">↗</span></a>
                         </article>

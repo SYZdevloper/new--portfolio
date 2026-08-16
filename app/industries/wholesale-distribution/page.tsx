@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import WholesaleDistributionClientScripts from "./WholesaleDistributionClientScripts";
 
 export const metadata: Metadata = {
-  title: "WholesaleDistribution Services | Hyperlink Tech Solutions",
-  description: "WholesaleDistribution services built around your operations.",
+  alternates: { canonical: "/industries/wholesale-distribution/" },
+  title: "Wholesale Distribution Website Design & Development | Hyperlink",
+  description: "B2B eCommerce portals and digital catalogs for wholesale distributors. Digitize your ordering process and streamline global supply chains.",
 };
 
 export default function WholesaleDistributionPage() {

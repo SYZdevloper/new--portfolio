@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import ConsumerGoodsFmcgClientScripts from "./ConsumerGoodsFmcgClientScripts";
 
 export const metadata: Metadata = {
-  title: "ConsumerGoodsFmcg Services | Hyperlink Tech Solutions",
-  description: "ConsumerGoodsFmcg services built around your operations.",
+  alternates: { canonical: "/industries/consumer-goods-fmcg/" },
+  title: "Consumer Goods FMCG Website Design & Development | Hyperlink",
+  description: "Direct-to-consumer eCommerce websites and brand platforms for FMCG and consumer goods. Drive product discovery and high-volume sales.",
 };
 
 export default function ConsumerGoodsFmcgPage() {

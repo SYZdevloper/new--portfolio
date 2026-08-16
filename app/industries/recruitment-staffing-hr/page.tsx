@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import RecruitmentStaffingHrClientScripts from "./RecruitmentStaffingHrClientScripts";
 
 export const metadata: Metadata = {
-  title: "RecruitmentStaffingHr Services | Hyperlink Tech Solutions",
-  description: "RecruitmentStaffingHr services built around your operations.",
+  alternates: { canonical: "/industries/recruitment-staffing-hr/" },
+  title: "Recruitment Staffing HR Website Design & Development | Hyperlink",
+  description: "Job boards, candidate portals, and lead-generation websites for recruitment agencies and HR firms. Attract top talent and enterprise employers.",
 };
 
 export default function RecruitmentStaffingHrPage() {

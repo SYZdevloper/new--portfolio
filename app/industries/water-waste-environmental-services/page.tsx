@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import WaterWasteEnvironmentalServicesClientScripts from "./WaterWasteEnvironmentalServicesClientScripts";
 
 export const metadata: Metadata = {
-  title: "WaterWasteEnvironmentalServices Services | Hyperlink Tech Solutions",
-  description: "WaterWasteEnvironmentalServices services built around your operations.",
+  alternates: { canonical: "/industries/water-waste-environmental-services/" },
+  title: "Water Waste Environmental Services Website Design & Development | Hyperlink",
+  description: "Corporate websites and municipal portals for water, waste, and environmental management services. Highlight sustainability and operational efficiency.",
 };
 
 export default function WaterWasteEnvironmentalServicesPage() {

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/mvp-development/" },
   title: "MVP Development Services | Hyperlink Tech Solutions",
   description: "MVP development services for startups and new digital products. Plan, design and build a focused first version with essential features, scalable architecture and real user validation.",
 };
@@ -214,36 +215,36 @@ export default function MVPDevelopment() {
                 <div className="container">
                     <div className="section-heading">
                         <div>
-                            <p className="eyebrow">Featured MVP example</p>
-                            <h2>Show how a broad idea became a focused first release.</h2>
+                            <p className="eyebrow">Featured MVP project</p>
+                            <h2>Testing core production workflows before full factory rollout.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine MVP project. Explain the original idea, reduced scope, key workflow and launch outcome.</p>
+                        <p>See how ZAAB Fashion launched a focused MVP to validate fabric inventory and receiving operations before committing to a factory-wide custom ERP.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="MVP visual">
                             <div className="case-visual-top">
-                                <span>Product</span>
-                                <span>MVP Release</span>
+                                <span>ZAAB Fashion</span>
+                                <span>Initial ERP Release</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/a64rh6mbvofuhdruunnf.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/zaab-garment-factory-erp.webp" alt="ZAAB Fashion MVP ERP" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A practical first release built around one high-value customer journey.</h2>
-                                <p>Use this area to explain how the initial product idea was simplified into a usable first version.</p>
+                                <p className="eyebrow">ZAAB Factory ERP Phase 1</p>
+                                <h2>A practical first release focused entirely on material management.</h2>
+                                <p>Instead of building the entire factory management system at once—which carries high adoption risk—we narrowed the first release exclusively to the procurement team and store managers.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Initial Idea</small><strong>The founder wanted a broad platform with several user types, advanced analytics, automation, messaging and multiple payment models.</strong></div>
-                                <div className="case-fact"><small>MVP Focus</small><strong>The first release was narrowed to one target user, one primary workflow and the minimum admin functionality required to operate the platform.</strong></div>
-                                <div className="case-fact"><small>Build</small><strong>A responsive web application was created with authentication, core dashboards, data management, notifications and one essential integration.</strong></div>
-                                <div className="case-fact"><small>Validation Goal</small><strong>The MVP was launched to test whether users would complete the main workflow and return to use the product again.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified outcome such as pilot users onboarded, paid trials started, investor demos completed or product assumptions changed through feedback.</strong></div>
+                                <div className="case-fact"><small>Initial Idea</small><strong>The client originally requested a massive system covering fabric procurement, cutting, stitching, washing, embroidery, quality control, and finance, all to be built at once.</strong></div>
+                                <div className="case-fact"><small>MVP Focus</small><strong>To reduce risk and gather user feedback quickly, the scope was restricted to a single, critical workflow: Goods Receipt Notes (GRN) and roll-wise fabric inventory.</strong></div>
+                                <div className="case-fact"><small>Build</small><strong>A responsive web application featuring supplier management, purchase order creation, GRN processing, and basic inventory tracking modules.</strong></div>
+                                <div className="case-fact"><small>Validation Goal</small><strong>Testing whether store staff could accurately digitize incoming fabric rolls without slowing down the receiving dock.</strong></div>
+                                <div className="case-fact"><small>Result</small><strong>The MVP successfully replaced their spreadsheet system within two weeks. Feedback from the store floor directly informed the UX design for the subsequent cutting and stitching modules.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All MVP Projects <span className="arrow">↗</span></a>
                         </article>

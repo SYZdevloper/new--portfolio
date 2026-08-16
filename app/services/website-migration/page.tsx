@@ -6,6 +6,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/website-migration/" },
   title: "Website Migration Services | Hyperlink Tech Solutions",
   description: "Website migration services for moving websites, content, URLs, CMS data and integrations between platforms while protecting functionality, SEO value and business continuity.",
 };
@@ -214,36 +215,34 @@ export default function WebsiteMigration() {
                 <div className="container">
                     <div className="section-heading">
                         <div>
-                            <p className="eyebrow">Featured website migration example</p>
-                            <h2>Show how the website moved platforms without losing important content or functionality.</h2>
+                            <p className="eyebrow">Featured internal demonstration</p>
+                            <h2>Business data, migrated with accuracy and control.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine migration project. Explain the source platform, destination platform, migration risks and final outcome.</p>
+                        <p>See how our data migration services can help businesses consolidate fragmented records, improve data quality, and move to modern cloud infrastructure with minimal operational risk.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Website Migration visual">
                             <div className="case-visual-top">
-                                <span>Migration</span>
-                                <span>Data Transfer</span>
+                                <span>Retail Data Migration Demo</span>
+                                <span>CSV + MySQL to PostgreSQL + Validation + Audit Logs</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/a64rh6mbvofuhdruunnf.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/retailsync-admin-dashboard.webp" alt="RetailSync Migration Lab" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A controlled move from a legacy CMS to a faster, easier-to-manage platform.</h2>
-                                <p>Use this area to explain why the existing platform was no longer suitable, what needed to be preserved and how the migration was completed.</p>
+                                <p className="eyebrow">RetailSync Migration Lab — Internal Demonstration</p>
+                                <h2>A controlled migration from legacy records to a modern database.</h2>
+                                <p>We developed an internal data migration demonstration that transfers customer, product and order records from spreadsheets and a legacy MySQL database into a structured PostgreSQL environment.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>The existing website was slow, difficult to update and dependent on outdated plugins, while important service pages already had search visibility.</strong></div>
-                                <div className="case-fact"><small>Source Platform</small><strong>Replace this with the real platform, CMS, hosting provider or custom environment.</strong></div>
-                                <div className="case-fact"><small>Destination Platform</small><strong>Replace this with the real destination such as WordPress, Next.js, Shopify, a headless CMS or a new hosting environment.</strong></div>
-                                <div className="case-fact"><small>Migration Work</small><strong>Content inventory, template rebuilding, media transfer, metadata mapping, redirects, form reconnection and analytics verification.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified improvement such as easier content management, improved loading, fewer technical issues or a successful relaunch with stable traffic.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>The source data contained duplicate customers, incomplete fields, inconsistent date formats, mismatched product identifiers and records spread across multiple files.</strong></div>
+                                <div className="case-fact"><small>Build</small><strong>An automated extract, transform and load pipeline for field mapping, data normalization, duplicate detection, error handling and batch migration. A migration dashboard displays processing status, failed records, reconciliation results and downloadable audit reports.</strong></div>
+                                <div className="case-fact"><small>Impact</small><strong>The demonstration shows how businesses can consolidate fragmented data, identify quality issues before migration, verify source-to-target accuracy and maintain rollback options throughout the migration process.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Migration Projects <span className="arrow">↗</span></a>
                         </article>

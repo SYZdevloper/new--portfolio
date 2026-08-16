@@ -3941,11 +3941,12 @@
             display: grid;
             grid-template-columns: 1.08fr .92fr;
             gap: 18px;
-            align-items: stretch;
+            align-items: start;
         }
 
         .case-visual {
-            position: relative;
+            position: sticky;
+            top: 100px;
             min-height: 620px;
             overflow: hidden;
             padding: clamp(28px, 4vw, 48px);

@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import ConsultingAdvisoryClientScripts from "./ConsultingAdvisoryClientScripts";
 
 export const metadata: Metadata = {
-  title: "ConsultingAdvisory Services | Hyperlink Tech Solutions",
-  description: "ConsultingAdvisory services built around your operations.",
+  alternates: { canonical: "/industries/consulting-advisory/" },
+  title: "Consulting Advisory Website Design & Development | Hyperlink",
+  description: "Lead-generation websites and client portals for management consulting and advisory firms. Position your expertise and capture enterprise leads.",
 };
 
 export default function ConsultingAdvisoryPage() {

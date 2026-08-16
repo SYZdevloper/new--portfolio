@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import CommunityInternationalOrganisationsClientScripts from "./CommunityInternationalOrganisationsClientScripts";
 
 export const metadata: Metadata = {
-  title: "CommunityInternationalOrganisations Services | Hyperlink Tech Solutions",
-  description: "CommunityInternationalOrganisations services built around your operations.",
+  alternates: { canonical: "/industries/community-international-organisations/" },
+  title: "Community International Organisations Website Design & Development | Hyperlink",
+  description: "Multilingual websites and resource hubs for international NGOs and community organisations. Amplify your mission with clear, accessible web design.",
 };
 
 export default function CommunityInternationalOrganisationsPage() {

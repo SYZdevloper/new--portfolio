@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import LogisticsWarehousingClientScripts from "./LogisticsWarehousingClientScripts";
 
 export const metadata: Metadata = {
-  title: "LogisticsWarehousing Services | Hyperlink Tech Solutions",
-  description: "LogisticsWarehousing services built around your operations.",
+  alternates: { canonical: "/industries/logistics-warehousing/" },
+  title: "Logistics Warehousing Website Design & Development | Hyperlink",
+  description: "Supply chain dashboards and corporate websites for 3PL, logistics, and warehousing providers. Showcase operational capacity and technological integration.",
 };
 
 export default function LogisticsWarehousingPage() {

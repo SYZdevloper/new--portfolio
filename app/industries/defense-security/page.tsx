@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import DefenseSecurityClientScripts from "./DefenseSecurityClientScripts";
 
 export const metadata: Metadata = {
-  title: "DefenseSecurity Services | Hyperlink Tech Solutions",
-  description: "DefenseSecurity services built around your operations.",
+  alternates: { canonical: "/industries/defense-security/" },
+  title: "Defense Security Website Design & Development | Hyperlink",
+  description: "Highly secure, compliant corporate websites and internal portals for defense and security contractors. Engineered for absolute reliability and trust.",
 };
 
 export default function DefenseSecurityPage() {

@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import ForestryInputsAgriculturalServicesClientScripts from "./ForestryInputsAgriculturalServicesClientScripts";
 
 export const metadata: Metadata = {
-  title: "ForestryInputsAgriculturalServices Services | Hyperlink Tech Solutions",
-  description: "ForestryInputsAgriculturalServices services built around your operations.",
+  alternates: { canonical: "/industries/forestry-inputs-agricultural-services/" },
+  title: "Forestry Inputs Agricultural Services Website Design & Development | Hyperlink",
+  description: "Industrial corporate websites and client platforms for forestry, timber, and agricultural services. Showcase operational scale and sustainability.",
 };
 
 export default function ForestryInputsAgriculturalServicesPage() {

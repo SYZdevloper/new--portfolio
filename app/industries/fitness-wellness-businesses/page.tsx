@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import FitnessWellnessBusinessesClientScripts from "./FitnessWellnessBusinessesClientScripts";
 
 export const metadata: Metadata = {
-  title: "FitnessWellnessBusinesses Services | Hyperlink Tech Solutions",
-  description: "FitnessWellnessBusinesses services built around your operations.",
+  alternates: { canonical: "/industries/fitness-wellness-businesses/" },
+  title: "Fitness Wellness Businesses Website Design & Development | Hyperlink",
+  description: "Booking platforms, membership portals, and high-energy websites for fitness studios and wellness brands. Drive local foot traffic and digital subscriptions.",
 };
 
 export default function FitnessWellnessBusinessesPage() {

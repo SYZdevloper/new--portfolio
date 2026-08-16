@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import SportstechPerformancePlatformsClientScripts from "./SportstechPerformancePlatformsClientScripts";
 
 export const metadata: Metadata = {
-  title: "SportstechPerformancePlatforms Services | Hyperlink Tech Solutions",
-  description: "SportstechPerformancePlatforms services built around your operations.",
+  alternates: { canonical: "/industries/sportstech-performance-platforms/" },
+  title: "Sportstech Performance Platforms Website Design & Development | Hyperlink",
+  description: "Custom web applications and marketing websites for sports technology and human performance platforms. Digitize athletic data and analytics.",
 };
 
 export default function SportstechPerformancePlatformsPage() {

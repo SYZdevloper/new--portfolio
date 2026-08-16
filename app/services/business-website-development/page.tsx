@@ -10,6 +10,7 @@ import ServiceLeadSection from "@/components/services/ServiceLeadSection";
 import ServiceFeatures from "@/components/services/ServiceFeatures";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/business-website-development/" },
   title: "Business Website Development Services | Hyperlink Tech Solutions",
   description: "Get a responsive, CMS-powered business website with lead forms, integrations, analytics and SEO foundations. Explore Hyperlink's website development services.",
 };
@@ -209,33 +210,33 @@ export default function BusinessWebsiteDevelopment() {
                     <div className="section-heading">
                         <div>
                             <p className="eyebrow">Featured development example</p>
-                            <h2>Real-world systems, built for growth.</h2>
+                            <h2>A smarter martial arts platform, built for progress.</h2>
                         </div>
-                        <p>See how our business website development services help companies streamline their lead generation and content management processes.</p>
+                        <p>See how we helped XMF Martial Arts digitize student management, performance tracking, and communication through one connected platform.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Business website project visual">
                             <div className="case-visual-top">
-                                <span>Business website platform</span>
-                                <span>Responsive + CMS + lead flow</span>
+                                <span>Martial Arts Management Platform</span>
+                                <span>Student Dashboard + QR Access</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/7d2de5e8-3b37-4208-958d-a51bc02499e8.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/ChatGPT%20Image%20Aug%204,%202026,%2008_27_34%20PM.webp" alt="XMF Martial Arts Platform" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Enterprise Solutions</p>
-                                <h2>A scalable platform for global reach.</h2>
-                                <p>We delivered a comprehensive corporate website featuring seamless CRM integration, multi-region content management, and optimized lead flow—driving a significant increase in qualified inquiries.</p>
+                                <p className="eyebrow">XMF Martial Arts</p>
+                                <h2>Every student’s journey, tracked in one place.</h2>
+                                <p>We developed a custom martial arts management platform where students can securely access their dashboards to view training statistics, attendance, current belt level, performance insights, and overall progress—all monitored and updated by their instructors.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>Fragmented systems and an outdated digital presence limited expansion.</strong></div>
-                                <div className="case-fact"><small>Build</small><strong>Unified Next.js architecture with a headless CMS for effortless updates.</strong></div>
-                                <div className="case-fact"><small>Impact</small><strong>40% increase in lead conversion and significantly reduced page load times.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>Manual records made it difficult for instructors and students to consistently track attendance, belt progression, and performance.</strong></div>
+                                <div className="case-fact"><small>Build</small><strong>A centralized student dashboard and custom admin panel with instructor-managed analytics, belt records, progress tracking, and convenient QR-code access.</strong></div>
+                                <div className="case-fact"><small>Impact</small><strong>Simplified academy management, improved visibility into student performance, and gave every student easy access to their complete martial arts journey.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Website Projects <span className="arrow">↗</span></a>
                         </article>

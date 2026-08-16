@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import ConstructionCivilEngineeringClientScripts from "./ConstructionCivilEngineeringClientScripts";
 
 export const metadata: Metadata = {
-  title: "ConstructionCivilEngineering Services | Hyperlink Tech Solutions",
-  description: "ConstructionCivilEngineering services built around your operations.",
+  alternates: { canonical: "/industries/construction-civil-engineering/" },
+  title: "Construction Civil Engineering Website Design & Development | Hyperlink",
+  description: "Corporate websites and project portfolio platforms for construction and civil engineering firms. Build digital trust and capture high-value tenders.",
 };
 
 export default function ConstructionCivilEngineeringPage() {

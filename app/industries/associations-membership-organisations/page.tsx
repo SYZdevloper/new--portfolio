@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import AssociationsMembershipOrganisationsClientScripts from "./AssociationsMembershipOrganisationsClientScripts";
 
 export const metadata: Metadata = {
-  title: "AssociationsMembershipOrganisations Services | Hyperlink Tech Solutions",
-  description: "AssociationsMembershipOrganisations services built around your operations.",
+  alternates: { canonical: "/industries/associations-membership-organisations/" },
+  title: "Associations Membership Organisations Website Design & Development | Hyperlink",
+  description: "Membership portals, directory websites, and community platforms for professional associations and organisations. Drive member engagement and renewals.",
 };
 
 export default function AssociationsMembershipOrganisationsPage() {

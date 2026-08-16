@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import HotelsResortsClientScripts from "./HotelsResortsClientScripts";
 
 export const metadata: Metadata = {
-  title: "HotelsResorts Services | Hyperlink Tech Solutions",
-  description: "HotelsResorts services built around your operations.",
+  alternates: { canonical: "/industries/hotels-resorts/" },
+  title: "Hotels Resorts Website Design & Development | Hyperlink",
+  description: "Direct-booking engines and immersive websites for luxury hotels and resorts. Reduce OTA reliance and capture more direct reservations.",
 };
 
 export default function HotelsResortsPage() {

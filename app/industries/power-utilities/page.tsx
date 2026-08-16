@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import PowerUtilitiesClientScripts from "./PowerUtilitiesClientScripts";
 
 export const metadata: Metadata = {
-  title: "PowerUtilities Services | Hyperlink Tech Solutions",
-  description: "PowerUtilities services built around your operations.",
+  alternates: { canonical: "/industries/power-utilities/" },
+  title: "Power Utilities Website Design & Development | Hyperlink",
+  description: "Customer portals and outage-mapping interfaces for power grids and public utilities. Improve grid transparency and citizen communication.",
 };
 
 export default function PowerUtilitiesPage() {

@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import PropertySalesBrokerageClientScripts from "./PropertySalesBrokerageClientScripts";
 
 export const metadata: Metadata = {
-  title: "PropertySalesBrokerage Services | Hyperlink Tech Solutions",
-  description: "PropertySalesBrokerage services built around your operations.",
+  alternates: { canonical: "/industries/property-sales-brokerage/" },
+  title: "Property Sales Brokerage Website Design & Development | Hyperlink",
+  description: "Property search platforms and broker websites for commercial and residential real estate agencies. Generate qualified buyer and seller leads.",
 };
 
 export default function PropertySalesBrokeragePage() {

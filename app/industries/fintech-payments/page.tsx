@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import FintechPaymentsClientScripts from "./FintechPaymentsClientScripts";
 
 export const metadata: Metadata = {
-  title: "FintechPayments Services | Hyperlink Tech Solutions",
-  description: "FintechPayments services built around your operations.",
+  alternates: { canonical: "/industries/fintech-payments/" },
+  title: "Fintech Payments Website Design & Development | Hyperlink",
+  description: "Secure web applications, marketing websites, and financial dashboards for FinTech and payment gateways. Accelerate user onboarding and trust.",
 };
 
 export default function FintechPaymentsPage() {

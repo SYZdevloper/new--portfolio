@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import MachineryIndustrialEquipmentClientScripts from "./MachineryIndustrialEquipmentClientScripts";
 
 export const metadata: Metadata = {
-  title: "MachineryIndustrialEquipment Services | Hyperlink Tech Solutions",
-  description: "MachineryIndustrialEquipment services built around your operations.",
+  alternates: { canonical: "/industries/machinery-industrial-equipment/" },
+  title: "Machinery Industrial Equipment Website Design & Development | Hyperlink",
+  description: "Digital catalogs and lead-generation websites for heavy machinery and industrial equipment manufacturers. Drive global B2B inquiries and sales.",
 };
 
 export default function MachineryIndustrialEquipmentPage() {

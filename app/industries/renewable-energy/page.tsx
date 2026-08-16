@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import RenewableEnergyClientScripts from "./RenewableEnergyClientScripts";
 
 export const metadata: Metadata = {
-  title: "RenewableEnergy Services | Hyperlink Tech Solutions",
-  description: "RenewableEnergy services built around your operations.",
+  alternates: { canonical: "/industries/renewable-energy/" },
+  title: "Renewable Energy Website Design & Development | Hyperlink",
+  description: "Corporate websites and investor platforms for solar, wind, and renewable energy developers. Accelerate the transition with modern digital infrastructure.",
 };
 
 export default function RenewableEnergyPage() {

@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import FilmStreamingCreatorEconomyClientScripts from "./FilmStreamingCreatorEconomyClientScripts";
 
 export const metadata: Metadata = {
-  title: "FilmStreamingCreatorEconomy Services | Hyperlink Tech Solutions",
-  description: "FilmStreamingCreatorEconomy services built around your operations.",
+  alternates: { canonical: "/industries/film-streaming-creator-economy/" },
+  title: "Film Streaming Creator Economy Website Design & Development | Hyperlink",
+  description: "Media-rich streaming platforms, creator portfolios, and content distribution websites. Built for high-bandwidth media delivery and engagement.",
 };
 
 export default function FilmStreamingCreatorEconomyPage() {

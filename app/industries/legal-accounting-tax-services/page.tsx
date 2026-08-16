@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import LegalAccountingTaxServicesClientScripts from "./LegalAccountingTaxServicesClientScripts";
 
 export const metadata: Metadata = {
-  title: "LegalAccountingTaxServices Services | Hyperlink Tech Solutions",
-  description: "LegalAccountingTaxServices services built around your operations.",
+  alternates: { canonical: "/industries/legal-accounting-tax-services/" },
+  title: "Legal Accounting Tax Services Website Design & Development | Hyperlink",
+  description: "Professional websites and secure document portals for law firms, accounting practices, and tax advisors. Build trust and capture high-value clients.",
 };
 
 export default function LegalAccountingTaxServicesPage() {

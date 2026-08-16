@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import FreightShippingForwardingClientScripts from "./FreightShippingForwardingClientScripts";
 
 export const metadata: Metadata = {
-  title: "FreightShippingForwarding Services | Hyperlink Tech Solutions",
-  description: "FreightShippingForwarding services built around your operations.",
+  alternates: { canonical: "/industries/freight-shipping-forwarding/" },
+  title: "Freight Shipping Forwarding Website Design & Development | Hyperlink",
+  description: "Logistics dashboards, tracking portals, and corporate websites for global freight forwarding and shipping companies. Modernize your digital logistics.",
 };
 
 export default function FreightShippingForwardingPage() {

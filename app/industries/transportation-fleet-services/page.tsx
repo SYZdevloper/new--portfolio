@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import TransportationFleetServicesClientScripts from "./TransportationFleetServicesClientScripts";
 
 export const metadata: Metadata = {
-  title: "TransportationFleetServices Services | Hyperlink Tech Solutions",
-  description: "TransportationFleetServices services built around your operations.",
+  alternates: { canonical: "/industries/transportation-fleet-services/" },
+  title: "Transportation Fleet Services Website Design & Development | Hyperlink",
+  description: "Fleet management dashboards and corporate websites for transportation and commercial fleet services. Modernize your operational footprint.",
 };
 
 export default function TransportationFleetServicesPage() {

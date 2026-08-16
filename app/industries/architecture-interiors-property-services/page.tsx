@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import ArchitectureInteriorsPropertyServicesClientScripts from "./ArchitectureInteriorsPropertyServicesClientScripts";
 
 export const metadata: Metadata = {
-  title: "ArchitectureInteriorsPropertyServices Services | Hyperlink Tech Solutions",
-  description: "ArchitectureInteriorsPropertyServices services built around your operations.",
+  alternates: { canonical: "/industries/architecture-interiors-property-services/" },
+  title: "Architecture Interiors Property Services Website Design & Development | Hyperlink",
+  description: "Immersive portfolio websites and lead-generation systems for architecture, interior design, and property firms. Showcase your projects beautifully.",
 };
 
 export default function ArchitectureInteriorsPropertyServicesPage() {

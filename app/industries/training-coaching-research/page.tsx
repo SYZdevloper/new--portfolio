@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import TrainingCoachingResearchClientScripts from "./TrainingCoachingResearchClientScripts";
 
 export const metadata: Metadata = {
-  title: "TrainingCoachingResearch Services | Hyperlink Tech Solutions",
-  description: "TrainingCoachingResearch services built around your operations.",
+  alternates: { canonical: "/industries/training-coaching-research/" },
+  title: "Training Coaching Research Website Design & Development | Hyperlink",
+  description: "Learning platforms, course catalogs, and professional websites for corporate training and coaching firms. Sell expertise through scalable web design.",
 };
 
 export default function TrainingCoachingResearchPage() {

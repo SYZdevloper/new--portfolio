@@ -160,9 +160,9 @@ export default function SaaSIndustryPage() {
                                 <div className="solution-list" id="solutionList"><span>Homepage and use-case
                                         architecture</span><span>Demo, trial and pricing journeys</span><span>CMS,
                                         technical SEO and analytics</span></div><a className="btn" id="solutionLink"
-                                    href="/services/business-website-development/">Explore this service →</a>
+                                    href="/services/saas-marketing-website/">Explore this service →</a>
                             </div>
-                            <div className="ui-window" aria-hidden="true">
+                            <div className="ui-window" aria-hidden="true" data-view="website">
                                 <div className="ui-top">
                                     <div className="ui-dots"><i></i><i></i><i></i></div><span className="ui-badge"
                                         id="uiBadge">SaaS Marketing Website</span>
@@ -184,36 +184,27 @@ export default function SaaSIndustryPage() {
             <section className="section soft" id="work" data-block-type="caseStudy" data-block-id="featured-product">
                 <div className="container">
                     <div className="case-study">
-                        <div className="case-visual" aria-hidden="true">
-                            <div className="case-browser">
-                                <div className="case-browser-top"></div>
-                                <div className="case-browser-body">
-                                    <div className="case-browser-main"></div>
-                                    <div className="case-browser-side"><span></span><span></span><span></span></div>
-                                </div>
+                        <div className="case-visual" aria-label="End-to-End SaaS visual" style={{ padding: 0, background: 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <div className="case-image-wrapper" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+                                <img src="/images/783140f6-e050-4228-b409-1e3571188702.webp" alt="End-to-End SaaS Architecture" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block' }} />
                             </div>
                         </div>
                         <div className="case-copy">
-                            <p className="eyebrow">Selected SaaS product build</p>
-                            <h2>AI interview platform with voice, evaluation and coding workflows.</h2>
-                            <p>A product experience that combines candidate setup, resume-aware interviews, live
-                                interaction, evaluation and an optional coding round.</p>
+                            <p className="eyebrow">End-to-End SaaS Delivery</p>
+                            <h2>From positioning and marketing to core product architecture.</h2>
+                            <p>We don't just build isolated features. We design and engineer the complete SaaS journey—from the homepage that converts the user, to the dashboard they use every day.</p>
                             <div className="case-features">
                                 <div className="case-feature"><span>01</span>
-                                    <div><strong>Clear multi-step journey</strong><small>Setup, interview session and
-                                            results are separated into focused stages.</small></div>
+                                    <div><strong>Acquisition &amp; Onboarding</strong><small>High-converting marketing websites paired with frictionless, role-based setup wizards.</small></div>
                                 </div>
                                 <div className="case-feature"><span>02</span>
-                                    <div><strong>AI and media integration</strong><small>Voice, camera, evaluation and
-                                            conversational flows work as one product.</small></div>
+                                    <div><strong>Product UI/UX &amp; Dashboards</strong><small>Clear, focused interfaces that turn complex data into actionable, everyday decisions.</small></div>
                                 </div>
                                 <div className="case-feature"><span>03</span>
-                                    <div><strong>Expandable product system</strong><small>Built to support additional
-                                            interview types, coding and company-specific flows.</small></div>
+                                    <div><strong>Custom SaaS Architecture</strong><small>Scalable Next.js and Node.js codebases built for multi-tenant security and rapid iteration.</small></div>
                                 </div>
                             </div>
-                            <div className="case-stack"><span>Next.js</span><span>React</span><span>Supabase</span><span>AI
-                                    integrations</span><span>TypeScript</span></div><a className="btn primary"
+                            <div className="case-stack"><span>Strategy</span><span>UI/UX Design</span><span>Next.js</span><span>Node.js</span><span>PostgreSQL</span></div><a className="btn primary"
                                 href="/work/">View Product Work →</a>
                         </div>
                     </div>

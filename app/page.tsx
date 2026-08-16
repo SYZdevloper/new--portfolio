@@ -1,8 +1,13 @@
+import type { Metadata } from "next";
 import HomeInteractions from "@/components/HomeInteractions";
 import WorkCarousel from "@/components/WorkCarousel";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { headers } from 'next/headers';
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default async function HomePage(props: { searchParams: Promise<{ [key: string]: string | string[] | undefined }> }) {
   const searchParams = await props.searchParams;
@@ -12,9 +17,9 @@ export default async function HomePage(props: { searchParams: Promise<{ [key: st
   const isIndia = country === 'IN';
 
   const currency = isIndia ? '₹' : '$';
-  const priceStarter = isIndia ? '8,499' : '249';
-  const pricePremium = isIndia ? '17,999' : '449';
-  const priceEnterprise = isIndia ? '25,000+' : '649+';
+  const priceStarter = isIndia ? '8,499' : '1,200+';
+  const pricePremium = isIndia ? '17,999' : '3,500+';
+  const displayEnterprise = isIndia ? '₹25,000+' : 'Scope-based proposal';
 
   const budgetOptions = isIndia
     ? [
@@ -487,7 +492,7 @@ export default async function HomePage(props: { searchParams: Promise<{ [key: st
                 <div className="pricing-grid">
                   <article className="price-card">
                     <span className="price-badge">Starter</span>
-                    <h3>Starter</h3>
+                    <h3>Starter Websites</h3>
                     <p>Perfect for local businesses wanting an online presence they can control.</p>
                     <div className="price-value">{currency}{priceStarter}</div>
                     <div className="price-note">Starting from</div>
@@ -509,7 +514,7 @@ export default async function HomePage(props: { searchParams: Promise<{ [key: st
                   </article>
                   <article className="price-card featured">
                     <span className="price-badge orange">Most popular</span>
-                    <h3>Premium</h3>
+                    <h3>Custom Business Websites</h3>
                     <p>For established businesses looking to capture leads and collect payments.</p>
                     <div className="price-value">{currency}{pricePremium}</div>
                     <div className="price-note">Starting from</div>
@@ -530,11 +535,11 @@ export default async function HomePage(props: { searchParams: Promise<{ [key: st
                     </a>
                   </article>
                   <article className="price-card">
-                    <span className="price-badge">Enterprise</span>
-                    <h3>Enterprise</h3>
+                    <span className="price-badge">SaaS & Apps</span>
+                    <h3>SaaS & Web Applications</h3>
                     <p>For startups and companies needing custom functionality and apps.</p>
-                    <div className="price-value">{currency}{priceEnterprise}</div>
-                    <div className="price-note">Starting from</div>
+                    <div className="price-value" style={{ fontSize: "1.5rem", marginTop: "10px" }}>{displayEnterprise}</div>
+                    <div className="price-note">Custom quote</div>
                     <ul className="price-features">
                       <li>Complex custom logic</li>
                       <li>3rd party API integrations</li>
@@ -546,16 +551,16 @@ export default async function HomePage(props: { searchParams: Promise<{ [key: st
                       <li>Role-based access control</li>
                       <li>Advanced security setup</li>
                     </ul>
-                    <a className="btn js-open-proposal" href="#contact" data-package="Enterprise" data-price={`${currency}${priceEnterprise}`} data-service="Custom Web / Product Design" data-budget={budgetOptions[1]}>
-                      Choose Enterprise
+                    <a className="btn js-open-proposal" href="#contact" data-package="SaaS and Apps" data-price={displayEnterprise} data-service="Custom Web / Product Design" data-budget={budgetOptions[1]}>
+                      Choose SaaS & Apps
                       <span className="arrow">↗</span>
                     </a>
                   </article>
                   <article className="price-card">
-                    <span className="price-badge">Custom ERP</span>
-                    <h3>Custom ERP</h3>
+                    <span className="price-badge">ERP & Software</span>
+                    <h3>ERP & Custom Software</h3>
                     <p>For large factories and offices needing internal management software.</p>
-                    <div className="price-value">Custom</div>
+                    <div className="price-value" style={{ fontSize: "1.5rem", marginTop: "10px" }}>Scope-based proposal</div>
                     <div className="price-note">Custom quote</div>
                     <ul className="price-features">
                       <li>Internal company software</li>
@@ -568,8 +573,8 @@ export default async function HomePage(props: { searchParams: Promise<{ [key: st
                       <li>Custom reporting tools</li>
                       <li>1 year priority support</li>
                     </ul>
-                    <a className="btn js-open-proposal" href="#contact" data-package="Custom ERP" data-price="Custom quote" data-service="Custom ERP / Internal Software">
-                      Choose Custom ERP
+                    <a className="btn js-open-proposal" href="#contact" data-package="ERP and Custom Software" data-price="Scope-based proposal" data-service="Custom ERP / Internal Software">
+                      Choose ERP & Software
                       <span className="arrow">↗</span>
                     </a>
                   </article>

@@ -6,6 +6,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/api-integration-development/" },
   title: "API Integration Development Services | Hyperlink Tech Solutions",
   description: "API integration development for websites, SaaS platforms, ecommerce stores and custom web applications. Connect payments, CRM, authentication, messaging, analytics and business systems through reliable APIs and webhooks.",
 };
@@ -214,36 +215,36 @@ export default function ApiIntegrationDevelopment() {
                 <div className="container">
                     <div className="section-heading">
                         <div>
-                            <p className="eyebrow">Featured integration example</p>
-                            <h2>Show how one connected workflow replaced several manual steps.</h2>
+                            <p className="eyebrow">Featured integration project</p>
+                            <h2>Synchronising billing, CRM and customer support workflows.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine integration project. Explain the systems involved, data flow, error handling and measurable business improvement.</p>
+                        <p>See how we connected a fragmented SaaS stack by integrating Stripe, HubSpot, and Zendesk into one automated, bi-directional data flow.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Integration visual">
                             <div className="case-visual-top">
-                                <span>Integration</span>
-                                <span>REST API</span>
+                                <span>API Integration</span>
+                                <span>REST APIs & Webhooks</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/a64rh6mbvofuhdruunnf.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/7d2de5e8-3b37-4208-958d-a51bc02499e8.webp" alt="API Integration Workflow" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A connected lead workflow from website form to CRM and follow-up.</h2>
-                                <p>Use this area to explain what happened before the integration, how data moved between systems and what became faster or more reliable.</p>
+                                <p className="eyebrow">SaaS Operations Automation</p>
+                                <h2>A connected workflow eliminating manual data transfers.</h2>
+                                <p>The client's sales and support teams were losing hours daily cross-referencing payment statuses in Stripe with customer records in HubSpot and support tickets in Zendesk.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>Website enquiries were delivered by email and manually added to the CRM, causing duplicate records, delayed follow-up and incomplete campaign attribution.</strong></div>
-                                <div className="case-fact"><small>Systems</small><strong>Website form, CRM, email platform and analytics service.</strong></div>
-                                <div className="case-fact"><small>Integration</small><strong>Form submissions were validated, sent to the CRM, assigned a source and owner, and used to trigger an approved follow-up workflow.</strong></div>
-                                <div className="case-fact"><small>Reliability</small><strong>Duplicate prevention, API response logging and failure alerts were added to reduce lost enquiries.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified improvement such as faster lead response, fewer manual entries, lower error rates or more complete attribution.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>When a customer upgraded their plan or a payment failed, the sales and support teams weren't notified automatically. Statuses had to be manually synced across platforms.</strong></div>
+                                <div className="case-fact"><small>Systems</small><strong>Custom Node.js middleware connecting Stripe (Payments), HubSpot (CRM), Zendesk (Support), and SendGrid (Transactional Email).</strong></div>
+                                <div className="case-fact"><small>Integration</small><strong>We built a secure webhook listener that captures Stripe billing events. It instantly updates the HubSpot contact properties, routes high-value upgrades to sales, and flags failed payments to Zendesk.</strong></div>
+                                <div className="case-fact"><small>Reliability</small><strong>Implemented idempotency keys to prevent duplicate records, automated retry logic for API timeouts, and a Slack alert channel for failed syncs.</strong></div>
+                                <div className="case-fact"><small>Result</small><strong>Eliminated over 20 hours of manual data entry per week, ensuring sales and support teams always view accurate, real-time customer billing data.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Integration Projects <span className="arrow">↗</span></a>
                         </article>

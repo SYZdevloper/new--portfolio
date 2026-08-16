@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import SchoolsEducationGroupsClientScripts from "./SchoolsEducationGroupsClientScripts";
 
 export const metadata: Metadata = {
-  title: "SchoolsEducationGroups Services | Hyperlink Tech Solutions",
-  description: "SchoolsEducationGroups services built around your operations.",
+  alternates: { canonical: "/industries/schools-education-groups/" },
+  title: "Schools Education Groups Website Design & Development | Hyperlink",
+  description: "Accessible websites and parent portals for private schools and education groups. Streamline admissions and community communications.",
 };
 
 export default function SchoolsEducationGroupsPage() {

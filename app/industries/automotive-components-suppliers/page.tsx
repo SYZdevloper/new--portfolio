@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import AutomotiveComponentsSuppliersClientScripts from "./AutomotiveComponentsSuppliersClientScripts";
 
 export const metadata: Metadata = {
-  title: "AutomotiveComponentsSuppliers Services | Hyperlink Tech Solutions",
-  description: "AutomotiveComponentsSuppliers services built around your operations.",
+  alternates: { canonical: "/industries/automotive-components-suppliers/" },
+  title: "Automotive Components Suppliers Website Design & Development | Hyperlink",
+  description: "B2B portals, supply chain dashboards, and corporate websites for automotive component manufacturers and global suppliers. Streamline your digital presence.",
 };
 
 export default function AutomotiveComponentsSuppliersPage() {

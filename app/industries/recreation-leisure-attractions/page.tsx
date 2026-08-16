@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import RecreationLeisureAttractionsClientScripts from "./RecreationLeisureAttractionsClientScripts";
 
 export const metadata: Metadata = {
-  title: "RecreationLeisureAttractions Services | Hyperlink Tech Solutions",
-  description: "RecreationLeisureAttractions services built around your operations.",
+  alternates: { canonical: "/industries/recreation-leisure-attractions/" },
+  title: "Recreation Leisure Attractions Website Design & Development | Hyperlink",
+  description: "Ticketing platforms and highly visual websites for theme parks, attractions, and leisure destinations. Maximize online bookings and visitor engagement.",
 };
 
 export default function RecreationLeisureAttractionsPage() {

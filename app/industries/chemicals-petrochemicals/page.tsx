@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import ChemicalsPetrochemicalsClientScripts from "./ChemicalsPetrochemicalsClientScripts";
 
 export const metadata: Metadata = {
-  title: "ChemicalsPetrochemicals Services | Hyperlink Tech Solutions",
-  description: "ChemicalsPetrochemicals services built around your operations.",
+  alternates: { canonical: "/industries/chemicals-petrochemicals/" },
+  title: "Chemicals Petrochemicals Website Design & Development | Hyperlink",
+  description: "Corporate websites and B2B client portals for chemical and petrochemical enterprises. Communicate sustainability, compliance, and industrial capability.",
 };
 
 export default function ChemicalsPetrochemicalsPage() {

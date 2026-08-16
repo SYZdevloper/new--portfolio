@@ -6,6 +6,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/frontend-development/" },
   title: "Frontend Development Services | Hyperlink Tech Solutions",
   description: "Frontend development services for websites, SaaS products, dashboards and web applications. Get responsive React and Next.js interfaces, API integration, accessibility and performance optimisation.",
 };
@@ -202,36 +203,36 @@ export default function FrontendDevelopment() {
                 <div className="container">
                     <div className="section-heading">
                         <div>
-                            <p className="eyebrow">Featured frontend example</p>
-                            <h2>Show how approved design became a reliable working product.</h2>
+                            <p className="eyebrow">Featured frontend project</p>
+                            <h2>High-performance real estate discovery platform.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine frontend-development project. Explain the design source, implementation challenges, component approach, integrations and final result.</p>
+                        <p>See how NBR Group, a prominent Bangalore real estate developer, translated their premium residential designs into a lightning-fast, responsive web property.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Frontend Development visual">
                             <div className="case-visual-top">
-                                <span>Frontend Development</span>
-                                <span>React & Next.js</span>
+                                <span>NBR Group Platform</span>
+                                <span>React & Next.js Implementation</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/783140f6-e050-4228-b409-1e3571188702.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/b9149920-0a45-4672-b659-5d8eedf2dd6b.webp" alt="NBR Group Frontend Implementation" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A responsive frontend built from a complete product design system.</h2>
-                                <p>Use this area to explain what was provided, how the interface was structured and what became easier after implementation.</p>
+                                <p className="eyebrow">NBR Group Real Estate</p>
+                                <h2>A premium digital experience for luxury villas and plotted developments.</h2>
+                                <p>NBR Group needed a frontend that matched the "value for money" and premium nature of their real estate projects, specifically catering to home buyers looking for emerging corridors in Bangalore.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Starting Point</small><strong>The client provided approved Figma designs for desktop and mobile views, including a shared component library and defined interaction states.</strong></div>
-                                <div className="case-fact"><small>Challenge</small><strong>The product required reusable components, multiple user states, API-driven content and accurate responsive behaviour across a large set of screens.</strong></div>
-                                <div className="case-fact"><small>Development Approach</small><strong>The interface was implemented using React or Next.js with shared components, consistent styling, typed data handling and structured page layouts.</strong></div>
-                                <div className="case-fact"><small>Integrations</small><strong>Replace this with the real APIs, authentication services, CMS, analytics or business systems used in the project.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified improvement such as faster delivery, improved consistency, reduced frontend duplication or better performance.</strong></div>
+                                <div className="case-fact"><small>Starting Point</small><strong>The client provided complete Figma layouts covering property listings, interactive master plans, amenity galleries and lead capture forms across desktop and mobile.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>The interface required seamless image optimization for high-res property photos, fast load times for SEO, and interactive project maps that worked perfectly on mobile screens.</strong></div>
+                                <div className="case-fact"><small>Development Approach</small><strong>We built a modular component library in Next.js, standardizing property cards, inquiry forms, and image carousels to ensure consistency as new projects are added.</strong></div>
+                                <div className="case-fact"><small>Integrations</small><strong>Connected a Headless CMS for property updates and integrated their CRM APIs to route lead inquiries instantly to the sales team.</strong></div>
+                                <div className="case-fact"><small>Result</small><strong>Delivered a highly performant, accessible frontend that reduced bounce rates and provided home buyers with a fluid, app-like property discovery experience.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Frontend Projects <span className="arrow">↗</span></a>
                         </article>

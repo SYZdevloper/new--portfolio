@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import MetalsFabricationClientScripts from "./MetalsFabricationClientScripts";
 
 export const metadata: Metadata = {
-  title: "MetalsFabrication Services | Hyperlink Tech Solutions",
-  description: "MetalsFabrication services built around your operations.",
+  alternates: { canonical: "/industries/metals-fabrication/" },
+  title: "Metals Fabrication Website Design & Development | Hyperlink",
+  description: "B2B websites and client portals for metals, mining, and fabrication industries. Showcase precision engineering and industrial capacity.",
 };
 
 export default function MetalsFabricationPage() {

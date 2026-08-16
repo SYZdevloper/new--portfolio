@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import RestaurantsCafesFoodServiceClientScripts from "./RestaurantsCafesFoodServiceClientScripts";
 
 export const metadata: Metadata = {
-  title: "RestaurantsCafesFoodService Services | Hyperlink Tech Solutions",
-  description: "RestaurantsCafesFoodService services built around your operations.",
+  alternates: { canonical: "/industries/restaurants-cafes-food-service/" },
+  title: "Restaurants Cafes Food Service Website Design & Development | Hyperlink",
+  description: "Online ordering systems and localized websites for restaurants and food service brands. Drive reservations and seamless digital dining experiences.",
 };
 
 export default function RestaurantsCafesFoodServicePage() {

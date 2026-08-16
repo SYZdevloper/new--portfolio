@@ -6,6 +6,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/custom-erp-development/" },
   title: "Custom ERP Development Services | Hyperlink Tech Solutions",
   description: "Custom ERP development for operations, finance, inventory, HR, approvals and reporting. Get role-based modules, workflow automation, integrations and scalable business software.",
 };
@@ -202,36 +203,36 @@ export default function CustomErpDevelopment() {
                 <div className="container">
                     <div className="section-heading">
                         <div>
-                            <p className="eyebrow">Featured ERP example</p>
-                            <h2>Show how one connected system replaced fragmented operations.</h2>
+                            <p className="eyebrow">Featured ERP project</p>
+                            <h2>Garment operations, connected from fabric receipt to production.</h2>
                         </div>
-                        <p>Replace this demonstration with one genuine ERP project. Explain the original process, departments involved, modules created and what improved after implementation.</p>
+                        <p>See how ZAAB Fashion replaced disconnected factory records with a custom ERP for managing materials, production departments, quality checks and operational reporting.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Custom ERP visual">
                             <div className="case-visual-top">
-                                <span>Custom ERP</span>
-                                <span>Web Application</span>
+                                <span>ZAAB Garment Manufacturing ERP</span>
+                                <span>Fabric + Inventory + Production + Quality Control</span>
                             </div>
                             <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-                                <img src="/images/783140f6-e050-4228-b409-1e3571188702.webp" alt="Working system example" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                                <img src="/images/zaab-garment-factory-erp.webp" alt="ZAAB Fashion ERP" style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Example Case-Study Structure</p>
-                                <h2>A central operations platform for requests, approvals, inventory and reporting.</h2>
-                                <p>Use this area to explain how information previously moved across teams, where delays occurred and how the ERP changed daily work.</p>
+                                <p className="eyebrow">ZAAB Fashion</p>
+                                <h2>One operational system for materials, departments and production control.</h2>
+                                <p>ZAAB Fashion needed a central platform that could follow materials from purchase and receipt through cutting, stitching, washing, embroidery and final quality inspection.</p>
                             </div>
 
                             <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>Operations, procurement, inventory and finance were managed through separate spreadsheets and email, creating duplicate records and unclear approval status.</strong></div>
-                                <div className="case-fact"><small>Users</small><strong>Department staff, supervisors, finance teams, management and administrators required different modules and permissions.</strong></div>
-                                <div className="case-fact"><small>Build</small><strong>A modular ERP with request management, purchase approvals, inventory tracking, supplier records, expense workflows, dashboards and reports.</strong></div>
-                                <div className="case-fact"><small>Integrations</small><strong>Replace this with the real accounting, payment, email, storage or other systems connected to the ERP.</strong></div>
-                                <div className="case-fact"><small>Result</small><strong>Replace this statement with a verified improvement such as reduced manual entry, faster approvals, clearer inventory visibility or more reliable reporting.</strong></div>
+                                <div className="case-fact"><small>Challenge</small><strong>Fabric orders, goods receipt notes, trims, stock movements and departmental production records were maintained separately. This made it difficult to confirm material availability, follow approval status and maintain consistent records across the factory.</strong></div>
+                                <div className="case-fact"><small>Users</small><strong>Procurement teams, store staff, production supervisors, quality-control teams, finance personnel and administrators required dedicated modules with role-based permissions.</strong></div>
+                                <div className="case-fact"><small>Build</small><strong>We developed a modular garment ERP covering fabric and trims purchase orders, goods receipt notes, roll-wise inventory, fabric issuance, tech packs, cutting, stitching, washing, embroidery, shrinkage checks, quality control and factory reporting.</strong></div>
+                                <div className="case-fact"><small>Connected Workflows</small><strong>Supplier records, purchase orders, GRNs, inventory movements, production departments and quality checkpoints were connected through one database, with searchable records and CSV exports for operational reporting.</strong></div>
+                                <div className="case-fact"><small>Result</small><strong>ZAAB Fashion gained a central view of material receipts and production activity, improving traceability between departments and making daily factory information easier to review, update and report.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All ERP Projects <span className="arrow">↗</span></a>
                         </article>

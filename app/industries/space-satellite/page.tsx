@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import SpaceSatelliteClientScripts from "./SpaceSatelliteClientScripts";
 
 export const metadata: Metadata = {
-  title: "SpaceSatellite Services | Hyperlink Tech Solutions",
-  description: "SpaceSatellite services built around your operations.",
+  alternates: { canonical: "/industries/space-satellite/" },
+  title: "Space Satellite Website Design & Development | Hyperlink",
+  description: "Corporate websites and B2B portals for space tech and satellite communications. Showcase orbital capabilities and deep-tech innovation.",
 };
 
 export default function SpaceSatellitePage() {

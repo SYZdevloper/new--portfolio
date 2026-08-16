@@ -7,8 +7,9 @@ import SiteFooter from "@/components/SiteFooter";
 import DigitalPlatformsMarketplacesClientScripts from "./DigitalPlatformsMarketplacesClientScripts";
 
 export const metadata: Metadata = {
-  title: "DigitalPlatformsMarketplaces Services | Hyperlink Tech Solutions",
-  description: "DigitalPlatformsMarketplaces services built around your operations.",
+  alternates: { canonical: "/industries/digital-platforms-marketplaces/" },
+  title: "Digital Platforms Marketplaces Website Design & Development | Hyperlink",
+  description: "Scalable web architectures and user-centric UI/UX design for digital marketplaces and multi-sided platforms. Reduce friction and increase transactions.",
 };
 
 export default function DigitalPlatformsMarketplacesPage() {
