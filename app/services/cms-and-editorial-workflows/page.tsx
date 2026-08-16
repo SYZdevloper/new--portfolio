@@ -92,7 +92,7 @@ export default function CmsAndEditorialWorkflows() {
                         </div>
                         <div className="proof-item">
                             <small>03 · Editorial Review</small>
-                            <strong>Custom states (Draft > Review > Fact Check > Published).</strong>
+                            <strong>Custom states (Draft &gt; Review &gt; Fact Check &gt; Published).</strong>
                         </div>
                         <div className="proof-item">
                             <small>04 · Multi-Author</small>
@@ -206,7 +206,7 @@ export default function CmsAndEditorialWorkflows() {
 
                             <div className="case-facts">
                                 <div className="case-fact"><small>Challenge</small><strong>Writers were relying on HTML hacks to get articles to look right. There was no version control, so if an editor made a mistake, the previous draft was lost forever.</strong></div>
-                                <div className="case-fact"><small>Build</small><strong>We migrated their entire archive to Sanity.io. We built a custom "Studio" for the newsroom featuring modular blocks for quotes, galleries, and embedded charts, plus a strict "Draft -> Review -> Live" permissions structure.</strong></div>
+                                <div className="case-fact"><small>Build</small><strong>We migrated their entire archive to Sanity.io. We built a custom "Studio" for the newsroom featuring modular blocks for quotes, galleries, and embedded charts, plus a strict "Draft -&gt; Review -&gt; Live" permissions structure.</strong></div>
                                 <div className="case-fact"><small>Impact</small><strong>Formatting time dropped from 60 minutes to 5 minutes. The editorial team doubled their weekly publishing output because they were no longer fighting the software.</strong></div>
                             </div>
                             <a className="btn primary" href="/work/">View All Projects <span className="arrow">↗</span></a>
