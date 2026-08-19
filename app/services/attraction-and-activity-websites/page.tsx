@@ -1,0 +1,244 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import ServiceInteractions from "@/components/services/ServiceInteractions";
+import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
+import ServiceLeadSection from "@/components/services/ServiceLeadSection";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/services/attraction-and-activity-websites/" },
+  title: "Attraction & Activity Websites | Hyperlink Tech Solutions",
+  description: "We design visually stunning, high-performance websites for theme parks, museums, and zoos that drive ticket sales and communicate daily operational updates clearly.",
+};
+
+export default function Page() {
+  return (
+    <>
+      <ServiceInteractions />
+      <div className="service-page-wrapper">
+        <SiteHeader />
+
+        <main id="top">
+            <section className="hero service-hero" aria-labelledby="service-title">
+                <nav className="service-breadcrumb" aria-label="Breadcrumb">
+                    <Link href="/">Home</Link><span>›</span>
+                    <Link href="/services/">Services</Link><span>›</span>
+                    <strong>Visitor Discovery</strong>
+                </nav>
+
+                <div className="container hero-grid">
+                    <div className="hero-copy reveal">
+                        <div className="hero-status">Attraction Websites</div>
+                        <p className="eyebrow">Visitor Discovery</p>
+                        <h1 id="service-title">Digitally showcase your attraction.</h1>
+                        <p className="hero-lead">We design visually stunning, high-performance websites for theme parks, museums, and zoos that drive ticket sales and communicate daily operational updates clearly.</p>
+                        <ul className="hero-points" style={{ listStyle: "none", padding: 0 }}>
+                            <li>Visually rich storytelling utilizing immersive video and high-resolution photography of the park experience</li>
+                            <li>Dynamic operational banners to instantly communicate weather closures, ride maintenance, or sold-out days</li>
+                            <li>Headless CMS setups allowing marketing teams to launch new exhibit pages or seasonal events instantly</li>
+                        </ul>
+                        <div className="hero-actions">
+                            <a className="btn primary" href="#contact">Discuss Your Project <span className="arrow">↗</span></a>
+                            <a className="btn" href="#problems">Explore The Approach</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div className="proof-bar">
+                <div className="container">
+                    <div className="proof-bar-inner" aria-label="Platform benefits">
+                        
+                        <div className="proof-item">
+                            <small>01 · Brand Elevation</small>
+                            <strong>Digital experiences that capture the excitement and scale of your physical attraction.</strong>
+                        </div>
+                        <div className="proof-item">
+                            <small>02 · Reduced Friction</small>
+                            <strong>Ensure visitors can easily find opening hours, parking info, and park maps on their phone.</strong>
+                        </div>
+                        <div className="proof-item">
+                            <small>03 · SEO Optimized</small>
+                            <strong>Structure that ranks higher for regional tourism and 'things to do near me' searches.</strong>
+                        </div>
+                        <div className="proof-item">
+                            <small>04 · Operational Agility</small>
+                            <strong>Empower your team to post an urgent weather update without waiting for IT.</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section className="section" id="problems">
+                <div className="container content-intro">
+                    <aside className="content-intro-aside">
+                        <p className="eyebrow">When digital fails the visitor</p>
+                        <p>If a family can't figure out if you are open today, they will go somewhere else.</p>
+                        <a className="btn" href="#contact">Discuss Strategy <span className="arrow">↗</span></a>
+                    </aside>
+
+                    <div className="content-intro-main">
+                        <h2>Poor digital experiences kill ticket sales.</h2>
+                        <p>Planning a family day out is stressful. If a visitor lands on an outdated website where finding the opening hours requires three clicks, or the interactive map crashes their phone, their enthusiasm drops. They need immediate inspiration followed by clear, actionable operational information.</p>
+
+                        <div className="problem-grid">
+                            
+                            <article className="problem-card">
+                                <span className="problem-card-number">01</span>
+                                <h3>Information Hide-and-Seek</h3>
+                                <p>Visitors are frustrated because they cannot easily find basic information like parking costs or stroller policies.</p>
+                            </article>
+                            <article className="problem-card">
+                                <span className="problem-card-number">02</span>
+                                <h3>Slow Performance</h3>
+                                <p>Your website feels outdated and sluggish, especially when loaded with heavy videos that haven't been optimized.</p>
+                            </article>
+                            <article className="problem-card">
+                                <span className="problem-card-number">03</span>
+                                <h3>Developer Bottlenecks</h3>
+                                <p>Marketing is unable to announce the new roller coaster opening date on the homepage without raising a ticket.</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section soft" id="included">
+                <div className="container">
+                    <div className="solution-shell">
+                        <div className="solution-head">
+                            <div>
+                                <p className="eyebrow" style={{color: "#d8c2ff"}}>The deliverables</p>
+                                <h2>Digital flagships for attractions.</h2>
+                            </div>
+                            <p>We build decoupled frontend experiences that prioritize visual excitement without sacrificing mobile speed.</p>
+                        </div>
+
+                        <div className="deliverable-grid">
+                            
+                            <article className="deliverable-card">
+                                <span>01 · Core</span>
+                                <h3>Headless Architecture</h3>
+                                <p>Next.js frontends connected to Sanity or Contentful, separating the visual experience from the ticketing backend.</p>
+                                <div className="deliverable-tags"><small>React</small><small>Headless</small><small>Speed</small></div>
+                            </article>
+                            <article className="deliverable-card">
+                                <span>02 · Core</span>
+                                <h3>Interactive Park Maps</h3>
+                                <p>Custom Mapbox integrations visualizing the park layout, allowing users to filter for restrooms, food, or specific rides.</p>
+                                <div className="deliverable-tags"><small>Maps</small><small>UX</small><small>Mobile</small></div>
+                            </article>
+                            <article className="deliverable-card">
+                                <span>03 · Core</span>
+                                <h3>Dynamic Alerts</h3>
+                                <p>CMS-driven banner systems allowing operations to instantly broadcast capacity limits or ride closures across the whole site.</p>
+                                <div className="deliverable-tags"><small>CMS</small><small>Operations</small><small>UX</small></div>
+                            </article>
+                            <article className="deliverable-card">
+                                <span>04 · Core</span>
+                                <h3>Global Edge Hosting</h3>
+                                <p>Deployment on Vercel to ensure your site loads instantly, even during peak summer holiday traffic spikes.</p>
+                                <div className="deliverable-tags"><small>DevOps</small><small>Performance</small><small>Scale</small></div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section" id="case-study">
+                <div className="container">
+                    <div className="section-heading">
+                        <div>
+                            <p className="eyebrow">Featured Attractions Platform</p>
+                            <h2>Transforming the visitor experience.</h2>
+                        </div>
+                        <p>See how we helped a major regional zoo replace a clunky legacy ticketing widget with a custom React booking flow, increasing online pre-sales by 40% and drastically reducing queues at the front gate on Saturday mornings.</p>
+                    </div>
+
+                    <div className="case-study-shell">
+                        <article className="case-visual" aria-label="Project visual">
+                            <div className="case-visual-top">
+                                <span>Visitor Tech</span>
+                                <span>Ticketing Integrations</span>
+                            </div>
+                            <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
+                                <img src="/images/attractions-case-study.webp" alt="Platform Dashboard" style={{ width: '100%', height: 'auto', display: 'block', backgroundColor: '#2a2a2a', minHeight: '300px' }} />
+                            </div>
+                        </article>
+
+                        <article className="case-copy">
+                            <div>
+                                <p className="eyebrow">Project Overview</p>
+                                <h2>Frictionless entry, higher revenue.</h2>
+                                <p>We developed a secure ticketing engine connected directly to their POS system (like Gateway or Centaman). Families can now purchase time-slotted tickets, add a giraffe-feeding experience to their cart, and checkout with Apple Pay in seconds.</p>
+                            </div>
+                            <a className="btn primary" href="/work/">View All Projects <span className="arrow">↗</span></a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section soft faq-section" id="faq" aria-labelledby="faq-title">
+                <div className="container faq-shell">
+                    <div className="faq-intro">
+                        <p className="eyebrow">Frequently Asked Questions</p>
+                        <h2 id="faq-title">Common questions about attractions tech.</h2>
+                    </div>
+                    <div className="faq-list">
+                        <details open>
+                            <summary>How do you integrate with complex ticketing systems like Gateway Ticketing or Centaman?</summary>
+                            <p>We build API middleware that connects your custom web frontend directly to your core ticketing software. This allows us to pull live capacity, dynamic pricing, and pass validations without exposing the core database.</p>
+                        </details>
+                        <details>
+                            <summary>Can you handle time-slotted or capacity-limited entry?</summary>
+                            <p>Yes. We build interactive calendar and time-picker UIs that query the ticketing system in real-time. If a 10:00 AM slot reaches its 50-person limit, our frontend immediately grays it out to prevent overselling.</p>
+                        </details>
+                        <details>
+                            <summary>Do you build digital tickets for Apple Wallet or Google Pay?</summary>
+                            <p>Yes. Upon successful checkout, we can automatically generate dynamic QR codes and native Apple Wallet/Google Pay passes that your turnstiles or gate staff can scan instantly.</p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section" id="related-services">
+                <div className="container">
+                    <div className="section-heading">
+                        <div>
+                            <p className="eyebrow">Related services</p>
+                            <h2>Explore other attraction capabilities.</h2>
+                        </div>
+                    </div>
+
+                    <div className="related-grid">
+                        <a className="related-card" href="/services/attraction-and-activity-websites/"><div><small>Discovery</small><h3>Attraction Websites</h3><p>Showcase the experience.</p></div><b>Explore discovery ↗</b></a>
+                        <a className="related-card" href="/services/tickets-passes-and-booking/"><div><small>Revenue</small><h3>Ticketing & Passes</h3><p>Frictionless gate entry.</p></div><b>Explore ticketing ↗</b></a>
+                        <a className="related-card" href="/services/membership-and-visitor-accounts/"><div><small>Loyalty</small><h3>Member Portals</h3><p>Self-serve passholders.</p></div><b>Explore portals ↗</b></a>
+                        <a className="related-card" href="/services/groups-events-and-education/"><div><small>B2B Operations</small><h3>Group Bookings</h3><p>Streamline large groups.</p></div><b>Explore B2B ↗</b></a>
+                    </div>
+                </div>
+            </section>
+
+            <ServiceLeadSection />
+
+            <section className="big-cta">
+                <div className="container">
+                    <h2>Modernize your attraction <br />and visitor operations. <span className="orb-icon" aria-hidden="true"></span></h2>
+                    <div className="big-cta-row">
+                        <p>From custom ticketing engines to digital passholder wallets and live attendance dashboards, we build software that drives revenue and reduces gate friction.</p>
+                        <a className="btn" href="#contact">Get a Proposal <span className="arrow">↗</span></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <SiteFooter />
+    </div>
+    <a className="floating-cta" href="#contact">Get Proposal ↗</a>
+    <div className="mobile-bottom" aria-label="Quick contact actions">
+        <a href="mailto:hello@hyperlinktechsolutions.com">Email Us</a>
+        <a href="#contact">Get Proposal</a>
+    </div>
+    </>
+  );
+}

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import "../business-website-development/services.css";
 import ServiceInteractions from "@/components/services/ServiceInteractions";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
@@ -8,47 +7,14 @@ import ServiceLeadSection from "@/components/services/ServiceLeadSection";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/services/samples-quotes-and-projects/" },
-  title: "Samples, Quotes & Projects Portals | Hyperlink Tech Solutions",
-  description: "Digitize your B2B sales funnel. We build custom portals for architects and contractors to order material samples, request custom quotes, and manage project bids.",
+  title: "Samples, Quotes & Projects | Hyperlink Tech Solutions",
+  description: "We engineer workflows that allow commercial clients to request physical samples, manage multi-stage quotes, and organize products by specific construction projects.",
 };
 
-export default function SamplesQuotesAndProjects() {
+export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebPage",
-          "@id": "https://hyperlinktechsolutions.com/services/samples-quotes-and-projects/#webpage",
-          "url": "https://hyperlinktechsolutions.com/services/samples-quotes-and-projects/",
-          "name": "Samples, Quotes & Projects Portals | Hyperlink Tech Solutions",
-          "description": "Digitize your B2B sales funnel. We build custom portals for architects and contractors to order material samples, request custom quotes, and manage project bids.",
-          "isPartOf": { "@id": "https://hyperlinktechsolutions.com/#website" },
-          "about": { "@id": "https://hyperlinktechsolutions.com/services/samples-quotes-and-projects/#service" },
-          "breadcrumb": { "@id": "https://hyperlinktechsolutions.com/services/samples-quotes-and-projects/#breadcrumb" },
-          "inLanguage": "en"
-        },
-        {
-          "@type": "Service",
-          "@id": "https://hyperlinktechsolutions.com/services/samples-quotes-and-projects/#service",
-          "name": "Samples, Quotes & Projects",
-          "serviceType": "B2B Sales Portals",
-          "url": "https://hyperlinktechsolutions.com/services/samples-quotes-and-projects/",
-          "description": "Digitize your B2B sales funnel. We build custom portals for architects and contractors to order material samples, request custom quotes, and manage project bids.",
-          "provider": { "@id": "https://hyperlinktechsolutions.com/#organization" },
-          "areaServed": "Worldwide",
-          "audience": {
-            "@type": "BusinessAudience",
-            "audienceType": "A&D Manufacturers, Commercial Suppliers, and Industrial Wholesalers"
-          }
-        }
-      ]
-    }
-    ` }} />
-      
-    <ServiceInteractions />
+      <ServiceInteractions />
       <div className="service-page-wrapper">
         <SiteHeader />
 
@@ -57,22 +23,22 @@ export default function SamplesQuotesAndProjects() {
                 <nav className="service-breadcrumb" aria-label="Breadcrumb">
                     <Link href="/">Home</Link><span>›</span>
                     <Link href="/services/">Services</Link><span>›</span>
-                    <strong>Samples, Quotes & Projects</strong>
+                    <strong>Sales Workflows</strong>
                 </nav>
 
                 <div className="container hero-grid">
                     <div className="hero-copy reveal">
-                        <div className="hero-status">Streamlined Pre-Sales Workflows</div>
-                        <p className="eyebrow">Samples, Quotes & Projects</p>
-                        <h1 id="service-title" dangerouslySetInnerHTML={{ __html: 'Turn complex B2B inquiries into <em class="accent-text">managed pipelines.</em>' }}></h1>
-                        <p className="hero-lead">We digitize the messy middle of the B2B sales process. Build custom portals where architects can order physical samples, contractors can request complex RFQs, and your sales team can track it all by project.</p>
+                        <div className="hero-status">Sales Workflows</div>
+                        <p className="eyebrow">Sales Workflows</p>
+                        <h1 id="service-title">Accelerate the specification cycle.</h1>
+                        <p className="hero-lead">We engineer workflows that allow commercial clients to request physical samples, manage multi-stage quotes, and organize products by specific construction projects.</p>
                         <ul className="hero-points" style={{ listStyle: "none", padding: 0 }}>
-                            <li>Automated sample fulfillment routing and inventory management</li>
-                            <li>Complex "Request for Quote" (RFQ) builders with matrix pricing</li>
-                            <li>Project-based dashboards for managing multi-phase bids</li>
+                            <li>Streamlined sample request carts allowing architects to bundle multiple materials for a mood board</li>
+                            <li>Project-builder tools allowing users to save and group products into specific commercial developments</li>
+                            <li>Seamless routing of commercial quotes to the appropriate regional sales manager or dealer</li>
                         </ul>
                         <div className="hero-actions">
-                            <a className="btn primary" href="#contact">Discuss Your Sales Flow <span className="arrow">↗</span></a>
+                            <a className="btn primary" href="#contact">Discuss Your Project <span className="arrow">↗</span></a>
                             <a className="btn" href="#problems">Explore The Approach</a>
                         </div>
                     </div>
@@ -81,22 +47,23 @@ export default function SamplesQuotesAndProjects() {
 
             <div className="proof-bar">
                 <div className="container">
-                    <div className="proof-bar-inner" aria-label="Portal benefits">
+                    <div className="proof-bar-inner" aria-label="Platform benefits">
+                        
                         <div className="proof-item">
-                            <small>01 · Faster Quoting</small>
-                            <strong>Reduce quote turnaround time from days to hours.</strong>
+                            <small>01 · Faster Dispatch</small>
+                            <strong>Route sample requests instantly to the warehouse for fulfillment.</strong>
                         </div>
                         <div className="proof-item">
-                            <small>02 · Sample Tracking</small>
-                            <strong>Tie every sample ordered directly to a CRM opportunity.</strong>
+                            <small>02 · Pipeline Visibility</small>
+                            <strong>Give the sales team a clear view of which architects are requesting which materials.</strong>
                         </div>
                         <div className="proof-item">
                             <small>03 · Project Organization</small>
-                            <strong>Group multiple RFQs under a single commercial project ID.</strong>
+                            <strong>Let architects organize their saved items by project (e.g., 'Sydney Airport Terminal').</strong>
                         </div>
                         <div className="proof-item">
-                            <small>04 · Higher Win Rates</small>
-                            <strong>A smoother quoting experience directly impacts bid success.</strong>
+                            <small>04 · Feedback Loops</small>
+                            <strong>Automatically prompt architects for feedback after a sample is delivered.</strong>
                         </div>
                     </div>
                 </div>
@@ -105,30 +72,31 @@ export default function SamplesQuotesAndProjects() {
             <section className="section" id="problems">
                 <div className="container content-intro">
                     <aside className="content-intro-aside">
-                        <p className="eyebrow">When Quoting Portals are necessary</p>
-                        <p>When your sales inbox is filled with vague requests and lost sample tracking numbers.</p>
-                        <a className="btn" href="#contact">Organize Your Pipeline <span className="arrow">↗</span></a>
+                        <p className="eyebrow">When sampling is unmanaged</p>
+                        <p>Sending expensive material samples into a black hole hurts your bottom line.</p>
+                        <a className="btn" href="#contact">Discuss Strategy <span className="arrow">↗</span></a>
                     </aside>
 
                     <div className="content-intro-main">
-                        <h2>Email-based quoting and sample ordering is leaking revenue.</h2>
-                        <p>In B2B manufacturing, a sale rarely happens in a single click. It requires physical samples, custom pricing grids, and project-based tracking. When this is handled entirely via email threads, requests get lost, quoting takes too long, and competitors win the bid.</p>
+                        <h2>Disconnected sample processes lose commercial deals.</h2>
+                        <p>In the building materials industry, selling almost always requires a physical sample. When requests are taken over the phone, emailed to the warehouse, and shipped without tracking, your commercial reps lose visibility. They don't know when the sample arrived, and they forget to follow up, resulting in lost specifications.</p>
 
                         <div className="problem-grid">
+                            
                             <article className="problem-card">
                                 <span className="problem-card-number">01</span>
-                                <h3>Black-Hole Samples</h3>
-                                <p>Architects order expensive material samples, but your sales team has no automated way to follow up or tie that sample to a specific project.</p>
+                                <h3>Lost Requests</h3>
+                                <p>A sample request gets buried in a warehouse inbox, and the architect specifies a competitor who shipped faster.</p>
                             </article>
                             <article className="problem-card">
                                 <span className="problem-card-number">02</span>
-                                <h3>Incomplete RFQs</h3>
-                                <p>Contractors email requests for quotes but forget to include critical dimensions or material grades, causing days of back-and-forth clarification.</p>
+                                <h3>Zero Traceability</h3>
+                                <p>Commercial reps have no idea if the expensive sample box they requested actually arrived at the architecture firm.</p>
                             </article>
                             <article className="problem-card">
                                 <span className="problem-card-number">03</span>
-                                <h3>Disorganized Projects</h3>
-                                <p>Large commercial builds require multiple quotes over several months. Your reps struggle to track which revisions belong to which phase of the project.</p>
+                                <h3>Poor Follow-up</h3>
+                                <p>Thousands of dollars in samples are sent out monthly, but there is no system to track which ones resulted in commercial orders.</p>
                             </article>
                         </div>
                     </div>
@@ -141,35 +109,36 @@ export default function SamplesQuotesAndProjects() {
                         <div className="solution-head">
                             <div>
                                 <p className="eyebrow" style={{color: "#d8c2ff"}}>The deliverables</p>
-                                <h2>End-to-End Project Portals.</h2>
+                                <h2>Digital specification workflows.</h2>
                             </div>
-                            <p>We build secure, account-based web portals that guide users through structured requests and give your sales team total visibility into the pipeline.</p>
+                            <p>We build systems that turn sample requests and project planning into a structured, trackable sales pipeline.</p>
                         </div>
 
                         <div className="deliverable-grid">
+                            
                             <article className="deliverable-card">
-                                <span>01 · Logistics</span>
-                                <h3>Sample Ordering Engines</h3>
-                                <p>Building eCommerce-style checkouts specifically for free or paid samples, integrated directly with your fulfillment center and CRM.</p>
-                                <div className="deliverable-tags"><small>Samples</small><small>Logistics</small><small>CRM</small></div>
+                                <span>01 · Core</span>
+                                <h3>Sample Cart Experiences</h3>
+                                <p>E-commerce style 'add to cart' functionality specifically designed for ordering free or paid material samples.</p>
+                                <div className="deliverable-tags"><small>UX</small><small>Cart</small><small>Leads</small></div>
                             </article>
                             <article className="deliverable-card">
-                                <span>02 · Sales</span>
-                                <h3>Guided RFQ Builders</h3>
-                                <p>Replacing vague emails with dynamic forms that force users to provide all necessary specs (dimensions, tolerances) before submitting a quote request.</p>
-                                <div className="deliverable-tags"><small>RFQs</small><small>Forms</small><small>Validation</small></div>
+                                <span>02 · Core</span>
+                                <h3>Project Board Portals</h3>
+                                <p>Secure areas where logged-in architects can save products, download aggregated technical data, and invite colleagues to collaborate.</p>
+                                <div className="deliverable-tags"><small>Portals</small><small>React</small><small>Collaboration</small></div>
                             </article>
                             <article className="deliverable-card">
-                                <span>03 · Organization</span>
-                                <h3>Project Workspaces</h3>
-                                <p>Creating user dashboards where architects can group different samples, quotes, and technical documents under specific "Project" folders.</p>
-                                <div className="deliverable-tags"><small>Dashboards</small><small>Projects</small><small>UX</small></div>
+                                <span>03 · Core</span>
+                                <h3>CRM Integration</h3>
+                                <p>Middleware that automatically logs sample requests, dispatch statuses, and tracking links directly onto the account record in Salesforce or HubSpot.</p>
+                                <div className="deliverable-tags"><small>APIs</small><small>CRM</small><small>Sales</small></div>
                             </article>
                             <article className="deliverable-card">
-                                <span>04 · Integration</span>
-                                <h3>ERP & CRM Syncing</h3>
-                                <p>Piping approved quotes directly into your ERP for fulfillment, while logging every interaction in Salesforce to empower your sales reps.</p>
-                                <div className="deliverable-tags"><small>ERP</small><small>Salesforce</small><small>APIs</small></div>
+                                <span>04 · Core</span>
+                                <h3>Quote Routing Engines</h3>
+                                <p>Logic that takes a massive commercial cart and automatically routes the RFQ to the correct internal rep or external distributor based on territory.</p>
+                                <div className="deliverable-tags"><small>Routing</small><small>Logic</small><small>B2B</small></div>
                             </article>
                         </div>
                     </div>
@@ -180,36 +149,30 @@ export default function SamplesQuotesAndProjects() {
                 <div className="container">
                     <div className="section-heading">
                         <div>
-                            <p className="eyebrow">Featured Portal Build</p>
-                            <h2>Digitizing a national surfacing brand's sample program.</h2>
+                            <p className="eyebrow">Featured Materials Platform</p>
+                            <h2>Digitizing the specification lifecycle.</h2>
                         </div>
-                        <p>See how we turned a massive cost center into a measurable lead generation machine.</p>
+                        <p>See how we helped a national building materials manufacturer build a headless product platform that connects digital CAD libraries directly to architect sample requests and distributor inventory.</p>
                     </div>
 
                     <div className="case-study-shell">
                         <article className="case-visual" aria-label="Project visual">
                             <div className="case-visual-top">
-                                <span>Sample Portals</span>
-                                <span>CRM Integration</span>
+                                <span>Manufacturing Tech</span>
+                                <span>B2B Commerce & Specification</span>
                             </div>
-                            <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)', background: '#1a1a1a', height: '250px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <div style={{ color: '#666', fontSize: '1.2rem', fontWeight: 500 }}>Dashboard Interface</div>
+                            <div className="case-image-wrapper" aria-hidden="true" style={{ marginTop: '1rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
+                                <img src="/images/materials-case-study.webp" alt="Platform Dashboard" style={{ width: '100%', height: 'auto', display: 'block', backgroundColor: '#2a2a2a', minHeight: '300px' }} />
                             </div>
                         </article>
 
                         <article className="case-copy">
                             <div>
-                                <p className="eyebrow">Commercial Tile Manufacturer</p>
-                                <h2>Tracking the ROI of physical samples.</h2>
-                                <p>A major tile manufacturer was spending $2M a year shipping free samples to architects, but they had no idea which samples actually resulted in a commercial project specification.</p>
+                                <p className="eyebrow">Project Overview</p>
+                                <h2>From architectural concept to site delivery.</h2>
+                                <p>We developed a custom portal that allows architects to download BIM files and request physical samples, while seamlessly routing the resulting commercial quotes to the nearest authorized dealer based on real-time ERP inventory.</p>
                             </div>
-
-                            <div className="case-facts">
-                                <div className="case-fact"><small>Challenge</small><strong>Samples were ordered via basic web forms and fulfilled manually. Sales reps didn't know an architect was interested until weeks later.</strong></div>
-                                <div className="case-fact"><small>Build</small><strong>We built a "Project Portfolio" portal where architects add samples to specific projects. The portal integrates with their warehouse API for instant shipping labels, and alerts the local sales rep via Salesforce.</strong></div>
-                                <div className="case-fact"><small>Impact</small><strong>The company can now trace 60% of commercial revenue back to specific sample orders. Follow-up time dropped from 14 days to 24 hours.</strong></div>
-                            </div>
-                            <a className="btn primary" href="/contact">Start Your Project <span className="arrow">↗</span></a>
+                            <a className="btn primary" href="/work/">View All Projects <span className="arrow">↗</span></a>
                         </article>
                     </div>
                 </div>
@@ -219,29 +182,20 @@ export default function SamplesQuotesAndProjects() {
                 <div className="container faq-shell">
                     <div className="faq-intro">
                         <p className="eyebrow">Frequently Asked Questions</p>
-                        <h2 id="faq-title">Common questions about Sales Portals.</h2>
-                        <p>Answers covering sample limits, quoting logic, and integrations.</p>
+                        <h2 id="faq-title">Common questions about building materials tech.</h2>
                     </div>
                     <div className="faq-list">
                         <details open>
-                            <summary>How do you prevent users from ordering too many free samples?</summary>
-                            <p>We program business logic into the portal that restricts free sample quantities based on the user's account type. For example, a verified architect might get 10 free samples a month, while a standard user gets 2 before being prompted to pay.</p>
+                            <summary>How do you handle complex product variations (colours, sizes, finishes)?</summary>
+                            <p>We build structured databases (often via headless CMS like Sanity or integrated PIMs) that manage complex parent-child SKU relationships. This allows a user to view a 'product line' and then filter dynamically by specific finish or dimension without navigating through hundreds of separate pages.</p>
                         </details>
                         <details>
-                            <summary>Can the portal calculate shipping costs for samples?</summary>
-                            <p>Yes. We integrate with logistics APIs (FedEx, UPS, USPS) to calculate real-time shipping rates, and can integrate Stripe to process payments if you charge for expedited shipping.</p>
+                            <summary>Can you integrate B2B ordering portals with legacy manufacturing ERPs?</summary>
+                            <p>Yes. We build secure API middleware layers that sit between your modern dealer portal and legacy ERPs (like SAP, JD Edwards, or Epicor). This translates modern web cart requests into the specific formats your backend system requires for order entry and inventory deduction.</p>
                         </details>
                         <details>
-                            <summary>How does the RFQ builder handle complex pricing rules?</summary>
-                            <p>Rather than exposing your pricing logic directly to the user, the RFQ builder acts as a structured data collection tool. It gathers all required variables and sends them to your ERP or internal quoting team, ensuring the final price provided is accurate.</p>
-                        </details>
-                        <details>
-                            <summary>Can users share their 'Projects' with colleagues?</summary>
-                            <p>Yes. We frequently build team-based workspaces where a lead architect can create a project, add materials to it, and invite junior designers or general contractors to view and collaborate on the same dashboard.</p>
-                        </details>
-                        <details>
-                            <summary>Does this integrate with Salesforce?</summary>
-                            <p>Absolutely. We use robust APIs to ensure that every sample ordered, project created, or RFQ submitted instantly generates or updates an Opportunity in your CRM, equipping your sales team with actionable data.</p>
+                            <summary>Do you host CAD and BIM files directly on the platform?</summary>
+                            <p>Yes. We build dedicated architectural resource libraries where specifiers can easily filter and download Revit, SketchUp, and AutoCAD files. We can also track these downloads to generate high-intent leads for your commercial sales team.</p>
                         </details>
                     </div>
                 </div>
@@ -252,13 +206,15 @@ export default function SamplesQuotesAndProjects() {
                     <div className="section-heading">
                         <div>
                             <p className="eyebrow">Related services</p>
-                            <h2>Complete your digital infrastructure.</h2>
+                            <h2>Explore other manufacturing capabilities.</h2>
                         </div>
                     </div>
 
                     <div className="related-grid">
-                        <a className="related-card" href="/services/specifier-and-design-tools/"><div><small>Discovery</small><h3>Specifier Tools</h3><p>Give architects visual calculators before they request a quote.</p></div><b>Explore tools ↗</b></a>
-                        <a className="related-card" href="/services/product-and-material-catalogues/"><div><small>Data</small><h3>Material Catalogues</h3><p>Organize the product data that feeds your sample ordering engine.</p></div><b>Explore catalogues ↗</b></a>
+                        <a className="related-card" href="/services/product-and-material-catalogues/"><div><small>Discovery</small><h3>Material Catalogues</h3><p>Showcase technical specifications.</p></div><b>Explore catalogues ↗</b></a>
+                        <a className="related-card" href="/services/specifier-and-design-tools/"><div><small>Technical Sales</small><h3>Design Tools</h3><p>Help architects specify products.</p></div><b>Explore tools ↗</b></a>
+                        <a className="related-card" href="/services/samples-quotes-and-projects/"><div><small>Sales</small><h3>Sample Workflows</h3><p>Accelerate the specification cycle.</p></div><b>Explore workflows ↗</b></a>
+                        <a className="related-card" href="/services/dealer-and-distributor-portals/"><div><small>Commerce</small><h3>Dealer Portals</h3><p>Digitize bulk material ordering.</p></div><b>Explore portals ↗</b></a>
                     </div>
                 </div>
             </section>
@@ -267,10 +223,10 @@ export default function SamplesQuotesAndProjects() {
 
             <section className="big-cta">
                 <div className="container">
-                    <h2>Organize your pipeline. <br />Close more bids. <span className="orb-icon" aria-hidden="true"></span></h2>
+                    <h2>Modernize your materials <br />and manufacturing operations. <span className="orb-icon" aria-hidden="true"></span></h2>
                     <div className="big-cta-row">
-                        <p>Ready to modernize how your customers request samples and quotes? Let's discuss your B2B sales workflow.</p>
-                        <a className="btn" href="#contact">Get a Portal Proposal <span className="arrow">↗</span></a>
+                        <p>From complex technical catalogues for architects to B2B bulk ordering portals for dealers, we build software that drives efficiency across the construction supply chain.</p>
+                        <a className="btn" href="#contact">Get a Proposal <span className="arrow">↗</span></a>
                     </div>
                 </div>
             </section>
@@ -283,7 +239,6 @@ export default function SamplesQuotesAndProjects() {
         <a href="mailto:hello@hyperlinktechsolutions.com">Email Us</a>
         <a href="#contact">Get Proposal</a>
     </div>
-
     </>
   );
 }

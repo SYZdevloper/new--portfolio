@@ -4,7 +4,43 @@ import { useEffect } from "react";
 
 export default function LogisticsWarehousingClientScripts() {
   useEffect(() => {
-    const solutionData: Record<string, any> = { "discovery": { "kicker": "Experience discovery", "title": "Help audiences find relevant events and spaces.", "text": "Structure categories, dates, locations, capacity, facilities, accessibility, packages, media and maps.", "items": ["Event search", "Venue and space pages", "Calendar and maps"], "label": "Event & Venue Discovery" }, "booking": { "kicker": "Conversion", "title": "Connect interest with the right booking path.", "text": "Support tickets, seating inputs, venue requests, availability, packages, deposits, payments and confirmation.", "items": ["Ticketing integration", "Venue enquiry forms", "Deposits and confirmation"], "label": "Tickets, Enquiries & Booking" }, "organisers": { "kicker": "Partner operations", "title": "Give organisers and venue teams role-based workflows.", "text": "Provide events, spaces, schedules, files, attendees, suppliers, requests, settlements and reports.", "items": ["Organiser accounts", "Schedule and file workflows", "Attendance and settlement views"], "label": "Organiser & Venue Portals" }, "attendees": { "kicker": "Guest service", "title": "Support visitors before, during and after the event.", "text": "Connect tickets, wallets, itineraries, directions, accessibility, notifications, check-in and feedback.", "items": ["Ticket accounts", "Event itineraries", "Check-in and alerts"], "label": "Attendee Experience" }, "operations": { "kicker": "Live visibility", "title": "Present approved booking and event indicators.", "text": "Show sales, capacity, arrivals, check-in, issues, suppliers, service cases and event performance.", "items": ["Sales and capacity", "Check-in status", "Event reporting"], "label": "Event Operations Dashboards" } }
+    const solutionData: Record<string, any> = { 
+        "discovery": { 
+            "kicker": "Network Discovery", 
+            "title": "Showcase your supply chain capabilities.", 
+            "text": "Clearly communicate network capacity, specialized equipment, and lane coverage to prospective enterprise shippers.", 
+            "items": ["Interactive network maps", "Equipment catalogues", "Lane coverage visualization"], 
+            "label": "Freight & Capacity Discovery" 
+        }, 
+        "quoting": { 
+            "kicker": "Revenue", 
+            "title": "Digitize the freight sale.", 
+            "text": "Engineer custom quoting engines and booking flows that integrate directly with your TMS.", 
+            "items": ["Instant web quoting", "Live TMS integration", "Automated BOL generation"], 
+            "label": "Quotes, Booking & Dispatch" 
+        }, 
+        "carrier": { 
+            "kicker": "B2B Operations", 
+            "title": "Streamline carrier relations.", 
+            "text": "Provide secure B2B portals where external carriers and warehouse partners can view loads, submit bids, and upload documents.", 
+            "items": ["Load board interfaces", "Digital document vaults", "Automated settlement"], 
+            "label": "Carrier & Supplier Portals" 
+        }, 
+        "tracking": { 
+            "kicker": "Service", 
+            "title": "Self-serve visibility for shippers.", 
+            "text": "Build secure portals where your customers can track active freight, download invoices, and manage shipping addresses.", 
+            "items": ["Visual ELD tracking", "Invoice & statement retrieval", "Automated milestone alerts"], 
+            "label": "Tracking & Customer Portals" 
+        }, 
+        "analytics": { 
+            "kicker": "Executive Operations", 
+            "title": "Visibility across the logistics network.", 
+            "text": "Aggregate data from your TMS, WMS, and accounting software to track lane profitability and carrier performance.", 
+            "items": ["Executive margin scorecards", "Carrier performance tracking", "Warehouse pick rate analytics"], 
+            "label": "Supply Chain Dashboards" 
+        } 
+    };
 
     document.querySelectorAll('.solution-tab').forEach((tab) => {
         tab.addEventListener('click', (e) => {
@@ -36,7 +72,6 @@ export default function LogisticsWarehousingClientScripts() {
         });
     });
 
-    
     const handleFaqClick = (e: MouseEvent) => {
         const target = (e.target as HTMLElement).closest('.faq-question');
         if (!target) return;
@@ -62,8 +97,6 @@ export default function LogisticsWarehousingClientScripts() {
         (window as any)._faqListenerAdded = true;
     }
 
-
-    
     const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const revealElements = Array.from(document.querySelectorAll(".reveal, .reveal-left, .reveal-right, .reveal-zoom"));
     if (prefersReducedMotion) {
@@ -85,7 +118,7 @@ export default function LogisticsWarehousingClientScripts() {
     if (menuBtn && mobileMenu) {
         menuBtn.addEventListener('click', () => {
             const open = mobileMenu.classList.toggle('open');
-            menuBtn.textContent = open ? '×' : '☰';
+            menuBtn.textContent = open ? 'A-' : '~';
         });
     }
 

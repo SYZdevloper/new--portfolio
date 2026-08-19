@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import "../industry-template.css";
 import "./forestry-inputs-agricultural-services.css";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
@@ -8,7 +7,7 @@ import ForestryInputsAgriculturalServicesClientScripts from "./ForestryInputsAgr
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industries/forestry-inputs-agricultural-services/" },
-  title: "Forestry Inputs Agricultural Services Website Design & Development | Hyperlink",
+  title: "Forestry & Agricultural Services Website Design & Development | Hyperlink",
   description: "Industrial corporate websites and client platforms for forestry, timber, and agricultural services. Showcase operational scale and sustainability.",
 };
 
@@ -22,26 +21,24 @@ export default function ForestryInputsAgriculturalServicesPage() {
             <section className="hero" data-block-type="hero" data-block-id="industry-hero">
                 <div className="container">
                     <div className="breadcrumbs"><a href="/">Home</a><span>/</span><a
-                            href="/industries/">Industries</a><span>/</span><strong>Fisheries &amp; Aquaculture</strong>
+                            href="/industries/">Industries</a><span>/</span><strong>Forestry &amp; Agricultural Services</strong>
                     </div>
                     <div className="hero-grid">
                         <div className="hero-copy reveal">
-                            <p className="eyebrow">Fisheries &amp; Aquaculture</p>
-                            <h1>Connect aquatic products, farms, vessels, buyers and production operations through
-                                practical digital tools.</h1>
-                            <p className="hero-lead">We build product websites, producer portals, traceability workflows and
-                                dashboards for fisheries, aquaculture, seafood and aquatic-technology businesses.</p>
-                            <div className="hero-points"><span>Present species, products, production methods and
-                                    availability clearly</span><span>Connect farms, vessels, buyers, suppliers and
-                                    service teams</span><span>Support batches, feeding, water quality, harvests and
-                                    traceability reporting</span></div>
+                            <p className="eyebrow">Forestry &amp; Agricultural Services</p>
+                            <h1>Connect supply chains, field operations, and producers through practical digital tools.</h1>
+                            <p className="hero-lead">We build corporate websites, supplier portals, field mobility apps, and operational dashboards for forestry companies, agricultural input suppliers, and rural service providers.</p>
+                            <div className="hero-points">
+                                <span>Present services, equipment, capabilities and safety compliance clearly</span>
+                                <span>Connect contractors, operators, dispatchers and mill operations</span>
+                                <span>Support harvest dockets, field surveys, logistics and yield reporting</span>
+                            </div>
                             <div className="hero-actions"><a className="btn primary" href="#free-review">Get a Free Industry
                                     Review →</a><a className="btn" href="#solutions">Explore Solutions</a></div>
                             <p className="microcopy">No obligation. Share your current workflow or platform idea and we will
                                 identify a practical first-release opportunity.</p>
                         </div>
-                        <aside className="review-card reveal-right" id="free-review"><span className="review-badge">Free Fisheries &amp;
-                                Aquaculture review</span>
+                        <aside className="review-card reveal-right" id="free-review"><span className="review-badge">Free Forestry &amp; Ag Services review</span>
                             <h2>Find the digital journey that needs attention first.</h2>
                             <p>Share your current platform, workflow or project idea. We will reply with a focused
                                 recommendation.</p>
@@ -49,17 +46,17 @@ export default function ForestryInputsAgriculturalServicesPage() {
                                     observations</span><span>Highest-priority opportunity</span><span>Key data and
                                     integration dependencies</span></div>
                             <form className="compact-form js-demo-form" action="/api/leads" method="post"><input
-                                    type="hidden" name="source_page" value="industries/fisheries-aquaculture" /><input
+                                    type="hidden" name="source_page" value="industries/forestry-inputs-agricultural-services" /><input
                                     type="hidden" name="offer"
-                                    value="free-industries/fisheries-aquaculture-review" /><input name="email"
+                                    value="free-industries/forestry-review" /><input name="email"
                                     type="email" required={true} placeholder="Work email *" /><input name="company" required={true}
                                     placeholder="Company name *" /><select name="goal">
                                     <option>Primary requirement</option>
-                                    <option>Product &amp; Market Platforms</option>
-                                    <option>Farm &amp; Production Portals</option>
-                                    <option>Traceability &amp; Quality Workflows</option>
-                                    <option>Supplier &amp; Service Portals</option>
-                                    <option>Aquaculture &amp; Fisheries Dashboards</option>
+                                    <option>Forestry &amp; Input Platforms</option>
+                                    <option>Contractor &amp; Operator Portals</option>
+                                    <option>Harvest &amp; Logistics Workflows</option>
+                                    <option>Field &amp; Survey Workflows</option>
+                                    <option>Resource &amp; Yield Dashboards</option>
                                     <option>Existing platform redesign</option>
                                 </select>
                                 <div className="success-message">Thanks—your request is ready. Connect this form to the
@@ -97,21 +94,19 @@ export default function ForestryInputsAgriculturalServicesPage() {
                     </div>
                     <div className="problem-grid">
                         <article className="problem-card reveal-zoom"><span className="problem-num">01</span>
-                            <h3>Product and origin information varies across buyers.</h3>
-                            <p>The current journey creates avoidable manual work, uncertainty or repeated follow-up.</p>
-                            <span className="outcome">Outcome: Structured species, grade, origin and certification
-                                data</span>
+                            <h3>Service capabilities and safety records are unclear.</h3>
+                            <p>Corporate procurement bypasses you because they can't verify your capacity or compliance online.</p>
+                            <span className="outcome">Outcome: Clear service catalogues, certification vaults and compliance proof</span>
                         </article>
                         <article className="problem-card reveal-zoom"><span className="problem-num">02</span>
-                            <h3>Production records stay in spreadsheets and notebooks.</h3>
-                            <p>The current journey creates avoidable manual work, uncertainty or repeated follow-up.</p>
-                            <span className="outcome">Outcome: Consistent farm, batch and activity workflows</span>
+                            <h3>Contractor compliance and payments are chaotic.</h3>
+                            <p>Managing harvest operators manually leads to expired insurances and payment disputes.</p>
+                            <span className="outcome">Outcome: Automated induction, document tracking and rate calculators</span>
                         </article>
                         <article className="problem-card reveal-zoom"><span className="problem-num">03</span>
-                            <h3>Traceability evidence is slow to assemble.</h3>
-                            <p>The current journey creates avoidable manual work, uncertainty or repeated follow-up.</p>
-                            <span className="outcome">Outcome: Connected input, harvest, processing and shipment
-                                records</span>
+                            <h3>Field data is lost due to poor connectivity.</h3>
+                            <p>Surveyors and operators revert to paper because web tools fail in remote forests.</p>
+                            <span className="outcome">Outcome: Offline-first data capture, mapping and harvest dockets</span>
                         </article>
                     </div>
                 </div>
@@ -121,32 +116,24 @@ export default function ForestryInputsAgriculturalServicesPage() {
                     <div className="solutions-shell">
                         <div className="solution-tabs reveal">
                             <p className="eyebrow" style={{"color":"#bfa8ff"}}>What we build</p>
-                            <h2>Connected digital capabilities across the industry lifecycle.</h2><button
-                                className="solution-tab active" data-key="market"><span>01</span><span>Product &amp; Market
-                                    Platforms</span><span>→</span></button><button className="solution-tab"
-                                data-key="production"><span>02</span><span>Farm &amp; Production
-                                    Portals</span><span>→</span></button><button className="solution-tab"
-                                data-key="traceability"><span>03</span><span>Traceability &amp; Quality
-                                    Workflows</span><span>→</span></button><button className="solution-tab"
-                                data-key="services"><span>04</span><span>Supplier &amp; Service
-                                    Portals</span><span>→</span></button><button className="solution-tab"
-                                data-key="analytics"><span>05</span><span>Aquaculture &amp; Fisheries
-                                    Dashboards</span><span>→</span></button>
+                            <h2>Connected digital capabilities across the industry lifecycle.</h2>
+                            <button className="solution-tab active" data-key="market"><span>01</span><span>Forestry &amp; Input Platforms</span><span>→</span></button>
+                            <button className="solution-tab" data-key="production"><span>02</span><span>Contractor &amp; Operator Portals</span><span>→</span></button>
+                            <button className="solution-tab" data-key="traceability"><span>03</span><span>Harvest &amp; Logistics Workflows</span><span>→</span></button>
+                            <button className="solution-tab" data-key="services"><span>04</span><span>Field &amp; Survey Workflows</span><span>→</span></button>
+                            <button className="solution-tab" data-key="analytics"><span>05</span><span>Resource &amp; Yield Dashboards</span><span>→</span></button>
                         </div>
                         <div className="solution-panel reveal-right">
-                            <div className="solution-copy"><span className="mini" id="solutionKicker">Buyer clarity</span>
-                                <h3 id="solutionTitle">Help buyers understand products, origin and availability.</h3>
-                                <p id="solutionText">Structure species, form, grade, certification, season, location,
-                                    media, documents and enquiries.</p>
-                                <div className="solution-list" id="solutionList"><span>Species and product
-                                        pages</span><span>Origin and certification</span><span>Availability and
-                                        enquiries</span></div><a className="btn" href="#project-enquiry">Discuss this
+                            <div className="solution-copy"><span className="mini" id="solutionKicker">Clear capabilities</span>
+                                <h3 id="solutionTitle">Showcase capabilities, safety, and compliance.</h3>
+                                <p id="solutionText">Present equipment fleets, operational regions, sustainability certifications and case studies to corporate buyers.</p>
+                                <div className="solution-list" id="solutionList"><span>Service catalogues</span><span>FSC/PEFC certification display</span><span>Tender/Enquiry workflows</span></div><a className="btn" href="#project-enquiry">Discuss this
                                     capability →</a>
                             </div>
                             <div className="ui-window" aria-hidden="true">
                                 <div className="ui-top">
                                     <div className="ui-dots"><i></i><i></i><i></i></div><span className="ui-badge"
-                                        id="uiBadge">Product &amp; Market Platforms</span>
+                                        id="uiBadge">Forestry &amp; Input Platforms</span>
                                 </div>
                                 <div className="ui-body">
                                     <div className="ui-side"><i></i><i></i><i></i><i></i><i></i></div>
@@ -241,31 +228,27 @@ export default function ForestryInputsAgriculturalServicesPage() {
                         </div>
                         <h2>Different operating models require different digital journeys.</h2>
                     </div>
-                    <div className="category-grid"><a className="category-card" href="#project-enquiry"><b>↗</b>
-                            <h3>Aquaculture Farms</h3>
-                            <p>Sites, stocks, feed, water, health, harvests and traceability.</p><span>Discuss
-                                category</span>
+                    <div className="category-grid">
+                        <a className="category-card" href="#project-enquiry"><b>↗</b>
+                            <h3>Forestry &amp; Silviculture</h3>
+                            <p>Land prep, planting, tending, and harvesting operations.</p><span>Discuss category</span>
                         </a><a className="category-card" href="#project-enquiry"><b>↗</b>
-                            <h3>Fisheries &amp; Vessel Operations</h3>
-                            <p>Vessels, catches, landings, documents, buyers and reporting.</p><span>Discuss
-                                category</span>
+                            <h3>Timber &amp; Haulage Logistics</h3>
+                            <p>Dispatch, dockets, routing, weighbridges, and rate matrices.</p><span>Discuss category</span>
                         </a><a className="category-card" href="#project-enquiry"><b>↗</b>
-                            <h3>Seafood Producers &amp; Exporters</h3>
-                            <p>Products, lots, quality, certifications, orders and shipments.</p><span>Discuss
-                                category</span>
+                            <h3>Agricultural Inputs &amp; Seed</h3>
+                            <p>Product catalogues, SDS delivery, sales, and supply chains.</p><span>Discuss category</span>
                         </a><a className="category-card" href="#project-enquiry"><b>↗</b>
-                            <h3>Aquatic Feed &amp; Health Companies</h3>
-                            <p>Products, species, advisers, samples and technical support.</p><span>Discuss
-                                category</span>
+                            <h3>Rural Service Providers</h3>
+                            <p>Fencing, earthmoving, spraying, and large-scale contracting.</p><span>Discuss category</span>
                         </a><a className="category-card" href="#project-enquiry"><b>↗</b>
-                            <h3>Hatcheries &amp; Seed Suppliers</h3>
-                            <p>Broodstock, batches, availability, customers and quality records.</p><span>Discuss
-                                category</span>
+                            <h3>Ag-Chem Manufacturers</h3>
+                            <p>Regulatory compliance, technical data, formulations, and B2B orders.</p><span>Discuss category</span>
                         </a><a className="category-card" href="#project-enquiry"><b>↗</b>
-                            <h3>Aquaculture Technology Providers</h3>
-                            <p>Sensors, farms, alerts, service, integrations and analytics.</p><span>Discuss
-                                category</span>
-                        </a></div>
+                            <h3>Forestry Technology Providers</h3>
+                            <p>GIS integration, drone data, sensor networks, and analytics.</p><span>Discuss category</span>
+                        </a>
+                    </div>
                 </div>
             </section>
             <section className="section" data-block-type="faq" id="faq">
@@ -278,54 +261,29 @@ export default function ForestryInputsAgriculturalServicesPage() {
                         <h2>Clear answers before you build.</h2>
                     </div>
                     <div className="faq-list">
-                        <div className="faq-item open"><button className="faq-question"><span>What fisheries and aquaculture
-                                    businesses do you support?</span><span>−</span></button>
+                        <div className="faq-item open"><button className="faq-question"><span>What forestry and ag-service businesses do you support?</span><span>−</span></button>
                             <div className="faq-answer">
-                                <p>We support farms, fisheries, seafood producers, hatcheries, feed and health
-                                    companies, exporters and aquaculture-technology providers.</p>
+                                <p>We support forestry managers, silviculture contractors, timber haulage firms, ag-chem manufacturers, and rural service providers.</p>
                             </div>
                         </div>
-                        <div className="faq-item reveal"><button className="faq-question"><span>Can the platform track ponds, cages and
-                                    production batches?</span><span>+</span></button>
+                        <div className="faq-item reveal"><button className="faq-question"><span>Can you integrate with GIS mapping systems?</span><span>+</span></button>
                             <div className="faq-answer">
-                                <p>Yes. It can support sites, units, stocks, activities, readings, inputs, growth,
-                                    mortality and harvest states.</p>
+                                <p>Yes. We regularly integrate Mapbox, ArcGIS, and custom spatial data layers for tracking compartments, boundaries, and environmental zones.</p>
                             </div>
                         </div>
-                        <div className="faq-item reveal"><button className="faq-question"><span>Can traceability connect production to
-                                    shipments?</span><span>+</span></button>
+                        <div className="faq-item reveal"><button className="faq-question"><span>Can field apps work completely offline?</span><span>+</span></button>
                             <div className="faq-answer">
-                                <p>Yes, when reliable identifiers and procedures exist across stock, feed, harvest,
-                                    lots, processing, tests and logistics.</p>
+                                <p>Yes, we build offline-first mobile and progressive web apps utilizing local databases so surveyors and harvest crews can operate in cellular black spots.</p>
                             </div>
                         </div>
-                        <div className="faq-item reveal"><button className="faq-question"><span>Can sensor and water-quality data be
-                                    included?</span><span>+</span></button>
+                        <div className="faq-item reveal"><button className="faq-question"><span>Can you connect logistics apps to mill weighbridges?</span><span>+</span></button>
                             <div className="faq-answer">
-                                <p>Potentially, through approved device or platform interfaces. Accuracy, coverage and
-                                    alert responsibility depend on the source.</p>
+                                <p>Yes, through secure API middleware, we can match field harvest dockets to mill weight tickets for automated contractor reconciliations.</p>
                             </div>
                         </div>
-                        <div className="faq-item reveal"><button className="faq-question"><span>Can the platform connect with our
-                                    existing business systems?</span><span>+</span></button>
+                        <div className="faq-item reveal"><button className="faq-question"><span>Can you automate contractor inductions?</span><span>+</span></button>
                             <div className="faq-answer">
-                                <p>Often, yes. Integration depends on available APIs, data quality, permissions, vendor
-                                    limits and the agreed system of record.</p>
-                            </div>
-                        </div>
-                        <div className="faq-item reveal"><button className="faq-question"><span>Can you improve an existing frontend
-                                    without replacing the backend?</span><span>+</span></button>
-                            <div className="faq-answer">
-                                <p>Yes, when current APIs and architecture support the required experience. We can
-                                    redesign selected journeys and implement improvements in phases.</p>
-                            </div>
-                        </div>
-                        <div className="faq-item reveal"><button className="faq-question"><span>Can you guarantee regulatory
-                                    compliance?</span><span>+</span></button>
-                            <div className="faq-answer">
-                                <p>No. We can implement approved fields, controls and evidence workflows, but legal,
-                                    regulatory and certification decisions remain with the client and qualified
-                                    authorities.</p>
+                                <p>Yes, we build digital onboarding portals that track insurance expiries, present safety videos, and collect digital signatures before operators arrive on site.</p>
                             </div>
                         </div>
                     </div>
@@ -335,14 +293,14 @@ export default function ForestryInputsAgriculturalServicesPage() {
                 <div className="container">
                     <div className="final-box">
                         <div className="final-copy">
-                            <p className="eyebrow" style={{"color":"#cdbdff"}}>Have a Fisheries &amp; Aquaculture project?</p>
+                            <p className="eyebrow" style={{"color":"#cdbdff"}}>Have a Forestry or Ag Services project?</p>
                             <h2>Tell us what your customers, partners and teams need next.</h2>
                             <p>Use this form for a new platform, portal, workflow, dashboard, integration or
                                 existing-product redesign.</p>
                         </div>
                         <form className="full-form js-demo-form" action="/api/leads" method="post"><input type="hidden"
-                                name="source_page" value="industries/fisheries-aquaculture" /><input type="hidden"
-                                name="offer" value="industries/fisheries-aquaculture-project-proposal" />
+                                name="source_page" value="industries/forestry-inputs-agricultural-services" /><input type="hidden"
+                                name="offer" value="industries/forestry-project-proposal" />
                             <div className="field"><label>Name *</label><input name="name" required={true} placeholder="Your name" />
                             </div>
                             <div className="field"><label>Work email *</label><input name="email" type="email" required={true}
@@ -350,11 +308,11 @@ export default function ForestryInputsAgriculturalServicesPage() {
                             <div className="field"><label>Company</label><input name="company" placeholder="Company name" />
                             </div>
                             <div className="field"><label>Primary requirement</label><select name="requirement">
-                                    <option>Product &amp; Market Platforms</option>
-                                    <option>Farm &amp; Production Portals</option>
-                                    <option>Traceability &amp; Quality Workflows</option>
-                                    <option>Supplier &amp; Service Portals</option>
-                                    <option>Aquaculture &amp; Fisheries Dashboards</option>
+                                    <option>Forestry &amp; Input Platforms</option>
+                                    <option>Contractor &amp; Operator Portals</option>
+                                    <option>Harvest &amp; Logistics Workflows</option>
+                                    <option>Field &amp; Survey Workflows</option>
+                                    <option>Resource &amp; Yield Dashboards</option>
                                     <option>Existing platform redesign</option>
                                 </select></div>
                             <div className="field full"><label>Project details</label><textarea name="message"

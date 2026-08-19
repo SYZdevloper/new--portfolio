@@ -1,64 +1,56 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import "../industry-template.css";
-import "./medical-devices-diagnostics.css";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import MedicalDevicesDiagnosticsClientScripts from "./MedicalDevicesDiagnosticsClientScripts";
+import MedicalClientScripts from "./MedicalClientScripts";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "/industries/medical-devices-diagnostics/" },
-  title: "Medical Devices Diagnostics Website Design & Development | Hyperlink",
-  description: "Corporate websites and professional portals for medical device manufacturers and diagnostics labs. Communicate regulatory compliance and innovation.",
+    title: "Medical Devices & Diagnostics Software Solutions | Hyperlink",
+    description: "Secure, compliant portals, product catalogues, and diagnostic workflows for medical device manufacturers and clinical laboratories.",
+    alternates: { canonical: "/industries/medical-devices-diagnostics/" }
 };
 
-export default function MedicalDevicesDiagnosticsPage() {
+export default function MedicalIndustryPage() {
   return (
     <>
       <SiteHeader />
-
       <main id="top" className="saas-industry-page">
-
+        
             <section className="hero" data-block-type="hero" data-block-id="industry-hero">
                 <div className="container">
                     <div className="breadcrumbs"><a href="/">Home</a><span>/</span><a
-                            href="/industries/">Industries</a><span>/</span><strong>Medical Devices &amp;
-                            Diagnostics</strong></div>
+                            href="/industries/">Industries</a><span>/</span><strong>Medical Devices & Diagnostics</strong></div>
                     <div className="hero-grid">
                         <div className="hero-copy reveal">
-                            <p className="eyebrow">Medical Devices &amp; Diagnostics</p>
-                            <h1>Make medical technologies easier to understand, evaluate, adopt and support.</h1>
-                            <p className="hero-lead">We build product websites, professional resource centres and service
-                                portals for medical-device, laboratory, imaging and diagnostics companies.</p>
-                            <div className="hero-points"><span>Present intended use, evidence, specifications and safety
-                                    information clearly</span><span>Connect buyers, clinicians, laboratories,
-                                    distributors and service teams</span><span>Support training, documents, equipment,
-                                    maintenance and approved result workflows</span></div>
+                            <p className="eyebrow">Life Sciences Technology</p>
+                            <h1>Software that bridges clinical and commercial outcomes.</h1>
+                            <p className="hero-lead">From complex digital product catalogues to secure diagnostic reporting and connected equipment portals, we build digital infrastructure for medical device manufacturers and laboratories.</p>
+                            <div className="hero-points">
+                                <span>Design interactive, clinical-grade product catalogues</span>
+                                <span>Build secure resource hubs for distributors and surgeons</span>
+                                <span>Connect IoT diagnostic data to secure reporting workflows</span>
+                            </div>
                             <div className="hero-actions"><a className="btn primary" href="#free-review">Get a Free Industry
                                     Review →</a><a className="btn" href="#solutions">Explore Solutions</a></div>
-                            <p className="microcopy">No obligation. Share your current workflow or platform idea and we will
-                                identify a practical first-release opportunity.</p>
+                            <p className="microcopy">No obligation. Share your current product portal or laboratory workflow and we will identify a practical first-release opportunity.</p>
                         </div>
-                        <aside className="review-card reveal-right" id="free-review"><span className="review-badge">Free Medical Devices
-                                &amp; Diagnostics review</span>
-                            <h2>Find the digital journey that needs attention first.</h2>
-                            <p>Share your current platform, workflow or project idea. We will reply with a focused
-                                recommendation.</p>
+                        <aside className="review-card reveal-right" id="free-review"><span className="review-badge">Free MedTech review</span>
+                            <h2>Find the digital capability that needs attention first.</h2>
+                            <p>Share your current product website, distributor portal, or diagnostic workflow. We will reply with a focused recommendation.</p>
                             <div className="review-deliverables"><span>Current journey
                                     observations</span><span>Highest-priority opportunity</span><span>Key data and
-                                    integration dependencies</span></div>
+                                    compliance dependencies</span></div>
                             <form className="compact-form js-demo-form" action="/api/leads" method="post"><input
-                                    type="hidden" name="source_page"
-                                    value="industries/medical-devices-diagnostics" /><input type="hidden" name="offer"
-                                    value="free-industries/medical-devices-diagnostics-review" /><input name="email"
-                                    type="email" required={true} placeholder="Work email *" /><input name="company" required={true}
-                                    placeholder="Company name *" /><select name="goal">
+                                    type="hidden" name="source_page" value="industries/medical-devices-diagnostics" /><input
+                                    type="hidden" name="offer" value="free-industries/medical-review" /><input
+                                    name="email" type="email" required={true} placeholder="Work email *" /><input name="company"
+                                    required={true} placeholder="Company name *" /><select name="goal">
                                     <option>Primary requirement</option>
-                                    <option>Medical Product Websites &amp; Catalogues</option>
-                                    <option>Professional &amp; Distributor Resources</option>
-                                    <option>Equipment &amp; Service Portals</option>
-                                    <option>Diagnostic &amp; Laboratory Workflows</option>
-                                    <option>Product &amp; Service Dashboards</option>
+                                    <option>Medical Product Websites & Catalogues</option>
+                                    <option>Professional & Distributor Resources</option>
+                                    <option>Equipment & Service Portals</option>
+                                    <option>Diagnostic & Laboratory Workflows</option>
+                                    <option>Product & Service Dashboards</option>
                                     <option>Existing platform redesign</option>
                                 </select>
                                 <div className="success-message">Thanks—your request is ready. Connect this form to the
@@ -66,87 +58,80 @@ export default function MedicalDevicesDiagnosticsPage() {
                                     Review →</button>
                             </form>
                             <p className="privacy-note">Capabilities, integrations and regulated workflows depend on
-                                approved scope, source data and responsible providers.</p>
+                                approved scope, source data and secure hosting architectures.</p>
                         </aside>
                     </div>
                 </div>
             </section>
+            
             <section className="section" data-block-type="proofStrip">
                 <div className="container">
                     <div className="trust-strip reveal">
-                        <div className="trust-item"><strong>Industry-specific journeys</strong><span>Products and workflows
-                                reflect real stakeholder decisions.</span></div>
-                        <div className="trust-item"><strong>Roles connected</strong><span>Customers, partners and teams
-                                receive appropriate access.</span></div>
-                        <div className="trust-item"><strong>Operations included</strong><span>Documents, states, exceptions
-                                and reporting remain visible.</span></div>
-                        <div className="trust-item"><strong>Integration-aware</strong><span>Existing systems connect through
-                                approved interfaces.</span></div>
+                        <div className="trust-item"><strong>Regulatory Alignment</strong><span>Architectures compatible with FDA CFR 21 Part 11 requirements.</span></div>
+                        <div className="trust-item"><strong>Secure Infrastructure</strong><span>End-to-end encryption for diagnostic and patient data.</span></div>
+                        <div className="trust-item"><strong>IoT Connected</strong><span>Capable of integrating with connected medical devices.</span></div>
+                        <div className="trust-item"><strong>B2B Complexity</strong><span>Managing complex distributor pricing and inventory hierarchies.</span></div>
                     </div>
                 </div>
             </section>
+            
             <section className="section soft" data-block-type="painOutcomeGrid">
                 <div className="container">
                     <div className="section-head reveal">
                         <div>
                             <p className="eyebrow">Where digital journeys break</p>
-                            <p>Complex industries need clear information and dependable workflow states.</p>
+                            <p>Medical commercialization requires absolute accuracy and accessibility.</p>
                         </div>
-                        <h2>Fix the friction that slows customers, partners and operational teams.</h2>
+                        <h2>Fix the friction that frustrates clinicians and delays diagnostics.</h2>
                     </div>
                     <div className="problem-grid">
                         <article className="problem-card reveal-zoom"><span className="problem-num">01</span>
-                            <h3>Product differences are buried in technical documents.</h3>
-                            <p>The current journey creates avoidable manual work, uncertainty or repeated follow-up.</p>
-                            <span className="outcome">Outcome: Clear intended use, features, evidence and specification
-                                comparison</span>
+                            <h3>Static PDF product brochures.</h3>
+                            <p>Surgeons and procurement officers struggle to understand complex equipment specifications through outdated, static PDFs.</p>
+                            <span className="outcome">Outcome: Interactive web catalogues with 3D models and searchable clinical data.</span>
                         </article>
                         <article className="problem-card reveal-zoom"><span className="problem-num">02</span>
-                            <h3>Customers cannot find current instructions and certificates.</h3>
-                            <p>The current journey creates avoidable manual work, uncertainty or repeated follow-up.</p>
-                            <span className="outcome">Outcome: Controlled document, version, market and product
-                                access</span>
+                            <h3>Fragmented distributor training.</h3>
+                            <p>Global distributors lack a centralized hub for up-to-date surgical guides, regulatory approvals, and training modules.</p>
+                            <span className="outcome">Outcome: Secure, role-based resource portals for global partners.</span>
                         </article>
                         <article className="problem-card reveal-zoom"><span className="problem-num">03</span>
-                            <h3>Support teams lack equipment and service context.</h3>
-                            <p>The current journey creates avoidable manual work, uncertainty or repeated follow-up.</p>
-                            <span className="outcome">Outcome: Connected installed-base, case and maintenance
-                                journeys</span>
+                            <h3>Manual diagnostic reporting.</h3>
+                            <p>Laboratories rely on manual data entry and disjointed systems to deliver test results back to referring clinics.</p>
+                            <span className="outcome">Outcome: Automated diagnostic workflows with secure digital result delivery.</span>
                         </article>
                     </div>
                 </div>
             </section>
+            
             <section className="section" id="solutions" data-block-type="solutionTabs">
                 <div className="container">
                     <div className="solutions-shell">
                         <div className="solution-tabs reveal">
                             <p className="eyebrow" style={{"color":"#bfa8ff"}}>What we build</p>
-                            <h2>Connected digital capabilities across the industry lifecycle.</h2><button
-                                className="solution-tab active" data-key="products"><span>01</span><span>Medical Product
-                                    Websites &amp; Catalogues</span><span>→</span></button><button className="solution-tab"
-                                data-key="resources"><span>02</span><span>Professional &amp; Distributor
-                                    Resources</span><span>→</span></button><button className="solution-tab"
-                                data-key="service"><span>03</span><span>Equipment &amp; Service
-                                    Portals</span><span>→</span></button><button className="solution-tab"
-                                data-key="diagnostics"><span>04</span><span>Diagnostic &amp; Laboratory
-                                    Workflows</span><span>→</span></button><button className="solution-tab"
-                                data-key="reporting"><span>05</span><span>Product &amp; Service
-                                    Dashboards</span><span>→</span></button>
+                            <h2>Connected digital capabilities across the industry lifecycle.</h2>
+                            <button className="solution-tab active" data-key="discovery"><span>01</span><span>Product Websites</span><span>→</span></button>
+                            <button className="solution-tab" data-key="quoting"><span>02</span><span>Professional Resources</span><span>→</span></button>
+                            <button className="solution-tab" data-key="carrier"><span>03</span><span>Equipment Portals</span><span>→</span></button>
+                            <button className="solution-tab" data-key="tracking"><span>04</span><span>Diagnostic Workflows</span><span>→</span></button>
+                            <button className="solution-tab" data-key="analytics"><span>05</span><span>Product Dashboards</span><span>→</span></button>
                         </div>
                         <div className="solution-panel reveal-right">
-                            <div className="solution-copy"><span className="mini" id="solutionKicker">Product evaluation</span>
-                                <h3 id="solutionTitle">Help professional buyers and users assess approved products.</h3>
-                                <p id="solutionText">Structure intended use, clinical context, features, configurations,
-                                    specifications, accessories, evidence, safety information and enquiries.</p>
-                                <div className="solution-list" id="solutionList"><span>Product
-                                        discovery</span><span>Technical comparison</span><span>Evidence and safety
-                                        content</span></div><a className="btn" href="#project-enquiry">Discuss this
-                                    capability →</a>
+                            <div className="solution-copy" style={{ transition: "opacity 0.3s ease-in-out" }}>
+                                <span className="mini" id="solutionKicker">Medical Product Websites</span>
+                                <h3 id="solutionTitle">Digital experiences that educate and convert.</h3>
+                                <p id="solutionText">Modern medical device websites highlighting complex product capabilities with 3D models, rich technical specifications, and clinical outcome data.</p>
+                                <div className="solution-list" id="solutionList">
+                                    <span>Interactive 3D product viewing</span>
+                                    <span>Technical specification sheets</span>
+                                    <span>Clinical outcome highlights</span>
+                                </div>
+                                <Link className="btn" id="solutionLink" href="/services/medical-product-websites-and-catalogues/">Discuss this capability →</Link>
                             </div>
                             <div className="ui-window" aria-hidden="true">
                                 <div className="ui-top">
                                     <div className="ui-dots"><i></i><i></i><i></i></div><span className="ui-badge"
-                                        id="uiBadge">Medical Product Websites &amp; Catalogues</span>
+                                        id="uiBadge">Medical Product Websites</span>
                                 </div>
                                 <div className="ui-body">
                                     <div className="ui-side"><i></i><i></i><i></i><i></i><i></i></div>
@@ -161,6 +146,7 @@ export default function MedicalDevicesDiagnosticsPage() {
                     </div>
                 </div>
             </section>
+            
             <section className="section soft" id="work" data-block-type="platformBlueprint">
                 <div className="container">
                     <div className="case-study">
@@ -175,30 +161,26 @@ export default function MedicalDevicesDiagnosticsPage() {
                         </div>
                         <div className="case-copy">
                             <p className="eyebrow">Connected platform blueprint</p>
-                            <h2>A practical lifecycle from discovery and engagement to operations and reporting.</h2>
-                            <p>The platform gives external users clear journeys, gives teams controlled workflows and
-                                gives operators useful visibility across important states and exceptions.</p>
+                            <h2>A practical lifecycle from product discovery to clinical utilization.</h2>
+                            <p>The platform provides clinicians with deep product knowledge, equips distributors with essential resources, and gives manufacturers visibility into field performance.</p>
                             <div className="case-features">
                                 <div className="case-feature"><span>01</span>
-                                    <div><strong>Customer experience</strong><small>Discovery, detail, enquiry, account
-                                            and support journeys.</small></div>
+                                    <div><strong>Product Discovery</strong><small>Interactive catalogues, surgical technique videos, and compliance data.</small></div>
                                 </div>
                                 <div className="case-feature"><span>02</span>
-                                    <div><strong>Partner and team workspace</strong><small>Roles, tasks, files,
-                                            approvals, status and collaboration.</small></div>
+                                    <div><strong>Distributor Enablement</strong><small>Secure portals for quoting, bulk ordering, and territory management.</small></div>
                                 </div>
                                 <div className="case-feature"><span>03</span>
-                                    <div><strong>Operational control</strong><small>Data, permissions, integrations,
-                                            exceptions and reporting.</small></div>
+                                    <div><strong>Operational Control</strong><small>Maintenance tracking, IoT data analytics, and diagnostic reporting.</small></div>
                                 </div>
                             </div>
-                            <div className="case-stack"><span>Next.js</span><span>Role-based portals</span><span>API
-                                    integrations</span><span>Dashboards</span><span>Analytics</span></div><a
-                                className="btn primary" href="#project-enquiry">Discuss Your Project →</a>
+                            <div className="case-stack"><span>React/Next.js</span><span>Secure APIs</span><span>Auth0/CIAM</span><span>3D/WebGL</span><span>ERP Integrations</span></div>
+                            <a className="btn primary" href="#project-enquiry">Discuss Your Project →</a>
                         </div>
                     </div>
                 </div>
             </section>
+            
             <section className="section" data-block-type="process">
                 <div className="container">
                     <div className="section-head reveal">
@@ -206,68 +188,67 @@ export default function MedicalDevicesDiagnosticsPage() {
                             <p className="eyebrow">How the project moves</p>
                             <p>Users, data and integration dependencies remain visible throughout delivery.</p>
                         </div>
-                        <h2>A practical route from industry workflow to an approved digital product.</h2>
+                        <h2>A practical route from fragmented data to connected platforms.</h2>
                     </div>
                     <div className="process-grid">
                         <article className="process-step"><span>01 · DISCOVER</span>
-                            <h3>Understand users, workflows and outcomes.</h3>
-                            <p>Review audiences, data, current systems, pain points, constraints and success measures.
-                            </p>
+                            <h3>Understand clinical users and regulatory needs.</h3>
+                            <p>Review target audiences (surgeons, procurement, lab techs) and strict regulatory requirements (FDA, HIPAA, GDPR) affecting data presentation.</p>
                         </article>
                         <article className="process-step"><span>02 · STRUCTURE</span>
-                            <h3>Define roles, journeys and system boundaries.</h3>
-                            <p>Map information, permissions, states, approvals, integrations and operational ownership.
-                            </p>
+                            <h3>Define taxonomy, security and integrations.</h3>
+                            <p>Map out complex product hierarchies, determine access control levels for distributors, and design secure API middleware for IoT or ERP connections.</p>
                         </article>
-                        <article className="process-step"><span>03 · BUILD &amp; INTEGRATE</span>
+                        <article className="process-step"><span>03 · BUILD & INTEGRATE</span>
                             <h3>Create the product in focused milestones.</h3>
-                            <p>Develop responsive interfaces, workflows and approved integrations, then test realistic
-                                cases.</p>
+                            <p>Develop interactive frontends, secure partner portals, and the backend infrastructure required for compliant data handling.</p>
                         </article>
-                        <article className="process-step"><span>04 · LAUNCH &amp; IMPROVE</span>
-                            <h3>Release with clear ownership.</h3>
-                            <p>Document the solution, train relevant teams and improve from usage and operational
-                                evidence.</p>
+                        <article className="process-step"><span>04 · LAUNCH & IMPROVE</span>
+                            <h3>Release with clear compliance documentation.</h3>
+                            <p>Ensure all systems meet pre-defined validation criteria, train internal teams, and deploy with robust analytics for continuous improvement.</p>
                         </article>
                     </div>
                 </div>
             </section>
+            
             <section className="section soft" data-block-type="childIndustryGrid">
                 <div className="container">
                     <div className="section-head reveal">
                         <div>
                             <p className="eyebrow">Industry categories</p>
-                            <p>Explore the business model closest to your organisation.</p>
+                            <p>Explore the domain closest to your organisation.</p>
                         </div>
-                        <h2>Different operating models require different digital journeys.</h2>
+                        <h2>Different medical products require tailored digital solutions.</h2>
                     </div>
-                    <div className="category-grid"><a className="category-card" href="#project-enquiry"><b>↗</b>
-                            <h3>Medical Device Manufacturers</h3>
-                            <p>Products, evidence, instructions, distributors and service.</p><span>Discuss
-                                category</span>
-                        </a><a className="category-card" href="#project-enquiry"><b>↗</b>
-                            <h3>In Vitro Diagnostics Companies</h3>
-                            <p>Assays, instruments, laboratories, documents and support.</p><span>Discuss
-                                category</span>
-                        </a><a className="category-card" href="#project-enquiry"><b>↗</b>
-                            <h3>Imaging &amp; Radiology Technology</h3>
-                            <p>Systems, applications, sites, service and professional resources.</p><span>Discuss
-                                category</span>
-                        </a><a className="category-card" href="#project-enquiry"><b>↗</b>
-                            <h3>Laboratory Technology Providers</h3>
-                            <p>Instruments, workflows, consumables, service and integrations.</p><span>Discuss
-                                category</span>
-                        </a><a className="category-card" href="#project-enquiry"><b>↗</b>
-                            <h3>Device Distributors</h3>
-                            <p>Catalogues, territories, quotations, resources, orders and support.</p><span>Discuss
-                                category</span>
-                        </a><a className="category-card" href="#project-enquiry"><b>↗</b>
-                            <h3>Digital Diagnostic Platforms</h3>
-                            <p>Orders, data, authorised results, cases and operational reporting.</p><span>Discuss
-                                category</span>
-                        </a></div>
+                    <div className="category-grid">
+                        <a className="category-card" href="#project-enquiry"><b>→</b>
+                            <h3>Surgical & Implant Devices</h3>
+                            <p>Focusing on 3D surgical technique guides, detailed specification catalogues, and clinician training hubs.</p><span>Discuss category</span>
+                        </a>
+                        <a className="category-card" href="#project-enquiry"><b>→</b>
+                            <h3>Capital Medical Equipment</h3>
+                            <p>Requiring ROI calculators, facility planning tools, and robust field service/maintenance portals.</p><span>Discuss category</span>
+                        </a>
+                        <a className="category-card" href="#project-enquiry"><b>→</b>
+                            <h3>In-Vitro Diagnostics & Labs</h3>
+                            <p>Needing secure diagnostic result reporting, LIS (Laboratory Information System) integrations, and sample tracking.</p><span>Discuss category</span>
+                        </a>
+                        <a className="category-card" href="#project-enquiry"><b>→</b>
+                            <h3>Wearables & Connected Health</h3>
+                            <p>Handling high-frequency IoT data streams, patient-facing dashboards, and clinical API endpoints.</p><span>Discuss category</span>
+                        </a>
+                        <a className="category-card" href="#project-enquiry"><b>→</b>
+                            <h3>Medical Consumables</h3>
+                            <p>Focusing on high-volume B2B eCommerce, distributor bulk ordering, and inventory management integrations.</p><span>Discuss category</span>
+                        </a>
+                        <a className="category-card" href="#project-enquiry"><b>→</b>
+                            <h3>Dental & Orthodontic Tech</h3>
+                            <p>Requiring custom fabrication workflows, treatment planning software interfaces, and practice portals.</p><span>Discuss category</span>
+                        </a>
+                    </div>
                 </div>
             </section>
+            
             <section className="section" data-block-type="faq" id="faq">
                 <div className="container">
                     <div className="section-head reveal">
@@ -278,75 +259,41 @@ export default function MedicalDevicesDiagnosticsPage() {
                         <h2>Clear answers before you build.</h2>
                     </div>
                     <div className="faq-list">
-                        <div className="faq-item open"><button className="faq-question"><span>What medical-device and
-                                    diagnostics businesses do you support?</span><span>−</span></button>
+                        <div className="faq-item open"><button className="faq-question"><span>Can you integrate the distributor portal with our ERP system?</span><span>−</span></button>
                             <div className="faq-answer">
-                                <p>We support device, diagnostic, imaging and laboratory technology manufacturers,
-                                    distributors and digital diagnostic platforms.</p>
+                                <p>Yes. We build secure middleware to connect your custom frontend with legacy ERPs (like SAP or Oracle) to ensure real-time inventory, pricing, and order status are reflected accurately.</p>
                             </div>
                         </div>
-                        <div className="faq-item reveal"><button className="faq-question"><span>Can you build a searchable
-                                    technical-document library?</span><span>+</span></button>
+                        <div className="faq-item reveal"><button className="faq-question"><span>Do you handle software that is classified as a Medical Device (SaMD)?</span><span>+</span></button>
                             <div className="faq-answer">
-                                <p>Yes. Documents can be organised by product, model, language, market, type, version
-                                    and effective date.</p>
+                                <p>Our primary focus is on the commercial, operational, and informational layers surrounding the device (catalogues, portals, dashboards). For strict SaMD acting as a diagnostic tool, we partner with specialized regulatory teams to ensure QMS and CFR 21 Part 11 compliance.</p>
                             </div>
                         </div>
-                        <div className="faq-item reveal"><button className="faq-question"><span>Can customers register equipment and
-                                    request service?</span><span>+</span></button>
+                        <div className="faq-item reveal"><button className="faq-question"><span>Can you visualize complex products in 3D on the web?</span><span>+</span></button>
                             <div className="faq-answer">
-                                <p>Yes. Portals can support installed equipment, warranties, maintenance, calibration,
-                                    consumables, cases and service history.</p>
+                                <p>Yes. We utilize WebGL and modern libraries like Three.js to render highly detailed, interactive 3D models of surgical tools or capital equipment directly in the browser without requiring plugins.</p>
                             </div>
                         </div>
-                        <div className="faq-item reveal"><button className="faq-question"><span>Can the platform display diagnostic
-                                    results?</span><span>+</span></button>
+                        <div className="faq-item reveal"><button className="faq-question"><span>How do you handle restricted clinical content?</span><span>+</span></button>
                             <div className="faq-answer">
-                                <p>Yes, where authorised systems and clinically approved release rules are available.
-                                    Interpretation and clinical decisions remain with qualified healthcare
-                                    professionals.</p>
-                            </div>
-                        </div>
-                        <div className="faq-item reveal"><button className="faq-question"><span>Can the platform connect with our
-                                    existing systems?</span><span>+</span></button>
-                            <div className="faq-answer">
-                                <p>Often, yes. Integration depends on available APIs, data quality, permissions, vendor
-                                    limits and the agreed system of record.</p>
-                            </div>
-                        </div>
-                        <div className="faq-item reveal"><button className="faq-question"><span>Can you build to recognised
-                                    accessibility standards?</span><span>+</span></button>
-                            <div className="faq-answer">
-                                <p>Yes. We can design and test against the agreed WCAG target, including keyboard use,
-                                    readable structure, contrast, form guidance and assistive-technology considerations.
-                                    Formal conformance depends on the final content, integrations and ongoing
-                                    governance.</p>
-                            </div>
-                        </div>
-                        <div className="faq-item reveal"><button className="faq-question"><span>Can you guarantee complete security or
-                                    compliance?</span><span>+</span></button>
-                            <div className="faq-answer">
-                                <p>No provider can guarantee complete security or compliance. We can implement approved
-                                    technical and organisational controls, evidence workflows and testing within scope,
-                                    while formal assurance remains with the client and qualified authorities.</p>
+                                <p>We implement robust Customer Identity and Access Management (CIAM) solutions. This ensures that surgical guides, pricing, or off-label clinical data are strictly gated and only accessible to verified clinicians or distributors.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            
             <section className="final-cta" id="project-enquiry">
                 <div className="container">
                     <div className="final-box">
                         <div className="final-copy">
-                            <p className="eyebrow" style={{"color":"#cdbdff"}}>Have a Medical Devices &amp; Diagnostics project?
-                            </p>
-                            <h2>Tell us what your customers, partners and teams need next.</h2>
-                            <p>Use this form for a new platform, portal, workflow, dashboard, integration or
-                                existing-product redesign.</p>
+                            <p className="eyebrow" style={{"color":"#cdbdff"}}>Have a MedTech project?</p>
+                            <h2>Tell us what your clinical users and distributors need next.</h2>
+                            <p>Use this form for a new product catalogue, distributor portal, or diagnostic workflow.</p>
                         </div>
                         <form className="full-form js-demo-form" action="/api/leads" method="post"><input type="hidden"
-                                name="source_page" value="industries/medical-devices-diagnostics" /><input type="hidden"
-                                name="offer" value="industries/medical-devices-diagnostics-project-proposal" />
+                                name="source_page" value="industries/medical-devices-diagnostics" /><input type="hidden" name="offer"
+                                value="industries/medical-project-proposal" />
                             <div className="field"><label>Name *</label><input name="name" required={true} placeholder="Your name" />
                             </div>
                             <div className="field"><label>Work email *</label><input name="email" type="email" required={true}
@@ -354,15 +301,15 @@ export default function MedicalDevicesDiagnosticsPage() {
                             <div className="field"><label>Company</label><input name="company" placeholder="Company name" />
                             </div>
                             <div className="field"><label>Primary requirement</label><select name="requirement">
-                                    <option>Medical Product Websites &amp; Catalogues</option>
-                                    <option>Professional &amp; Distributor Resources</option>
-                                    <option>Equipment &amp; Service Portals</option>
-                                    <option>Diagnostic &amp; Laboratory Workflows</option>
-                                    <option>Product &amp; Service Dashboards</option>
+                                    <option>Medical Product Websites & Catalogues</option>
+                                    <option>Professional & Distributor Resources</option>
+                                    <option>Equipment & Service Portals</option>
+                                    <option>Diagnostic & Laboratory Workflows</option>
+                                    <option>Product & Service Dashboards</option>
                                     <option>Existing platform redesign</option>
                                 </select></div>
                             <div className="field full"><label>Project details</label><textarea name="message"
-                                    placeholder="Users, workflow, current systems, integrations and timeline"></textarea>
+                                    placeholder="Target users, integration dependencies, and timeline"></textarea>
                             </div>
                             <div className="success-message">Thanks—your enquiry is ready. Connect this form to the existing
                                 API endpoint.</div>
@@ -376,7 +323,7 @@ export default function MedicalDevicesDiagnosticsPage() {
       </main>
 
       <SiteFooter />
-      <MedicalDevicesDiagnosticsClientScripts />
+      <MedicalClientScripts />
     </>
   );
 }
